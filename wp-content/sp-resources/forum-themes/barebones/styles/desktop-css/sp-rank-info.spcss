@@ -1,0 +1,48 @@
+#spMainContainer table#spRankInfo,
+#spMainContainer table#spRankInfoSpecial {
+	width: 100%;
+	border: none;
+	padding: 10px;
+	font-size: 0.9em;
+	margin: 20px 0 40px;
+}
+
+#spMainContainer table#spRankInfo td a,
+#spMainContainer table#spRankInfoSpecial td a {
+	font-weight: bold;
+}
+
+#spMainContainer table#spRankInfo td,
+#spMainContainer table#spRankInfoSpecial td {
+	text-align: center;
+	padding: 5px;
+	border: none;
+	color: <?php echo($contentFontColor); ?>;
+	background: <?php echo($headerContainerBackground); ?>;
+	font-size: 80%;
+}
+
+#spMainContainer table#spRankInfo th,
+#spMainContainer table#spRankInfoSpecial th {
+	text-align: center;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 80%;
+	padding: 7px;
+	color: <?php echo($contentFontColor); ?>;
+	border: none;
+	background: <?php echo($titleContainerBackground); ?>;
+}
+
+#spMainContainer table#spRankInfoSpecial .spMemberData th {
+	font-size: 100%;
+}
+
+#spMainContainer table#spRankInfo td.spRankMembers,
+#spMainContainer table#spRankInfoSpecial td.spRankMembersSpecial {
+	font-size: 100%;
+}
+
+#spMainContainer table.spMemberData {
+	width: 100%;
+}

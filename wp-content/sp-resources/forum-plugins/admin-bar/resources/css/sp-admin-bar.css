@@ -1,0 +1,179 @@
+/* =============================================================
+Simple:Press
+Admin Bar Plugin CSS
+============================================================= */
+
+/* -------------
+Admin Queue
+----------------*/
+#spMainContainer #spAdminQueue {
+	min-height: 35px;
+}
+
+#spMainContainer #spAdminQueueCounts {
+    float: left;
+}
+
+#spMainContainer #spAdminQueueList {
+	clear: both;
+    display: block;
+    max-height: 700px !important;
+    overflow: auto;
+    z-index: 10000;
+    padding-right: 5px;
+}
+
+#spMainContainer #spUnread,
+#spMainContainer #spNeedModeration,
+#spMainContainer #spSpam {
+	padding-bottom: 3px;
+}
+
+#spMainContainer #spUnread .spUnreadUnread,
+#spMainContainer #spNeedModeration .spModUnread,
+#spMainContainer #spSpam .spSpamUnread {
+	color: #ff0000;
+}
+
+#spMainContainer #spUnread .spUnreadRead,
+#spMainContainer #spNeedModeration .spModRead,
+#spMainContainer #spSpam .spSpamRead {
+	color: inherit;
+}
+
+#spMainContainer .spAdminQueueHeader {
+	background: inherit;
+	border:	1px solid #dddddd;
+	color: #4c5d77;
+	padding: 5px;
+	margin: 0;
+	width: auto;
+	height: 30px;
+	-webkit-gradientborder-radius: 5px;
+	border-radius: 5px;
+}
+
+#spMainContainer .spAdminQueueHeader p, 
+#spMainContainer .spAdminQueueHeader span {
+	padding-top: 7px;
+	font-weight: bold;
+	font-size: 85%;
+}
+
+#spMainContainer .spAdminQueueHeader p a {
+	font-weight: normal;
+	margin-top: -5px;
+    padding-top: 3px;
+}
+
+#spMainContainer .spAdminQueueSection {
+	color: #4c5d77;
+	border: 1px solid #888888;
+	padding: 5px 0;
+	margin: 10px 0 0 0;
+	-webkit-gradientborder-radius: 5px;
+	border-radius: 5px;
+}
+
+#spMainContainer .spAdminQueueSection p.spAdminBarTitle {
+	font-weight: bold;
+}
+
+#spMainContainer .spAdminQueueForum,
+#spMainContainer .spAdminQueueTopic {
+	color: #4c5d77;
+	background: #eff3f8;
+	border: 1px solid #dddddd;
+	padding: 0 5px;
+	margin: 5px;
+	-webkit-gradientborder-radius: 5px;
+	border-radius: 5px;
+}
+
+#spMainContainer .spAdminQueueForum .spColumnSection  {
+	padding: 2px 0;
+}
+
+#spMainContainer .spAdminQueueForum p.spRowName {
+	padding-top: 9px;
+}
+
+#spMainContainer .spAdminQueueTopic .spSubmit {
+	margin-top: 8px;
+}
+
+#spMainContainer .spAdminQueueTopic .spUnreadButton {
+	background: #4444ff;
+	color: #ffffff;
+	border: 1px solid #2222dd;
+	padding: 0 7px 4px 7px;
+}
+
+#spMainContainer .spAdminQueueTopic .spModButton {
+	background: #ff4444;
+	color: #ffffff;
+	border: 1px solid #dd2222;
+	padding: 0 7px 4px 7px;
+}
+
+#spMainContainer .spAdminQueueTopic p {
+	padding-left: 10px;
+}
+
+#spMainContainer .spAdminQueueTopic .spColumnSection  {
+	padding: 3px 0;
+}
+
+#spMainContainer .spAdminQueuePost p {
+	padding-bottom: 10px;
+}
+
+#spMainContainer .spAdminQueuePost {
+	overflow: hidden;
+}
+
+#spMainContainer .spAdminQueueSection .spPostSection {
+	border: 1px solid #dddddd;
+	padding: 5px 10px;
+	margin: 5px;
+	-webkit-gradientborder-radius: 5px;
+	border-radius: 5px;
+}
+
+#spMainContainer .spAdminQueueSection .spPostSection textarea {
+    line-height: 1.3em;
+    padding: 6px 10px;
+}
+
+#spMainContainer .spAdminQueueMod {
+	background: #ff4444;
+	color: #ffffff;
+	border: 1px solid #dd2222;
+	padding: 2px 5px 4px;
+	font-size: 80%;
+	text-align: center;
+	-webkit-gradientborder-radius: 5px;
+	border-radius: 5px;
+}
+
+#spMainContainer .spAdminQueueSection .spPostSection .spSubmit {
+	margin-top: 10px;
+	margin-left: 0px;
+	padding-top: 2px;
+}
+
+#spMainContainer .spAdminQueue #spUnread,
+#spMainContainer .spAdminQueue #spNeedModeration,
+#spMainContainer .spAdminQueue #spSpam {
+	vertical-align: top;
+}
+
+#spMainContainer .spAdminQueueSection .spAdminQueueThisPost {
+	padding-top: 10px;
+}
+
+#spMainContainer .spAdminQueuePost textarea,
+#spMainContainer .spAdminQueuePost textarea:hover {
+	width: 95%;
+	background-color: #ffffff;
+}

@@ -1,0 +1,11 @@
+/* =============================================================
+Simple:Press
+Post mycred tag CSS
+============================================================= */
+
+#spMainContainer .spTopicPostSection .spPostUserMyCred {
+    font-size: 80%;
+	margin: 0;
+	padding: 5px;
+	line-height: 1em;
+}

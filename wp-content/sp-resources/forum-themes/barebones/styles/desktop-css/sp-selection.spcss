@@ -1,0 +1,8 @@
+#spMainContainer .spSelectTheme,
+#spMainContainer .spSelectLanguage {
+    display: inline-block;
+}
+
+#spMainContainer #spProfileFormPanel #spUserSelectOptions.spCenter.spLabelSmall {
+	font-size: 100%;
+}

@@ -1,0 +1,8 @@
+--- Membership Subscribe Plugin Options ---
+
+[membership_subscribe]
+<strong>Auto Subscribe To Forum</strong><br /><br />
+If you select this option when adding a new permission (combination of user group and permission set) to a forum, you will auto subscribe all members of the user group
+to the forum where the permission is being added.  The users in the user group will have to have permisison to subscribe.  And users will still have the option of choosing to
+remove the subscription in their profile.
+[end]

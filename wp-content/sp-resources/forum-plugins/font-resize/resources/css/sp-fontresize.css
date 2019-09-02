@@ -1,0 +1,35 @@
+#spFontSize {
+	font-family: verdana, sans-serif;
+	font-size: 90%;
+	line-height: 1em;
+	margin: 5px 0;
+}
+
+#spFontSize #spFontSizeButtons {
+	border: 1px solid #cccccc;
+	padding: 3px;
+}
+
+#spFontSize a {
+    padding: 1px;
+}
+
+#spFontSize #spFontSize_minus {
+	font-size: 0.7em;
+}
+
+#spFontSize #spFontSize_reset {
+	font-size: 0.95em;
+}
+
+#spFontSize #spFontSize_add {
+	font-size: 1.2em;
+}
+
+#spFontSize.spLeft {
+	float: left;
+}
+
+#spFontSize.spRight {
+	float: right;
+}

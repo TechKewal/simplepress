@@ -1,0 +1,15 @@
+--- Watches Plugin Options ---
+
+[watches-topics]
+<strong>View User Watches by Topic</strong><br /><br />
+This admin panel is used to display the current watches by topics in the forum.<br /><br />
+You can choose to either view all watches or filter them based on Groups or Forums.  Please note, you may filter by either Groups or Forums but not by a combination.  The radio button chooses your filter criteria.  If you select either Groups or Forums, you can select which ones via the dropdown lists activiated via the Show Groups or Show Forums button.<br /><br />
+Once you have set up your choices, hit the Show Watches button to view the results.<br /><br />
+You may remove all watches for each topic in this panel.
+[end]
+
+[watches-users]
+<strong>View User Watches by User</strong><br /><br />
+This admin panel is used to display the current watches by users in the forum.<br /><br />
+You may remove all watches for each user on this panel.
+[end]

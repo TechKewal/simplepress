@@ -1,0 +1,17 @@
+---
+Push Notifications Plugin Options ---
+
+[push-notifications-options]
+<strong>PushOver</strong><br /><br />
+PushOver API Key - This is the Administrator User Key. Other users can add their keys by editing their Profile.	
+Adding user specific keys allows you to be notified of new topic message.
+<br /><br />
+
+<strong>PushBullet</strong><br /><br />
+PushBullet API Key - This is the Administrator User Key. To view your API key visit https://www.pushbullet.com/account
+<br /><br />
+
+<strong>Onesignal</strong><br /><br />
+App ID - Your 36 character alphanumeric app ID. You can find this in App Settings > Keys & IDs.
+REST API Key - Your 48 character alphanumeric REST API Key. You can find this in App Settings > Keys & IDs.
+[end]

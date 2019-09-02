@@ -1,0 +1,212 @@
+#spMainContainer #sp_poll_create {
+	margin-top: 10px;
+	padding: 0 10px !important;
+	text-align: left;
+    font-size: 12px !important;
+}
+
+#spMainContainer .spEditorSection .spEditorTitle.sp_poll_create a {
+    float: left;
+}
+
+#spMainContainer .spPostContentSection div.spPollError {
+    font-style:  italic;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    background: #eeeeee;
+	-webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/* poll styling */
+
+#spMainContainer .spPostContentSection .sp-poll {
+    border: 1px solid #CCCCCC;
+    margin: 5px 10px 20px 10px;
+    padding: 20px;
+	-webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#spMainContainer .spPostContent .sp-poll p.sp-poll-title {
+    font-weight: bold;
+    text-align: center;
+    padding: 0 !important;
+}
+
+#spMainContainer .spPostContent .sp-poll ul.sp-poll-block {
+    list-style-type: none;
+    padding: 10px 20px !important;
+    margin: 0;
+}
+
+#spMainContainer .spPostContent .sp-poll ul.sp-poll-block li.sp-poll-answer {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 0 !important;
+}
+
+#spMainContainer .spPostContent .sp-poll ul.sp-poll-block li.sp-poll-result {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 !important;
+}
+
+#spMainContainer .spPostContent .sp-poll ul.sp-poll-block li.sp-poll-result.sp-user-voted {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#spMainContainer .spPostContent .sp-poll ul.sp-poll-block li.sp-poll-result span.sp-poll-meta {
+    font-size: 80%;
+    padding-left: 10px;
+}
+
+#spMainContainer .spPostContent .sp-poll label.sp-poll-label {
+    line-height: 15px;
+}
+
+#spMainContainer .spPostContent .sp-poll p.sp-poll-submit {
+    text-align: center;
+}
+
+#spMainContainer .spPostContent .sp-poll p.sp-poll-show {
+    text-align: center;
+    padding-bottom: 0!important;
+}
+
+#spMainContainer .spPostContent .sp-poll p.sp-poll-show a.sp-poll-show {
+    text-decoration: none;
+}
+
+#spMainContainer .spPostContent .sp-poll .sp-poll-count {
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* dialog popup */
+
+#sp_poll_create #sp_poll_body  {
+	clear: both;
+    margin: 0;
+}
+
+#sp_poll_create form  {
+    margin: 0;
+}
+
+#sp_poll_create #sp_poll_body .sp_poll_label {
+    clear: left;
+    float:left;
+    width: 20%;
+    padding: 0;
+    line-height: 29px;
+    font-size: 12px;
+    margin: 0;
+}
+
+#sp_poll_create #sp_poll_body .sp_poll_label p {
+    margin: 0;
+}
+
+#sp_poll_create #sp_poll_body .sp_poll_input {
+    float: left;
+    width: 79%;
+    padding: 5px 0;
+    margin: 0;
+}
+
+#sp_poll_create #sp_poll_body .sp_poll_input #sp-poll-question {
+    width: 95%;
+}
+
+#sp_poll_create #sp_poll_body .sp_poll_input a {
+    float: right;
+    margin-top: 0px;
+}
+
+#sp_poll_create #sp_poll_body .spEditorTitle {
+    margin: 10px 0 0 0;
+   	padding-left: 0 !important;
+	padding-bottom: 5px !important;
+    text-align: center;
+    clear: left;
+    line-height: 1.5em;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#sp_poll_create #sp_poll_body .sp_poll_submit {
+    text-align: center;
+    clear: both;
+    padding: 10px 0;
+    margin: 0;
+}
+
+#sp_poll_create #sp_poll_body #sp_poll_date {
+    text-align: center;
+    clear: both;
+    padding: 10px 0;
+    margin: 0;
+}
+
+#sp_poll_create #sp_poll_body #sp_poll_date .sp_poll_input {
+    float: none;
+    width: auto;
+    padding: 5px 0;
+}
+
+#sp_poll_create #sp_poll_body #sp_poll_date .sp_poll_input input#sp-poll-date {
+    width: 150px;
+    margin-right:  5px;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+#sp_poll_create #sp_poll_body #sp_poll_options {
+    padding-top: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+#sp_poll_create #sp_poll_body #sp_poll_options input#sp-poll-maxq {
+    text-align: center;
+    width: 100px;
+    height: 24px;
+    margin: 5px 0;
+}
+
+#sp_poll_create #sp_poll_body input.spControl {
+    width: 70%;
+    height: 22px;
+    color: #333333;
+    margin: 0;
+    padding: 0 0 0 2px;
+    background: #ffffff;
+    font-size: 12px;
+    border: 1px solid #cccccc;
+}
+
+#sp_poll_create #sp_poll_body input.spControl:focus {
+    border: 1px solid #8b1a1a;
+}
+
+#sp_poll_create #sp_poll_body input#sp-poll-hide {
+    width: auto;
+    vertical-align: middle;
+}
+
+#sp_poll_create #sp_poll_body .spSubmit {
+    margin: 0 5px;
+    padding: 0 2px;
+    color: #333;
+    height: 23px;
+    background: #dddddd;
+    border: 1px solid #bbbbbb;
+    font-size: 12px;
+    text-shadow: none;
+}
+
+#sp_poll_create #sp_poll_body .spSubmit:hover {
+    border: 1px solid #8b1a1a;
+}

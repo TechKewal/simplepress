@@ -1,0 +1,34 @@
+#spMainContainer .spOnlineActivity {
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+#spMainContainer span.spOnlineActivity {
+	font-weight: normal;
+}
+
+#spMainContainer .spOnline {
+    padding: 10px;
+	margin: 0 0 5px 0;
+    font-size: 80%;
+}
+
+#spMainContainer .spOnline .spProfilePopupLink {
+	font-weight: bold;
+}
+
+#spMainContainer .spStatsSection .spOnlinePageLink {
+	border: none;
+	background: none;
+	margin: 0;
+	float: left;
+	padding: 0 0 0 5px;
+	color: <?php echo ($linkFontColor); ?>;
+	font-weight: bold;
+	width: auto;
+	font-size: 100%;
+}
+
+#spMainContainer .spStatsSection .spOnlinePageLink:hover {
+	color: <?php echo ($linkFontColorHover); ?>;
+}

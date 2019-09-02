@@ -1,0 +1,5 @@
+@media screen and (max-width: 600px) {
+	#spMainContainer #spBirthdays {
+		margin: 10px 0 0 0;
+	}
+}

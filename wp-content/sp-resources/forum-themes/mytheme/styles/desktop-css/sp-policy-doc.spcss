@@ -1,0 +1,41 @@
+#spPolicyDocReg .spLabel {
+	font-weight: bold;
+	line-height: 2.0em;
+	text-decoration: underline;
+}
+
+#spPolicyDocReg p,
+#spPolicyDocRegister p,
+#spPolicyDocPrivacy p,
+#spPolicyDocReg p.spLabel,
+#spPolicyDocRegister p.spLabel,
+#spPolicyDocPrivacy p.spLabel {
+	margin-bottom: 20px;
+}
+
+#spPolicyDocReg h3,
+#spPolicyDocRegister h3,
+#spPolicyDocPrivacy h3,
+#spPolicyDocReg h4,
+#spPolicyDocRegister h4,
+#spPolicyDocPrivacy h4 {
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+#spMainContainer #spPolicyDoc,
+#spMainContainer #spPrivacyDoc {
+	padding: 0 15px;
+	font-size: 80%;
+    display: inline;
+}
+
+.spRegistrationPolicy, .spPrivacyPolicy {
+    height: 600px;
+}
+
+#spMainContainer #spPolicyDoc .spIcon,
+#spMainContainer #spPrivacyDoc .spIcon, 
+#spMainContainer #spAck .spIcon {
+	margin: 0px;	
+}

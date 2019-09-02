@@ -1,0 +1,13 @@
+--- Mentions Plugin Options ---
+
+[mentions-options]
+<strong>Mentions Options</strong><br />
+Here you can select the type of notification that users will receive when they are mentioned in a post.<br /><br />
+You can select no notification, use the built in Simple Press notification system that displays a notice to the user at the top of each page,
+send a private message, or send an email.<br /><br />
+Please note that users may opt out of receiving mentions notifications.<br /><br />
+The number of recent mentions to keep refers to the number of mentions made on your site that you want to keep track for later use in the
+latest mentions template tag.  Since this value is only used in that template function and stored mentions are not used elsewhere, an option is used
+vice a template tag argument, to keep the number of mentions stored in the db to a minimum.  Otherwise, we would have to store all mentions in the db which
+would be waste of db resources since the old mentions are only ever used by the template function.
+[end]

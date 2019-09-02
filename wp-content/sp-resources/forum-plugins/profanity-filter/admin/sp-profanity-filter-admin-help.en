@@ -1,0 +1,12 @@
+--- Profanity Filter Plugin Options ---
+
+[profanity-filter]
+<strong>Profanity Filter</strong><br /><br />
+You can set up 'profanity filters' if desired that will substitute a 'banned' word or phrase with an alternative of your choosing.
+Start each new word or phrase you wish to substitute on a new line in the top box. Place the alternative on a new line in the bottom box ensuring that
+each entry is in the same position in the list. When posts are displayed, any match found in the top list will be substituted with the word from the equivalent
+position in the bottom list.<br /><br />
+If you select the 'Replace every bad word in profanity list with word(s) in replacement list' option, every bad word in the profanity list will get replaced with the
+complete word or words in the replacement list.  This is most useful when you want to replace all word(s) in the bad list with the same replacement word(s).
+[end]
+

@@ -1,0 +1,19 @@
+---
+Announce Plugin Help ---
+
+[announce-options]
+<strong>Announce Options</strong><br /><br />
+In this panel, you select where you want the announcement/message area to appear.  We provide you six default locations you can choose.
+If none of those locations appeal to you, you can go the custom route.  When you select custom, you MUST add the display template function
+sp_AnnounceMessage() in one of your SP theme files where you want it to show.<br /><br />
+Please note, if you select one of the default locations, you cannot change any of the default display template function arguments.  You
+can customize the CSS by copying the plugin CSS file into your SP theme styles directory and then editing it.
+<br /><br />
+You can also choose who should see the message:  all users, guests or just logged in users.
+[end]
+
+[announce-message]
+<strong>Announce Message</strong><br /><br />
+In this panel, enter the announcement,news or message that you want to display.  HTML is allowed in this message and the wpautop filter will be
+applied to the saved content.  Much like a wp blog post, this filter will add paragraph tags to your content as needed.
+[end]

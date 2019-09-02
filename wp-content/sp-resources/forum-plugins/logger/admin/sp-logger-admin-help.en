@@ -1,0 +1,23 @@
+---
+Event Logger Plugin Help ---
+
+[logger-options]
+<strong>Logger Options</strong><br /><br />
+In this section you can set up the logger options.  Select the number of log entries you wish to keep in the database. O will be no limit but could result in a large database tables.
+[end]
+
+[logger-events]
+<strong>Logger Events To Log</strong><br /><br />
+In this section you can select the standard, core event that you would like to be logged in the database table.
+[end]
+
+[logger-hook]
+<strong>Logger Add Action To Log</strong><br /><br />
+In this section you can choose to log any valid WordPress action.  This could be a core action or an action added by a wp theme or plugin.
+Optionally, you can add a callback to this action logging.  This callback is a function you would provide that gets called when the action is logged.
+[end]
+
+[logger-actions]
+<strong>Logger Actions Being Logged</strong><br /><br />
+In this section you can see a list of the custom actions you are currently logging.
+[end]

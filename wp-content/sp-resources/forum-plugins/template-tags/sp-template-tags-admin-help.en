@@ -1,0 +1,7 @@
+---
+Template Tags Help ---
+
+[admin-offline]
+<strong>Custom Offline Status Message</strong><br />
+If you are using the sp_AdminModeratorOnlineTag() template tag, you can leave a custom offline status message here.  This message will display with the template tag when you are offline.
+[end]

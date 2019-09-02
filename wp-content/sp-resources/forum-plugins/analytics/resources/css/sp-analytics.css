@@ -1,0 +1,45 @@
+/*
+Menu icon
+*/
+.spaicon-Analytics:before {
+        content: "\e90e";
+}
+
+
+/*
+Datepicker and range fields style
+*/
+.sp-chart-option-cp-field .wp-picker-container {
+        float: right;
+        width: 55%;
+}
+
+.chart_controls {
+        background: #ecf6ff;
+        padding: 10px;
+        border: #e2eef9 solid 1px;
+        margin-bottom: 20px;
+}
+
+.chart_controls .range_options {
+        margin: 5px 0;
+}
+
+.chart_controls .range_options .chart_range_option {
+        margin: 0 5px;
+        padding: 3px 6px;
+}
+
+.chart_controls .range_options .chart_range_option_active {
+        background: #dcdcdc;
+        border-radius: 5px;
+        color: #424242;
+}
+
+.range_options {
+        float : left;
+}
+
+.date_range {
+        float : right;
+}

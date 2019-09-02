@@ -1,0 +1,58 @@
+---
+Polls Plugin Options ---
+
+[polls-options]
+<strong>Polls Setup</strong><br /><br />
+In this section of the Polls setup, you can choose some basic options.<br /><br />
+You can elect to allow polls to be created in every post or just the first post of a topic.  If you elect for only the first post of a topic,
+then polls can only be created in new topics.<br /><br />
+You can also set a default option for the duration of a poll until expiration.  If you don't want to specify an expiration, just leave the field blank.
+Please note, the default expiration time is expressed in number of months.<br /><br />
+Also, you can choose to allow polls results to be hidden until the poll is closed. If this option is enabled, when creating a poll, users will be able to have
+the results hidden until the poll is closed.  If hiding poll results, you can also set up a message that is displayed to users instead of the results.
+[end]
+
+[polls-tracking]
+<strong>Tracking Options</strong><br /><br />
+In this section of the Polls setup, you can specify how users are tracked with respect to multiple votings.<br /><br />
+If you don't care if folks can vote multiple times in a poll, then disable this setting by setting it to none.
+You can track voters by cookie, IP address, a combination of cookie and IP or by user id.<br /><br />
+Tracking is not an exact science. IP addresses can be spoofed and cookies can be removed or blocked.
+Also, if using cookies and/or IP, different users will not be able to vote from the same machine. If you are only letting registered members of your site vote (done via permission),
+then tracking by user id will be the best solution. If you are allowing guests to vote, we recommend the cookie and IP tracking method for the best chance of users not casting multiple votes.
+[end]
+
+[polls-answers]
+<strong>Answer Sorting and Order</strong><br /><br />
+In this section of the Polls setup, you can control the sort criteria and order of the available questions.  This will apply to all polls in your forum.<br /><br />
+If you want the answers sorted the way the user entered them when creating the poll, then select the answer creation order.  Other criteria available include alphanumeric and random.<br /><br />
+You can also set up to sort the selected criteria in ascending or descending fashion.
+[end]
+
+[polls-results]
+<strong>Results Sorting and Order</strong><br /><br />
+In this section of the Polls setup, you can control the sort criteria and order of the poll results.  This will apply to all polls in your forum.<br /><br />
+If you want the answers sorted the way the user entered them when creating the poll, then select the answer creation order.  Other criteria available include by votes, alphanumeric and random.<br /><br />
+You can also set up to sort the selected criteria in ascending or descending fashion.
+[end]
+
+[polls-manage]
+<strong>Manage Polls</strong><br /><br />
+The top part of the manage polls panel shows you some simple stats for all the polls running on your forums.<br /><br />
+The next part shows you some detailed information for each poll you have in your forum.  You can set the number of polls to display per page and search your polls for specific questions.
+Your settings are remembered while on this panel.  Should you want to clear any filters(per page or search), simply click on the show all polls link.<br /><br />
+On the far right column of each poll is a group of action buttons.  You can delete the poll, edit the poll or view the logs for a poll.
+If you select the latter two, the information will appear in a new section below the list of polls. Each of these is discussed below.<br /><br />
+<strong>Edit Polls</strong><br /><br />
+If you edit a poll, you can update the questions and answer, including adding new answers.  Additionally, you can adjust the vote counts as needed.  The total vote count will be auto
+calculated based on the sum of the answer votes.  However, you will need to be sure to adjust the number of Poll Voters to be what you want.  We cannot not auto do this because it's possible
+that you are allowing folks to vote multiple times or may allow multiple answers per vote. You can also do things like update the expiration date or make the poll inactive.<br /><br />
+<strong>Poll Logs</strong><br /><br />
+If you view the logs for a poll, you can see who voted and what their vote was.  Like the section that displays the polls, the display is paged with options for what to view.
+You are able to remove individual logs or clear all the poll logs for a poll.
+[end]
+
+[polls-display]
+<strong>Polls Display </strong><br /><br />
+You can also customize the appearance of the poll results bars.  Just select a background and border color using the color wheels and then a height for the poll bar.
+[end]

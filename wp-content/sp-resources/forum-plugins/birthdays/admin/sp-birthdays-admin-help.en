@@ -1,0 +1,7 @@
+---
+Birthdays Plugin Options ---
+
+[birthdays]
+<strong>Birthdays Window</strong><br /><br />
+Enter the number of days to show upcoming birthdays.  This number can be whatever you want, but must be at least 1. You can control how it displays with the template function.
+[end]

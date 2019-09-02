@@ -1,0 +1,11 @@
+---
+Profile Display Contorl Plugin Options ---
+
+[profile-display-control]
+<strong>Profile Display Control</strong><br /><br />
+On this admin panel, you can choose to remove elements from the SP profile form.  Please note that this only removes them from the profile edit forms.
+If you want to remove them from the front end display, you need to do that from the SP theme you are using.  Additionally, if you want to remove any entire profile tab
+or profile menu from a tab,  you should do this on the forum - profiles - profiles tabs and menus admin panel.<br /><br />
+Only the core profile elements by default are available to be hidden, but this plugin does provide hooks for other plugins to add their profile forms to this list.  However,
+it is up to those plugins to actually use this ability.
+[end]

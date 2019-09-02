@@ -1,0 +1,182 @@
+@media screen and (max-device-width: 2000px) {
+	#spMainContainer .spAdminLinksPopup p{
+		text-align: center;
+		margin: 10px 0;
+	}
+
+    #spMainContainer #spAdminQueueCounts .spButtonAsLabel {
+        margin: 0 0 0 10px;
+		padding: 0;
+		background: transparent;
+		border: none;
+		color: <?php echo($contentFontColor); ?>;
+    }
+
+    #spMainContainer .spAdminQueueHeader {
+        height: auto;
+        text-align: center;
+    }
+
+    #spMainContainer .spAdminQueueHeader p {
+        float: none;
+        text-align: center;
+    }
+
+    #spMainContainer .spAdminQueueHeader form a {
+        margin-top: 10px;
+        float: none;
+        display: inline-block;
+    }
+
+    #spMainContainer #spAdminQueueList .spAdminQueueSection .spAdminQueueForum .spColumnSection:nth-child(1) {
+        width: 15% !important;
+    }
+
+    #spMainContainer #spAdminQueueList .spAdminQueueSection .spAdminQueueForum .spColumnSection:nth-child(2) {
+        width: 80% !important;
+		height: 80%;
+    }
+
+    #spMainContainer #spAdminQueueList .spAdminQueueSection .spAdminQueueTopic .spColumnSection:nth-child(1) {
+        width: 25% !important;
+		height: 100%;
+		display: flex;
+    }
+
+    #spMainContainer #spAdminQueueList .spAdminQueueSection .spAdminQueueTopic .spColumnSection:nth-child(2) {
+        width: 75% !important;
+    }
+
+    #spMainContainer .spAdminQueueSection {
+        font-size: 90%;
+		width: 100%;
+		padding: 0;
+		margin: 0 0 20px 0;
+    }
+
+    #spMainContainer .spAdminQueueSection .spAdminQueueThisPost {
+        font-size: 100%;
+    }
+
+    #spMainContainer .spAdminQueueSection .spAdminQueuePost .spAdminQueueThisPostButtons {
+        text-align: center;
+    }
+
+	#spMainContainer .spAdminQueueForum {
+		margin-bottom: 0;
+	}
+
+	#spMainContainer .spAdminQueueForum .spAdminForum {
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+
+	#spMainContainer .spAdminQueueForum .spAdminForum a.spRowName {
+		font-size: 90%;
+	}
+
+	#spMainContainer .spAdminQueueForum .spColumnSection img {
+		margin: 5px 2px 10px 5px;
+	}
+
+	#spMainContainer .spAdminQueueTopic a:link {
+		font-weight: bold;
+		font-size: 100%;
+		margin: 0;
+	}
+
+	#spMainContainer .spAdminQueueForum a {
+		font-size: 110%;
+	}
+
+	#spMainContainer #spAdminQueueList .spAdminQueueHeader a.spButton {
+		font-weight: bold;
+		margin: 20px 0 -10px 0;
+		padding: 3px 3px 0px 3px;
+		color: <?php echo($linkFontColor); ?>;
+	}
+
+	#spMainContainer .spAdminQueueTopic {
+		font-size: 100%;
+	}
+
+	#spMainContainer .spAdminQueueTopic .spUnreadButton {
+		font-size: 100%;
+		font-weight: bold;
+	}
+
+	#spMainContainer .spAdminQueueTopic .spModButton {
+		font-weight: bold;
+		margin-left: auto;
+		font-size: 90%;
+	}
+
+	#spMainContainer .spAdminQueueTopic p.spLabelSmall {
+		font-size: 90%;
+		padding: 3px 0px;
+		margin: 0 0 5px 5px;
+	}
+
+	#spMainContainer .spAdminQueueSection .spPostSection .spSubmit {
+		font-size: 90%;
+		font-weight: bold;
+		padding: 0;
+		margin: 10px 20px 5px 20px;
+	}
+
+	#spMainContainer .spAdminQueueMod {
+		font-size: 90%;
+		margin: -10px 0 10px 0;
+	}
+
+	#spMainContainer .spAdminQueuePost p,
+	#spMainContainer .spAdminQueuePost b,
+	#spMainContainer .spAdminQueuePost small {
+		font-size: 90%;
+	}
+
+	#spMainContainer .spAdminQueueTopic p {
+		padding: 5px 0 0 5px;
+		font-size: 90%;
+	}
+
+	#spMainContainer .spAdminQueueThisPostButtons table,
+	#spMainContainer .spAdminQueueThisPostButtons tr td,
+	#spMainContainer .spAdminQueueThisPostButtons tr,
+	#spMainContainer .spAdminQueueThisPostButtons td {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+
+	#spMainContainer .spAdminQueueThisPostButtons {
+		background: <?php echo($stockColor6); ?>;
+		margin-top: -10px;
+		padding: 0 0 10px 0;
+	}
+
+
+	/*#spMainContainer #spAdminQueue {
+		background: <?php echo($stockColor3); ?>;
+		width: 100%;
+		padding: 5px 0;
+	}	*/
+
+	#spMainContainer #spAdminQueueList {
+		padding: 0;
+		overflow: scroll;
+	}
+
+	#spMainContainer #spUnread .spUnreadUnread,
+	#spMainContainer #spNeedModeration .spModUnread,
+	#spMainContainer #spSpam .spSpamUnread {
+		margin: 0;
+		padding: 0 0 0 2px;
+	}
+
+	#spMainContainer #spUnread .spUnreadRead,
+	#spMainContainer #spNeedModeration .spModRead,
+	#spMainContainer #spSpam .spSpamRead {
+		padding: 0 0 0 2px;
+	}
+}

@@ -1,0 +1,336 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple:Press - Ads\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-15 11:52-0500\n"
+"PO-Revision-Date: 2018-08-19 22:41-0000\n"
+"Last-Translator: \n"
+"Language-Team: Simple:Press\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;admin_text;admin_etext;admin_text_noesc;__sp\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.2.1\n"
+"MIME-Version: 1.0\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/sp-ads-ad-add-form-ajax.php:23 admin/sp-ads-ad-add-form.php:24
+#: admin/sp-ads-ad-set-edit-form.php:25
+msgid "Empty ad set id"
+msgstr ""
+
+#: admin/sp-ads-ad-add-form-ajax.php:27 admin/sp-ads-ad-add-form-ajax.php:30
+#: admin/sp-ads-ad-add-form-ajax.php:34 admin/sp-ads-ad-add-form-ajax.php:43
+msgid "No Ad Added"
+msgstr ""
+
+#: admin/sp-ads-ad-add-form-ajax.php:27 admin/sp-ads-ad-edit-form-ajax.php:27
+msgid "empty ad name"
+msgstr ""
+
+#: admin/sp-ads-ad-add-form-ajax.php:30 admin/sp-ads-ad-edit-form-ajax.php:30
+msgid "ad with this name already exists"
+msgstr ""
+
+#: admin/sp-ads-ad-add-form-ajax.php:34 admin/sp-ads-ad-edit-form-ajax.php:34
+msgid "empty ad content"
+msgstr ""
+
+#: admin/sp-ads-ad-add-form-ajax.php:41
+msgid "Ad Added"
+msgstr ""
+
+#: admin/sp-ads-ad-add-form.php:28
+msgid "Ad Set not found"
+msgstr ""
+
+#: admin/sp-ads-ad-add-form.php:36 admin/sp-ads-ad-edit-form.php:35
+#: admin/sp-ads-ad-set-add-form.php:29 admin/sp-ads-ad-set-edit-form.php:37
+#: admin/sp-ads-ad-set-list-form.php:18 admin/sp-ads-list-form.php:20
+msgid "AD Sets"
+msgstr ""
+
+#: admin/sp-ads-ad-add-form.php:36
+msgid "Add New"
+msgstr ""
+
+#: admin/sp-ads-ad-add-form.php:38
+msgid "Add New Ad to Set"
+msgstr ""
+
+#: admin/sp-ads-ad-add-form.php:39 admin/sp-ads-ad-edit-form.php:38
+#: admin/sp-ads-ad-set-add-form.php:32 admin/sp-ads-ad-set-edit-form.php:40
+#: admin/sp-ads-ad-set-list-form.php:108 admin/sp-ads-list-table.php:74
+msgid "Name"
+msgstr ""
+
+#: admin/sp-ads-ad-add-form.php:40 admin/sp-ads-ad-edit-form.php:39
+msgid "Ad Content"
+msgstr ""
+
+#: admin/sp-ads-ad-add-form.php:41 admin/sp-ads-ad-edit-form.php:40
+msgid "Script Allowed"
+msgstr ""
+
+#: admin/sp-ads-ad-add-form.php:42 admin/sp-ads-ad-edit-form.php:41
+msgid "Display Quantity"
+msgstr ""
+
+#: admin/sp-ads-ad-add-form.php:43 admin/sp-ads-ad-edit-form.php:42
+msgid "Size"
+msgstr ""
+
+#: admin/sp-ads-ad-add-form.php:45 admin/sp-ads-ad-edit-form.php:44
+#: admin/sp-ads-ad-set-add-form.php:34 admin/sp-ads-ad-set-edit-form.php:42
+#: admin/sp-ads-ad-set-list-form.php:111 admin/sp-ads-list-table.php:77
+msgid "Is Active"
+msgstr ""
+
+#: admin/sp-ads-ad-add-form.php:56 admin/sp-ads-ad-edit-form.php:55
+msgid "Ads List"
+msgstr ""
+
+#: admin/sp-ads-ad-add-form.php:57 admin/sp-ads-ad-set-add-form.php:50
+msgid "Add"
+msgstr ""
+
+#: admin/sp-ads-ad-delete-form-ajax.php:23
+#: admin/sp-ads-ad-edit-form-ajax.php:23 admin/sp-ads-ad-edit-form.php:27
+msgid "Ad Not Found"
+msgstr ""
+
+#: admin/sp-ads-ad-delete-form-ajax.php:26
+msgid "Ad Deleted"
+msgstr ""
+
+#: admin/sp-ads-ad-delete-form-ajax.php:28
+msgid "No Ad Deleted"
+msgstr ""
+
+#: admin/sp-ads-ad-edit-form-ajax.php:27 admin/sp-ads-ad-edit-form-ajax.php:30
+#: admin/sp-ads-ad-edit-form-ajax.php:34 admin/sp-ads-ad-edit-form-ajax.php:43
+msgid "No Ad Updated"
+msgstr ""
+
+#: admin/sp-ads-ad-edit-form-ajax.php:41
+msgid "Ad Updated"
+msgstr ""
+
+#: admin/sp-ads-ad-edit-form.php:23
+msgid "Empty ad id"
+msgstr ""
+
+#: admin/sp-ads-ad-edit-form.php:35
+msgid "Edit ad"
+msgstr ""
+
+#: admin/sp-ads-ad-edit-form.php:37
+msgid "Edit Ad of Set"
+msgstr ""
+
+#: admin/sp-ads-ad-edit-form.php:56 admin/sp-ads-ad-set-edit-form.php:58
+msgid "Update"
+msgstr ""
+
+#: admin/sp-ads-ad-set-add-form-ajax.php:29
+#: admin/sp-ads-ad-set-add-form-ajax.php:32
+#: admin/sp-ads-ad-set-add-form-ajax.php:48
+msgid "No Ad Set Added"
+msgstr ""
+
+#: admin/sp-ads-ad-set-add-form-ajax.php:29
+#: admin/sp-ads-ad-set-edit-form-ajax.php:33
+msgid "empty ad set name"
+msgstr ""
+
+#: admin/sp-ads-ad-set-add-form-ajax.php:32
+#: admin/sp-ads-ad-set-edit-form-ajax.php:36
+msgid "ad set with this name already exists"
+msgstr ""
+
+#: admin/sp-ads-ad-set-add-form-ajax.php:46
+msgid "Ad Set Added"
+msgstr ""
+
+#: admin/sp-ads-ad-set-add-form.php:29 admin/sp-ads-ad-set-add-form.php:31
+msgid "Add New Ad Set"
+msgstr ""
+
+#: admin/sp-ads-ad-set-add-form.php:35 admin/sp-ads-ad-set-edit-form.php:43
+msgid "Combine Ad Set with others Ad Sets"
+msgstr ""
+
+#: admin/sp-ads-ad-set-delete-form-ajax.php:23
+#: admin/sp-ads-ad-set-edit-form.php:29
+msgid "Ad Set Not Found"
+msgstr ""
+
+#: admin/sp-ads-ad-set-delete-form-ajax.php:26
+msgid "Ad Set Deleted"
+msgstr ""
+
+#: admin/sp-ads-ad-set-delete-form-ajax.php:28
+msgid "No Ad Set Deleted"
+msgstr ""
+
+#: admin/sp-ads-ad-set-edit-form-ajax.php:29
+msgid "Ad Set id Not Found"
+msgstr ""
+
+#: admin/sp-ads-ad-set-edit-form-ajax.php:33
+#: admin/sp-ads-ad-set-edit-form-ajax.php:36
+#: admin/sp-ads-ad-set-edit-form-ajax.php:52
+msgid "No Ad Set Updated"
+msgstr ""
+
+#: admin/sp-ads-ad-set-edit-form-ajax.php:50
+msgid "Ad Set Updated"
+msgstr ""
+
+#: admin/sp-ads-ad-set-edit-form.php:37 admin/sp-ads-ad-set-edit-form.php:39
+msgid "Edit Ad Set"
+msgstr ""
+
+#: admin/sp-ads-ad-set-list-form.php:18
+msgid "List Ad Sets"
+msgstr ""
+
+#: admin/sp-ads-ad-set-list-form.php:20 sp-ads-plugin.php:215
+msgid "Ad Sets"
+msgstr ""
+
+#: admin/sp-ads-ad-set-list-form.php:23
+msgid "Add Ad Set"
+msgstr ""
+
+#: admin/sp-ads-ad-set-list-form.php:46 admin/sp-ads-list-table.php:19
+#: admin/sp-ads-reporting.php:25
+msgid "Not Found"
+msgstr ""
+
+#: admin/sp-ads-ad-set-list-form.php:61
+msgid "Ads list"
+msgstr ""
+
+#: admin/sp-ads-ad-set-list-form.php:67 admin/sp-ads-list-table.php:34
+msgid "Edit"
+msgstr ""
+
+#: admin/sp-ads-ad-set-list-form.php:72 admin/sp-ads-list-table.php:39
+msgid "Delete"
+msgstr ""
+
+#: admin/sp-ads-ad-set-list-form.php:107 admin/sp-ads-list-table.php:73
+#: admin/sp-ads-save-date-ranges-form.php:99
+msgid "ID"
+msgstr ""
+
+#: admin/sp-ads-ad-set-list-form.php:109
+msgid "Count Ads"
+msgstr ""
+
+#: admin/sp-ads-ad-set-list-form.php:110
+msgid "Sum Hits"
+msgstr ""
+
+#: admin/sp-ads-list-form.php:20
+msgid "List Ads"
+msgstr ""
+
+#: admin/sp-ads-list-form.php:25
+msgid "Filters Reporting"
+msgstr ""
+
+#: admin/sp-ads-list-form.php:31
+msgid "Ads List of Set"
+msgstr ""
+
+#: admin/sp-ads-list-form.php:37
+msgid "Add Ad"
+msgstr ""
+
+#: admin/sp-ads-list-form.php:67
+msgid "Today"
+msgstr ""
+
+#: admin/sp-ads-list-form.php:68
+msgid "Yesterday"
+msgstr ""
+
+#: admin/sp-ads-list-form.php:69
+msgid "Week"
+msgstr ""
+
+#: admin/sp-ads-list-form.php:70
+msgid "Month"
+msgstr ""
+
+#: admin/sp-ads-list-form.php:71
+msgid "Year"
+msgstr ""
+
+#: admin/sp-ads-list-table.php:75
+msgid "Hits"
+msgstr ""
+
+#: admin/sp-ads-list-table.php:76
+msgid "Max Views"
+msgstr ""
+
+#: admin/sp-ads-save-date-ranges-form.php:18
+msgid "Date Limitations"
+msgstr ""
+
+#: admin/sp-ads-save-date-ranges-form.php:21
+msgid "Add date range"
+msgstr ""
+
+#: admin/sp-ads-save-date-ranges-form.php:100
+msgid "From"
+msgstr ""
+
+#: admin/sp-ads-save-date-ranges-form.php:101
+msgid "To"
+msgstr ""
+
+#: admin/sp-ads-save-keywords-form.php:19
+msgid "Key Words"
+msgstr ""
+
+#: admin/sp-ads-save-keywords-form.php:22
+msgid "Add keyword"
+msgstr ""
+
+#: admin/sp-ads-save-locations-form.php:31
+msgid "Locations"
+msgstr ""
+
+#: admin/sp-ads-save-selected-form.php:18
+msgid "Forums and topics"
+msgstr ""
+
+#: admin/sp-ads-save-selected-form.php:36
+msgid "Main forum page"
+msgstr ""
+
+#: admin/sp-ads-save-selected-form.php:51
+msgid "Forums Not found"
+msgstr ""
+
+#: admin/sp-ads-save-user-groups-form.php:20
+msgid "User Groups"
+msgstr ""
+
+#: sp-ads-plugin.php:196
+msgid "Uninstall this plugin"
+msgstr ""
+
+#: sp-ads-plugin.php:196
+msgid "Uninstall"
+msgstr ""
+
+#: sp-ads-plugin.php:211
+msgid "Ad Sets list"
+msgstr ""

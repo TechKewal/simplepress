@@ -1,0 +1,101 @@
+--- Blog Linking Plugin Popup Help ---
+
+[post-linking]
+<strong>Post Linking</strong><br /><br />
+Post Linking allows you the option to automatically create a new topic with the content of a blog post. The opposite of
+this is also available - creating a blog post from a new forum topic. Permissions to allow this can be turned on in the
+User Group Permission Sets. To create such links, users must have the relevant forum permissions and the capability to create
+WP posts or pages.<br /><br />
+<b>Auto-Create</b><br />
+With Auto-Creation turned on the blog linking form that displays in the WP new post/page panel will be automatically checked and, if left checked, will
+create a new topic in the default forum.  This option can be overridden on the blog link form.<br /><br />
+<b>Default Forum</b><br />
+The forum selected will be used as the default target for auto-created linked topics. A different forum can be selected at the blog Post
+creation time.<br /><br />
+<b>Post Types</b><br />
+Select the types of content you wish to place the blog linking form in when editing. The standard types are 'Post' and 'Page' but others may
+be added via themes or plugins using the Custom Post Type API.<br /><br />
+<b>Post Edit Updating.</b><br />
+Leaving this option checked will ensure that should the post be edited and updated then change will be reflected in the forum topic. This works both ways.
+This option can be overridden on the blog link form.<br /><br />
+<b>Content Type</b><br />
+As an option to Post Linking, you can decide to only create an excerpt of the blog post in the new forum topic. if you wish
+to do this, check the option and enter the word count you wish the excerpt to be truncated to.<br /><br />
+[end]
+
+[link-text-display]
+<strong>Link Display Text</strong><br /><br />
+if you are using Post Linking, you can determine the link text that displays both in the blog post and
+the forum topic post. These link back to each other.<br />
+You can let Simple:Press create the forum topic link (on the blog post) automatically. A template tag - sf_blog_linked_tag() - is
+also available as an alternative. You can also choose to display the link at the top or bottom (default) of the blog post.<br />
+Finally, you can select to only show the link in single page view.<br /><br />
+For the <b>blog post link</b>, various data items can be inserted by using the supplied placeholders. These are:
+<ul>
+<li>%ICON% - the forum skins blog link icon</li>
+<li>%FORUMNAME% - the name of the forum containing the linked topic</li>
+<li>%TOPICNAME% - the name of the topic itself</li>
+<li>%POSTCOUNT% - the number of topic posts that have been made</li>
+<li>%LINKSTART% - Starting position of the actual link. If not used the link will start at the beginning of the text</li>
+<li>%LINKEND% - Ending position of the actual link. If not used the link will stop at the end of the text</li>
+</ul>
+<br /><br />
+For the <b>forum topic link</b>, an icon and link positioning can be inserted by using the supplied placeholders. These are:
+<ul>
+<li>%ICON% - the forum skins blog link icon</li>
+<li>%BLOGTITLE% - the title of the blog post</li>
+<li>%LINKSTART% - Starting position of the actual link. If not used the link will start at the beginning of the text</li>
+<li>%LINKEND% - Ending position of the actual link. If not used the link will stop at the end of the text</li>
+</ul>
+[end]
+
+[show-as-comments]
+<strong>Show Topic Posts as Comments</strong><br /><br />
+By turning on this option, you will be able to display the posts from a linked topic as comments on the linked blog post.
+In order to use this feature, you will need to be able to look at and potentially edit your wp theme's comments template file
+(normally comments.php).<br /><br />
+If your theme comments template uses the older, pre WP 2.7 '<b>comment loop</b>', the topic posts will be appended to the end of the
+WP post comments. Or if you wish to completely replace the WP comments with the SPF linked topic posts, you can remove the comment
+entry form from your comment template and only the SPF linked topic posts will be shown.<br /><br />
+If your theme comment templates uses the newer WP 2.7+ <b>wp_list_comments()</b> function, you may need to edit the argument list.<br /><br />
+<b>Using Display Mixed in Standard Comment Block</b><br />
+If your comments template does not pass any arguments to the <b>wp_list_comments()</b> function or has a 'type=all' or 'type=comment'
+argument, the SPF linked topic posts will show up as comments interspersed with the WP comments, sorted by date. <br />Topic Posts will be
+sent to the WP function with a type of 'comment'.<br /><br />
+<b>Using Display in Separate Comment Block</b><br />
+If your comments template does pass an argument of 'type=xxxx', this allows separation of the comments by type.  So you will likely see an
+argument of 'type=comment' plus potentially additional calls with different types.  If this is the case, you have a couple of options.
+You can add another comment section (duplicate) styled much like your section with 'type=comment', but instead this time, pass an argument
+of 'type=forum'.  This will give you the WP comments in a section, followed by the SPF linked topic posts.  Or if you want to
+completely replace the WP comments with the SPF linked topic posts, you can simply change the 'type=comment' argument to 'type=forum'
+and remove the comment entry form and only the SPF linked topic posts will be shown.<br />
+It should be noted then when a type of 'forum' is chosen, wp_list_comments() will <b>NOT display avatars</b>. This is a limitation of WordPress
+not a limitation of SPF.<br /><br />
+<b>Hide Duplicates</b><br />
+If you are showing topic posts as comments AND creating topic posts from comments without deleting the original then two copies of these
+will be displayed in the blog post comment list - the original blog comment AND the replicated topic post. In these circumstances you
+will probably want to hide the duplicate topic posts created automatically from blog comments. The Hide Duplicates option will do this.
+<br /><br />
+<b>Please Note:</b> Using forum linked topic posts as comments does NOT support the WP threading option.
+[end]
+
+[posts-from-comments]
+<strong>Create Topic Posts from Comments</strong><br /><br />
+<b>Before using these options in public it is recommended they be tested on your site as other plugins that operate on post and comment creation
+can effect the results.</b><br /><br />
+<b>Create New Topic Posts from Blog Post Comments</b><br />
+Once enabled, a new topic post will automatically be created in the linked topic with the comment content. This will occur when the comment
+is approved or at the time the comment is made if the comment needs no approval.<br /><br />
+<b>Delete Original Comment Upon Topic Post Creation</b><br />
+If enabled, the original comment will be deleted at the time the topic post is created. Use this with care as once the comment is removed
+it can not be restored. This option is intended for those that wish the forum to completely replace their commenting system.<br />
+There is no harm in leaving the original comment records other than database storage.<br /><br />
+<b>Update Topic Post on Comment Edit or Delete</b><br />
+If enabled, this option will update topic posts when the original comment is edited.
+[end]
+
+[link-urls]
+<strong>Blog Linking Canonical URLs</strong><br /><br />
+If you are using blog linking and linking the complete content, its possible you may be considered to have duplicate content on the blog post page and the forum topic.  The blog linking canonical
+URL option allows you leave the canonical URLs as they are by default pointing to their respective URLS, to point the blog post canonical URL to the forum topic, or to point the forum topic canonical URL to the blog post.
+[end]

@@ -1,0 +1,25 @@
+--- Analytics Plugin Options ---
+
+[analytics-options]
+You can use the options in this panel to turn on and off the chart (i.e.: make it visible or not). <br /> <br />
+The <b>FULL ROW</b> option means that the chart will occupy a full screen row in the admin area.  Unchecking it means that it will occupy just a half row.   <br /> <br />
+By disabling the <b>FULL ROW</b> option on two consecutive charts, you'll end up with two charts on one row. <br /> <br />
+The <b>SHOW DASHBOARD WIDGET</b> will display the chart on the main WordPress dashboard.   <br /> <br />
+The <b>ORDER</b> field control the order in which the chart is displayed. <br /> <br />
+The <b>CHART TYPE</b> allows you to set the type of chart.  The most common chart type is the COLUMN chart but depending on your data distribution, other chart types might be more asthetically pleasing.
+[end]
+
+[analytics-axisX]
+Use the options in this area to control how the text on the x-Axis is rendered.  You can control the font, colors and other style elements.<br /> <br />
+Most free-form field elements can be assumed to be numeric (eg: Title Font Size, Label Font Family, Line Thickness, Grid Thickness).  But others, such as Title Font Family and Label Font Family are text.
+[end]
+
+[analytics-axisY]
+Use the options in this area to control how the text on the y-Axis is rendered.  You can control the font, colors and other style elements.<br /> <br />
+Most free-form field elements can be assumed to be numeric (eg: Title Font Size, Label Font Family, Line Thickness, Grid Thickness).  But others, such as Title Font Family and Label Font Family are text.
+[end]
+
+[analytics-data]
+The options in this area control the main chart area itself (i.e.: the area enclosed by the x-axis and y-axis).<br /> <br />
+<b>Index Label</b> and <b>Index Label font family</b> are character fields while <b>Line Thickness</b> and <b>Index Label Font Size</b> are numeric fields.
+[end]

@@ -1,0 +1,71 @@
+/* =============================================================
+Simple:Press
+Tags Plugin CSS
+============================================================= */
+
+#spMainContainer .spTagsInside {
+	padding: 10px;
+    clear: both;
+}
+
+#spMainContainer #spPostForm .spEditorSection.spTagsForm .spEditorTitle,
+#spMainContainer #spPostForm .spEditorSection.spTagsForm .spEditorHeading {
+    padding: 10px;
+}
+
+#spMainContainer #spPostForm .spEditorSection.spTagsForm #spTopicTags {
+    width: 80%;
+}
+
+#spMainContainer .spEditorTitle a.spButton {
+	margin-left:5px;
+	margin-right: 5px;
+    margin-top: -3px;
+	font-weight: normal;
+}
+
+#spMainContainer #spTagsSuggested {
+	padding-top: 10px;
+}
+
+#spMainContainer .spTopicIndexTags {
+	padding: 5px 0;
+}
+
+#spMainContainer .spTopicIndexTags a {
+	display: inline-table;
+	padding: 0 5px;
+}
+
+#spMainContainer a.spTopicIndexTags  {
+	cursor: pointer;
+	padding-top: 5px;
+	font-size: 80%;
+	line-height: 2em;
+}
+
+#spMainContainer .spTopicTagsList {
+	padding: 5px;
+}
+
+#spMainContainer .spTopicTagsList span {
+	font-size: 85%;
+}
+
+#spMainContainer div.spTopicTagsList {
+	clear: both;
+}
+
+#spMainContainer a.spTopicTagsList {
+	margin-top: 5px;
+}
+
+#spMainContainer .spTopicTagsList a {
+	display: inline;
+	padding: 0 5px;
+	margin-left: 0;
+}
+
+#spMainContainer #topictags textarea {
+	width: 100%;
+}

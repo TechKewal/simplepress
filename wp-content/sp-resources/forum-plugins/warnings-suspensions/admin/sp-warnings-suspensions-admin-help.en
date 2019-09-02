@@ -1,0 +1,61 @@
+--- Warnings and Suspensions Plugin Help ---
+
+[warnings-suspensions-options]
+<strong>Warnings and Suspensions Options</strong><br />
+On this panel you can select some general options.  If you like, when you issue a warning, suspension or ban to to user, you can have such a message displayed on the user profile page for the duration
+of the penalty. Only the user will see this message on their profile. You can also choose what kindof notification to send to the user.  Available options are the SP notification system or a private message.
+[end]
+
+[warnings-messages]
+<strong>Warning Messages</strong><br />
+Enter the notificaiton message for warnings to send to users.  Use of HTML is allowed in the message.  If you using PMs for notifying users, enter the title of the PM.  You can also set up the warning
+message to be displayd on the users profile if that option is enabled.
+[end]
+
+[suspension-messages]
+<strong>Suspension Messages</strong><br />
+Enter the notificaiton message for suspensions to send to users.  Use of HTML is allowed in the message.  If you using PMs for notifying users, enter the title of the PM.  You can also set up the suspension
+message to be displayd on the users profile if that option is enabled.
+[end]
+
+[ban-messages]
+<strong>Ban Messagews</strong><br />
+Enter the notificaiton message for bans to send to users.  Use of HTML is allowed in the message.  If you using PMs for notifying users, enter the title of the PM.  You can also set up the ban
+message to be displayd on the users profile if that option is enabled.
+[end]
+
+[add-warnings]
+<strong>Add Warning</strong><br />
+This panel is where you add new warnings.  You must enter a user to warn - start typing and it will autocomplete based on user display name.  You must also enter a warning expiration date use the date picker.<br /><br />
+Plese note, the warning will expire at some point during the expiration date depending when the WordPress daily cron runs.
+[end]
+
+[warning-list]
+<strong>Current Warnings</strong><br />
+This is the list of current warnings and their expiration dates.  You can also choose to end the warning on this panel.
+[end]
+
+[add-suspensions]
+<strong>Add Suspension</strong><br />
+This panel is where you add new suspensions.  You must enter a user to suspend - start typing and it will autocomplete based on user display name.  You must also enter a suspension expiration date use the date picker.
+You can also optionally enter a usergorup to move the suspended user into.  Even if you dont select a usergroup, all current memberships will be removed as part of the suspension.  The user's existing usergroup
+membership will be saved so when the suspension ends, the usergroup memberships can be restored.<br /><br />
+Plese note, the suspension will expire at some point during the expiration date depending when the WordPress daily cron runs.
+[end]
+
+[suspension-list]
+<strong>Current Suspensions</strong><br />
+This is the list of current suspensions and their expiration dates.  You can also choose to end the suspension on this panel.
+[end]
+
+[add-bans]
+<strong>Add Ban</strong><br />
+This panel is where you add new bans.  You must enter a user to ban - start typing and it will autocomplete based on user display name.
+You can also optionally enter a usergorup to move the suspended user into.  Even if you dont select a usergroup, all current memberships will be removed as part of the ban.  The user's existing usergroup
+membership will be saved so if you revoke the ban, the usergroup memberships can be restored.
+[end]
+
+[ban-list]
+<strong>Current Bans</strong><br />
+This is the list of current bans.  Bans have no expiraton date and are permanent unless you choose to end the ban on this panel.
+[end]

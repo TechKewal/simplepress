@@ -1,0 +1,13 @@
+/* =============================================================
+Simple:Press
+Report Post Plugin CSS
+============================================================= */
+#spReportPost .spLabel {
+	font-weight: bold;
+	line-height: 2.0em;
+	text-decoration: underline;
+}
+
+#spReportPost textarea.spControl {
+	width: 100%;
+}

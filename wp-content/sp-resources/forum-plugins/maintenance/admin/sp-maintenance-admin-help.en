@@ -1,0 +1,8 @@
+---
+Maintenance Mode Plugin Help ---
+
+[maintenance-options]
+<strong>Maintenance Mode Options</strong><br /><br />
+In this section, enable the forum maintenance mode and display a custom message to the user.  HTML is allowed in the custom message.<br /><br />
+If you want to style the message, it will be wrapped in a div tag with id of 'spMainContainer', in a lower div with class of 'spMessage spMaintenanceMode'.
+[end]

@@ -1,0 +1,194 @@
+/*
+# --------------------------------------------------------------------------------------
+#
+#	Simple:Press Reset CSS
+#	Theme		:	Barebones
+#	Author		:	Simple:Press
+#
+# --------------------------------------------------------------------------------------
+*/
+
+/* ----------------------
+Base reset CSS
+-------------------------*/
+
+#spMainContainer {
+	margin: 0;
+	padding: 0;
+}
+
+#spMainContainer div,
+#spMainContainer span,
+#spMainContainer h1,
+#spMainContainer h2,
+#spMainContainer h3,
+#spMainContainer h4,
+#spMainContainer h5,
+#spMainContainer h6,
+#spMainContainer p,
+#spMainContainer blockquote,
+#spMainContainer pre,
+#spMainContainer code,
+#spMainContainer img,
+#spMainContainer big,
+#spMainContainer small,
+#spMainContainer strong,
+#spMainContainer b,
+#spMainContainer i,
+#spMainContainer ol,
+#spMainContainer ul,
+#spMainContainer li,
+#spMainContainer form,
+#spMainContainer label,
+#spMainContainer input,
+#spMainContainer textarea,
+#spMainContainer select,
+#spMainContainer legend {
+	margin: 0;
+	padding: 0;
+	border: <?php echo($resetBorder); ?>;
+	outline: 0;
+	vertical-align: baseline;
+	background-color: <?php echo($resetBackGroundColor); ?>;
+	color: <?php echo($resetTextColor); ?>;
+	font-family: <?php echo($resetFontFamily); ?>;
+	font-size: <?php echo($resetFontSize); ?>;
+	font-weight: <?php echo($resetFontWeight); ?>;
+	line-height: <?php echo($resetLineHeight); ?>;
+	min-height: 0;
+	min-width: 0;
+    float: none;
+	border-radius: 0;
+	box-shadow: none;
+    box-sizing: content-box;
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+#spMainContainer fieldset{
+	margin: 0;
+	border: <?php echo($resetBorder); ?>;
+	outline: 0;
+	vertical-align: baseline;
+	background-color: <?php echo($resetBackGroundColor); ?>;
+	color: <?php echo($resetTextColor); ?>;
+	font-family: <?php echo($resetFontFamily); ?>;
+	font-size: <?php echo($resetFontSize); ?>;
+	font-weight: <?php echo($resetFontWeight); ?>;
+	line-height: <?php echo($resetLineHeight); ?>;
+	min-height: 0;
+	min-width: 0;
+    float: none;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+#spMainContainer strong,
+#spMainContainer b {
+	font-weight: bold;
+}
+
+#spMainContainer a,
+#spMainContainer a:link,
+#spMainContainer a:active,
+#spMainContainer a:visited {
+    color: <?php echo($resetLinkColor); ?>;
+    text-decoration: <?php echo($resetLinkDecoration); ?>;
+	box-shadow: none;
+    box-sizing: content-box;
+    border: none;
+    cursor: pointer;
+}
+
+#spMainContainer a:hover {
+    color: <?php echo($resetLinkHover); ?>;
+}
+
+#spMainContainer small {
+    font-size: <?php echo($resetFontSizeSmall); ?>;
+	padding: 0;
+}
+
+#spMainContainer ol,
+#spMainContainer ul {
+	list-style-position: inside;
+}
+
+#spMainContainer img,
+#spMainContainer a img {
+	display: inline;
+	border: none;
+	vertical-align: middle;
+}
+
+#spMainContainer table {
+	table-layout: auto !important;
+}
+
+#spMainContainer table,
+#spMainContainer tr td,
+#spMainContainer tr,
+#spMainContainer td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	vertical-align: middle;
+	width: auto;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#spMainContainer input[type="button" i], 
+#spMainContainer input[type="submit" i], 
+#spMainContainer input[type="reset" i], 
+#spMainContainer input[type="file" i]::-webkit-file-upload-button, button {
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+	background-color: <?php echo($resetBackGroundColor); ?>;
+	color: <?php echo($resetTextColor); ?>;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border-width: 0px;
+    border-style: none;
+    border-color: <?php echo($resetBorder); ?>;
+    border-image: none;
+}
+
+/* ----------------------
+Some base, useful classes
+-------------------------*/
+
+#spMainContainer .spClear {
+	clear: both;
+}
+
+#spMainContainer .spClearRight {
+	clear: right;
+}
+
+#spMainContainer .spClearLeft {
+	clear: left;
+}
+
+#spMainContainer .spLeft {
+	float: left;
+}
+
+#spMainContainer .spRight {
+	float: right;
+}
+
+#spMainContainer .spTextRight {
+	text-align: right;
+}
+
+#spMainContainer .spTextLeft {
+	text-align: left;
+}
+
+#spMainContainer .spCenter {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}

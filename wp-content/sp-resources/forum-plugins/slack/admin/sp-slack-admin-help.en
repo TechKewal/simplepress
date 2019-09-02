@@ -1,0 +1,14 @@
+---
+Slack Integration Plugin Help ---
+
+[slack]
+<strong>Slack Options</strong><br />
+In the "Incoming WebHooks URL field, enter your Slack configured integration incoming webhook url. You can get this from Slack when creating a new Incoming WebHook integration.<br /><br />
+In the channel field, enter the channel name where you want the notification to be sent.  Be sure to include the Slack required # in the channel name.<br /><br />
+In the username field, please enter the custom name of the bot to deliver the notification.
+[end]
+
+[slack-notify]
+<strong>Slack Notifications</strong><br />
+In this panel, you can choose which available notifications you want to receive in Slack.
+[end]

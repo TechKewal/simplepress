@@ -1,0 +1,11 @@
+/* =============================================================
+Simple:Press
+Post CubePoints tag CSS
+============================================================= */
+
+#spMainContainer .spTopicPostSection .spPostUserCubePoints {
+    font-size: 80%;
+	margin: 0;
+	padding: 5px;
+	line-height: 1em;
+}

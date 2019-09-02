@@ -1,0 +1,10 @@
+--- Threading Plugin Options ---
+[threading]
+<strong>Post Threading</strong><br /><br />
+You set the number here of how many levels of threading you wish to allow.<br><br>
+The <b>default</b> is 5<br>
+The <b>maximum</b> is 10<br><br>
+How many levels you choose has as much to do with display space as anything else -
+along with the practicality of so many indented posts.
+[end]
+

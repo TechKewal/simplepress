@@ -1,0 +1,9 @@
+---
+Post Multiple Forums Plugin Help ---
+
+[post-multiple-options]
+<strong>Post Multiple Options</strong><br /><br />
+In this admin panel, you can optionally configure which forums you want to include in the list of possible forums to allow the cross posting in.<br /><br />
+This is a global, alternate way to controlling which forums can get cross postings. More importantly, if there is a standard set of forums you want to cross post
+in, this allows you to cut down the noise and amount of forums listed if you have many forums and some will not get cross postings.<br /><br />
+If you want to leave it possible for all forums to receive cross postings, then just leave all forums unchecked.

@@ -1,0 +1,33 @@
+--- Post by Email Plugin Popup Help ---
+
+[post-by-email]
+
+<strong>Post by Email</strong><br /><br />
+There are three aspects to enabling your users to post to your forums using email:<br /><br />
+<b>Creating the Email Accounts</b><br />
+Each individual forum for which you want to enable this facility requires it's own, unique email address. If you want to allow your users to
+create new topics via email then it is, of course, recommended that you use the forum slug as the address for ease of identification.
+You will also need to use the <b>same password for each of these email accounts</b>.<br />
+Once you have them created, go to the Manage Forums admin panel and assign the appropriate email address to each of your forums.<br /><br />
+<b>Mail Check Interval</b><br />
+This sets the frequency of checking your inboxes for new emails. The default is 1800 seconds - or every 30 minutes.<br /><br />
+<b>Setting the Permissions</b><br />
+There are two permissions associated with posting by email that you will need to set on the appropriate permission sets. Note that guest
+visitors to your forum can not use this facility.<br />
+The two permissions allow for <b><i>Replying to a topic using email</i></b> and <b><i>Starting a new topic using email</i></b>.<br /><br />
+<b>Entering the Credentials</b><br />
+Finally you need to enter the email access credentials so that Simple:Press can collect any posts form the various email accounts. These
+are the same credentials you would use for any email client.<br /><br />
+<b>Important Notes</b>:
+<ul>
+<li>Your users <b>must</b> send their emails from the same email address they are registered with on your website - or -  you can also direct them
+to their Simple:Press profile where they can add an alternative email address to be used for this feature.</li>
+<li>Any emails from an unrecognised source address or attempts to reply or start new topics without the appropriate permissions will result in the
+email being deleted with no other action.</li>
+<li>It is recommended that you monitor these email accounts from time to time to ensure everything is running smoothly. You will find a full
+log of all post by email activity in the Toolbox section of your Simple:Press admininstration.</li>
+</ul><br /><br />
+<b>Testing the Connection</b><br /><br />
+You can use the Test Connection button AFTER you have saved any updated settings. Please note that it is not always possible due to
+limitations in php to diagnose exactly the cause of a connection failure, especially if the IMAP routines are being used.
+[end]

@@ -1,0 +1,99 @@
+@media screen and (max-width: 480px)  {
+	#spMainContainer table#spRankInfo table,
+	#spMainContainer table#spRankInfo thead,
+	#spMainContainer table#spRankInfo tbody,
+	#spMainContainer table#spRankInfo th,
+	#spMainContainer table#spRankInfo td,
+	#spMainContainer table#spRankInfo tr,
+	#spMainContainer table#spRankInfoSpecial table,
+	#spMainContainer table#spRankInfoSpecial thead,
+	#spMainContainer table#spRankInfoSpecial tbody,
+	#spMainContainer table#spRankInfoSpecial th,
+	#spMainContainer table#spRankInfoSpecial td,
+	#spMainContainer table#spRankInfoSpecial tr {
+		display: block;
+	}
+
+	#spMainContainer table#spRankInfo table.spMemberData,
+	#spMainContainer table#spRankInfo table.spMemberData thead,
+	#spMainContainer table#spRankInfo table.spMemberData tbody,
+	#spMainContainer table#spRankInfo table.spMemberData th,
+	#spMainContainer table#spRankInfo table.spMemberData td,
+	#spMainContainer table#spRankInfo table.spMemberData tr,
+	#spMainContainer table#spRankInfoSpecial table.spMemberData,
+	#spMainContainer table#spRankInfoSpecial table.spMemberData thead,
+	#spMainContainer table#spRankInfoSpecial table.spMemberData tbody,
+	#spMainContainer table#spRankInfoSpecial table.spMemberData th,
+	#spMainContainer table#spRankInfoSpecial table.spMemberData td,
+	#spMainContainer table#spRankInfoSpecial table.spMemberData tr {
+		display: inline;
+	}
+
+	#spMainContainer table#spRankInfo thead tr,
+	#spMainContainer table#spRankInfoSpecial thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+	#spMainContainer table#spRankInfo tr,
+	#spMainContainer table#spRankInfoSpecial tr {
+		border: <?php echo($solidBorder); ?>;
+	}
+
+	#spMainContainer table#spRankInfo table.spMemberData tr,
+	#spMainContainer table#spRankInfo tr.spRankMembers,
+	#spMainContainer table#spRankInfo tr.spRankMembers td,
+	#spMainContainer table#spRankInfoSpecial table.spMemberData tr,
+	#spMainContainer table#spRankInfoSpecial tr.spRankMembersSpecial,
+	#spMainContainer table#spRankInfoSpecial tr.spRankMembersSpecial td {
+	   border: none;
+	}
+
+	#spMainContainer table#spRankInfo tr.spInlineSection,
+	#spMainContainer table#spRankInfoSpecial tr.spInlineSection {
+	   display: none;
+	}
+
+	#spMainContainer table#spRankInfo table.spMemberData td,
+	#spMainContainer table#spRankInfoSpecial table.spMemberData td {
+	   border: none;
+	}
+
+	#spMainContainer table#spRankInfo tr.spRankData td,
+	#spMainContainer table#spRankInfoSpecial tr.spRankDataSpecial td {
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: <?php echo($solidBorder); ?>;
+		position: relative;
+		padding-left: 50%;
+	}
+
+	#spMainContainer table#spRankInfo tr.spRankData td:before,
+	#spMainContainer table#spRankInfoSpecial tr.spRankDataSpecial td:before {
+		border: <?php echo($solidBorder); ?>;
+		color: <?php echo($contentFontColor); ?>;
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 5px;
+		left: 5px;
+		width: 45%;
+		padding-right: 10px;
+		color: <?php echo($contentFontColor); ?>;-space: nowrap;
+		text-align: left;
+	}
+
+	/* Label the data */
+	#spMainContainer table#spRankInfo tr.spRankData td:nth-of-type(1):before { content: attr(data-label); background: <?php echo($whiteContainer); ?>; border: <?php echo($solidBorder); ?>; color: <?php echo($contentFontColor); ?>; }
+	#spMainContainer table#spRankInfo tr.spRankData td:nth-of-type(2):before { content: attr(data-label); background: <?php echo($whiteContainer); ?>; border: <?php echo($solidBorder); ?>; color: <?php echo($contentFontColor); ?>; }
+	#spMainContainer table#spRankInfo tr.spRankData td:nth-of-type(3):before { content: attr(data-label); background: <?php echo($whiteContainer); ?>; border: <?php echo($solidBorder); ?>; color: <?php echo($contentFontColor); ?>; }
+	#spMainContainer table#spRankInfo tr.spRankData td:nth-of-type(4):before { content: attr(data-label); background: <?php echo($whiteContainer); ?>; border: <?php echo($solidBorder); ?>; color: <?php echo($contentFontColor); ?>; }
+	#spMainContainer table#spRankInfo tr.spRankData td:nth-of-type(5):before { content: attr(data-label); background: <?php echo($whiteContainer); ?>; border: <?php echo($solidBorder); ?>; color: <?php echo($contentFontColor); ?>; }
+
+	#spMainContainer table#spRankInfoSpecial tr.spRankDataSpecial td:nth-of-type(1):before { content: attr(data-label); background: <?php echo($whiteContainer); ?>; border: <?php echo($solidBorder); ?>; color: <?php echo($contentFontColor); ?>; }
+	#spMainContainer table#spRankInfoSpecial tr.spRankDataSpecial td:nth-of-type(2):before { content: attr(data-label); background: <?php echo($whiteContainer); ?>; border: <?php echo($solidBorder); ?>; color: <?php echo($contentFontColor); ?>; }
+	#spMainContainer table#spRankInfoSpecial tr.spRankDataSpecial td:nth-of-type(3):before { content: attr(data-label); background: <?php echo($whiteContainer); ?>; border: <?php echo($solidBorder); ?>; color: <?php echo($contentFontColor); ?>; }
+
+	#spMainContainer table#spRankInfoSpecial tr.spRankMembersSpecial td:nth-of-type(4):before { content: ""; background: <?php echo($whiteContainer); ?>; border: <?php echo($solidBorder); ?>; color: <?php echo($contentFontColor); ?>; }
+}

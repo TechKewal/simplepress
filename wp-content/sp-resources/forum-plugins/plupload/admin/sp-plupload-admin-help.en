@@ -1,0 +1,50 @@
+--- Policy Docs Plugin Options ---
+
+[upload-settings]
+<b>Options</b><br /><br />
+if you are allowing your users to upload personal profile photos for display on their profile page, then you can turn the option on
+to use the file uploader for this which improves the profile photos UI.<br /><br />
+You can set a language for the uploader. Enter the two character language code (ie en, sp, ru, etc).  To see if a lanuage exists, please see 'forum-plugins/plupload/resources/jscript/i18n'.
+[end]
+
+[prohibited-files]
+<b>Prohibited File Types</b><br /><br />
+Use this list to hold the file types that are disallowed from being uploaded. It is important to include any files that may contain program code.
+The file types list is case sensitive. Separate file extensions with a comma.
+[end]
+
+[image-files]
+<b>Image Uploads</b><br /><br />
+This section contains the options available for image uploads including size and dimension options.<br /><br />
+You can choose whether you want uploaded images to appear in the post itself or just as an attachment. If you choose to have the image appear in the post.
+Please note, if you upload an image and do not select this option and turn off the attachment display
+option in the settings section, you will not see any indication of an image upload.<br /><br />
+You can also set the image quality of resized images and image thumbnails.  To keep the maximum quality, set the quality to 100.  The lower the quality, the smaller the image
+filesize will be and the quicker the image will load on your site.  The image resize quality only applies if you have set a maximum image width or height (in pixels) to the image and the uploaded
+image is larger.<br /><br />
+You can also set the maximum width or height (in pixels) of the image to be uploaded.  If you set this to 0, there will be no limit.  Use caution in allowing large uploads as it will take
+large amounts of cpu to process the images and more disk space will be used.  Any images larger in width or height (in pixels) than the maximum, will be resized keeping the current
+aspect ratio.<br /><br />
+You can set the maximum file size of the image (in bytes).  Attempts to upload a file larger than the limit will result in a upload error and the file will not be uploaded.  Please
+note that your PHP settings for UPLOAD_MAX_SIZE and POST_MAX_SIZE may additionally limit the filesize of your uploads.<br /><br />
+The allowed image file type list can be used to define the allowed image file types. Any image type not on this list will be disallowed. The file types list is case sensitive, so .JPG is different than .jpg.
+Separate the allowed file extensions with a comma.
+[end]
+
+[media-files]
+<b>Media Uploads</b><br /><br />
+This section contains the options available for media uploads including size and dimension options.<br /><br />
+You can choose whether you want the uploaded media to appear in the post itself or just as an attachment.  Please note, if you upload a media file and do not select this option and
+turn off the attachment display option in the settings section, you will not see any indication of a media upload.<br /><br />
+You can also set the maximum file size allowed for media uploads.  Any attempt to upload a larger file size will result in an uploader error.<br /><br />
+The allowed media file type list can be used to define the allowed media file types. Any media type not on this list will be disallowed. The file types list is case sensitive.
+Separate file extensions with a comma.<br /><br />
+And finally, you can specify the width and height of the media file if you have chosen to insert the media into the post content itself.
+[end]
+
+[other-files]
+<b>Other File Uploads</b><br /><br />
+This section contains the options available for other file uploads including size options.<br /><br />
+The alllowed other files list is used to define the allowed 'other' file types. Any file not on this list will be disallowed. The file types list is case sensitive. Separate file
+extensions with a comma.
+[end]

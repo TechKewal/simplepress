@@ -1,0 +1,38 @@
+#spMainContainer .spStopWatchingAll {
+	text-align: center;
+	padding: 5px 0;
+    font-size:  90%;
+}
+
+#spMainContainer #spWatchCount {
+	padding-bottom: 3px;
+}
+
+#spMainContainer #spWatchCount .spWatchCountUnread {
+	color: #ff0000;
+}
+
+#spMainContainer #spWatchCount .spWatchCountRead {
+	font-weight: bold;
+	color: inherit;
+}
+
+#spMainContainer .spWatchesNotice img {
+    vertical-align: top;
+}
+
+#spMainContainer .spProfileManageWatches label.list {
+    width: auto;
+    margin-top:  -3px;
+}
+
+#spMainContainer a.spWatchEndButton {
+	margin-top: 0;
+}
+
+#spMainContainer .spWatchesNotice {
+	color: <?php echo ($contentFontColor); ?>;
+	font-size: 95%;
+	margin: 5px 0;
+	text-align: center;
+}

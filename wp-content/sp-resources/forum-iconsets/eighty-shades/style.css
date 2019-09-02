@@ -1,0 +1,266 @@
+@font-face {
+  font-family: 'Eighty-Shades';
+  src:  url('fonts/Eighty-Shades.eot?ufd5qy');
+  src:  url('fonts/Eighty-Shades.eot?ufd5qy#iefix') format('embedded-opentype'),
+    url('fonts/Eighty-Shades.ttf?ufd5qy') format('truetype'),
+    url('fonts/Eighty-Shades.woff?ufd5qy') format('woff'),
+    url('fonts/Eighty-Shades.svg?ufd5qy#Eighty-Shades') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="eighsh-"], [class*=" eighsh-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Eighty-Shades' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.eighsh-store:before {
+  content: "\e900";
+}
+.eighsh-out:before {
+  content: "\e901";
+}
+.eighsh-in:before {
+  content: "\e902";
+}
+.eighsh-in-alt:before {
+  content: "\e903";
+}
+.eighsh-home:before {
+  content: "\e904";
+}
+.eighsh-lightbulb:before {
+  content: "\e905";
+}
+.eighsh-anchor:before {
+  content: "\e906";
+}
+.eighsh-feather:before {
+  content: "\e907";
+}
+.eighsh-expand:before {
+  content: "\e908";
+}
+.eighsh-maximize:before {
+  content: "\e909";
+}
+.eighsh-search:before {
+  content: "\e90a";
+}
+.eighsh-zoomin:before {
+  content: "\e90b";
+}
+.eighsh-zoomout:before {
+  content: "\e90c";
+}
+.eighsh-add:before {
+  content: "\e90d";
+}
+.eighsh-subtract:before {
+  content: "\e90e";
+}
+.eighsh-exclamation:before {
+  content: "\e90f";
+}
+.eighsh-question:before {
+  content: "\e910";
+}
+.eighsh-close:before {
+  content: "\e911";
+}
+.eighsh-cmd:before {
+  content: "\e912";
+}
+.eighsh-forbid:before {
+  content: "\e913";
+}
+.eighsh-book:before {
+  content: "\e914";
+}
+.eighsh-spinner:before {
+  content: "\e915";
+}
+.eighsh-play:before {
+  content: "\e916";
+}
+.eighsh-stop:before {
+  content: "\e917";
+}
+.eighsh-pause:before {
+  content: "\e918";
+}
+.eighsh-forward:before {
+  content: "\e919";
+}
+.eighsh-rewind:before {
+  content: "\e91a";
+}
+.eighsh-sound:before {
+  content: "\e91b";
+}
+.eighsh-sound-alt:before {
+  content: "\e91c";
+}
+.eighsh-soundoff:before {
+  content: "\e91d";
+}
+.eighsh-task:before {
+  content: "\e91e";
+}
+.eighsh-inbox:before {
+  content: "\e91f";
+}
+.eighsh-inbox-alt:before {
+  content: "\e920";
+}
+.eighsh-envelope:before {
+  content: "\e921";
+}
+.eighsh-compose:before {
+  content: "\e922";
+}
+.eighsh-newspaper:before {
+  content: "\e923";
+}
+.eighsh-newspaper-alt:before {
+  content: "\e924";
+}
+.eighsh-clipboard:before {
+  content: "\e925";
+}
+.eighsh-calendar:before {
+  content: "\e926";
+}
+.eighsh-hyperlink:before {
+  content: "\e927";
+}
+.eighsh-trash:before {
+  content: "\e928";
+}
+.eighsh-trash-alt:before {
+  content: "\e929";
+}
+.eighsh-grid:before {
+  content: "\e92a";
+}
+.eighsh-grid-alt:before {
+  content: "\e92b";
+}
+.eighsh-menu:before {
+  content: "\e92c";
+}
+.eighsh-list:before {
+  content: "\e92d";
+}
+.eighsh-gallery:before {
+  content: "\e92e";
+}
+.eighsh-calculator:before {
+  content: "\e92f";
+}
+.eighsh-windows:before {
+  content: "\e930";
+}
+.eighsh-browser:before {
+  content: "\e931";
+}
+.eighsh-alarm:before {
+  content: "\e932";
+}
+.eighsh-clock:before {
+  content: "\e933";
+}
+.eighsh-attachment:before {
+  content: "\e934";
+}
+.eighsh-settings:before {
+  content: "\e935";
+}
+.eighsh-portfolio:before {
+  content: "\e936";
+}
+.eighsh-user:before {
+  content: "\e937";
+}
+.eighsh-users:before {
+  content: "\e938";
+}
+.eighsh-heart:before {
+  content: "\e939";
+}
+.eighsh-chat:before {
+  content: "\e93a";
+}
+.eighsh-comments:before {
+  content: "\e93b";
+}
+.eighsh-screen:before {
+  content: "\e93c";
+}
+.eighsh-iphone:before {
+  content: "\e93d";
+}
+.eighsh-ipad:before {
+  content: "\e93e";
+}
+.eighsh-forkandspoon:before {
+  content: "\e93f";
+}
+.eighsh-forkandknife:before {
+  content: "\e940";
+}
+.eighsh-instagram:before {
+  content: "\e941";
+}
+.eighsh-facebook:before {
+  content: "\e942";
+}
+.eighsh-delicious:before {
+  content: "\e943";
+}
+.eighsh-googleplus:before {
+  content: "\e944";
+}
+.eighsh-dribbble:before {
+  content: "\e945";
+}
+.eighsh-pin:before {
+  content: "\e946";
+}
+.eighsh-pin-alt:before {
+  content: "\e947";
+}
+.eighsh-camera:before {
+  content: "\e948";
+}
+.eighsh-brightness:before {
+  content: "\e949";
+}
+.eighsh-brightness-half:before {
+  content: "\e94a";
+}
+.eighsh-moon:before {
+  content: "\e94b";
+}
+.eighsh-cloud:before {
+  content: "\e94c";
+}
+.eighsh-circle-full:before {
+  content: "\e94d";
+}
+.eighsh-circle-half:before {
+  content: "\e94e";
+}
+.eighsh-globe:before {
+  content: "\e94f";
+}

@@ -1,0 +1,22 @@
+--- Moderation Email Plugin Options ---
+
+[moderation-email]
+<strong>Moderation Email Settings</strong><br /><br />
+These settings allow you to configure emails to be sent to users following one of their moderated posts being approved. You have full control over both the Email Subject Line and the content of the Email Message
+<br /><br />
+Note: If you prefer the standard WordPress email version - or are using another plugin that is capable of generating the new user email, then turn the forum option off and the alternative version will be used in it's place.
+<br /><br />
+Placeholders
+<br /><br />
+The following keywords can be used as placeholders within the email and will be replaced by their values when the email is sent. It is very important to enter these into the message text exactly as shown:
+<br /><br />
+    %USERNAME%
+    %BLOGNAME%
+    %SITEURL%
+    %POSTURL%
+    %NEWLINE%
+<br /><br />
+Note the use of %NEWLINE% to end paragraphs.
+<br /><br />
+Also, since emails are sent plain text, HTML is not allowed in the message.
+[end]

@@ -1,0 +1,25 @@
+--- Post Rating Plugin Options ---
+
+[post-ratings]
+<strong>Post Ratings Support</strong><br />
+Simple:Press supports the ability to allow users to rate posts.  The posts can be rated by users with proper permissions.  The ratings engine does
+record the IP for guests and USER ID for members when a rating is made in an effort to prevent multiple ratings by the same person.  It should be noted
+that this is not a fail safe method for guests as many ISPs assign users different IPs at different times.<br /><br />
+<b>Please Note</b>: Once the post rating plugin is enabled on the option panel you will need to visit each forum you wish ratings to be applied to and turn on
+post ratings there. This is not globally turned on by enabling this option. Go to the Forums admin menu, and edit each forum you wish to allow ratings
+for.<br /><br />
+When enabling post ratings, you have two methods of ratings that may be used to rate posts.<br /><br />
+<strong>Thumbs Up / Thumbs Down</strong><br />
+When utilizing the Thumbs Up / Thumbs Down rating method, a forum visitor with post rating permission can either vote up (Thumbs Up) or vote
+down (Thumbs Down) the post.  A Thumbs Up vote adds +1 to the post rating score displayed.  A Thumbs Down vote adds -1 to the post rating score
+displayed.  This rating system is consistent with the <a target="_blank" href="http://www.reddit.com/">reddit</a> voting system.<br /><br />
+<strong>Stars</strong><br />
+When utilizing the Stars rating method, a forum visitor with post rating permission can rate a post with a score of 1 - 5 stars.  Each star rating
+is added to the current star sum.  The post rating score displaye is then the star sum divided by the number of votes.  The number of stars displayed
+for a score is displayed in integer stars rounded down, but the score itself is shown to 1 decimal place.<br /><br />
+<strong>*** WARNING ***</strong><br />
+The desired rating system is selected via the "Select Post Rating Style" radio button.  However, once you select a rating system and you have
+started accumlating votes, you cannot change post ratings style without a complete reset of the post rating data system.  When attempting to change
+the post ratings style, you will be prompted to confirm the changed setting and your database will be purged of post rating data.  This is because
+of the inherent difference in post rating score between the two systems.<br /><br />
+[end]

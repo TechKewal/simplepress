@@ -1,0 +1,60 @@
+/*
+Simple:Press ADS Admin CSS
+*/
+/* ADS icon */
+.spaicon-Ads:before {
+    content: "\e904";
+}
+/*  ADS error notification */
+#sfmsgspot.error {
+    background: #ff0000 !important;
+    color: white;
+}
+/* ADS keyword input */
+.ads-keyword {width: 100%}
+/* ADS margin 0 */
+.ads.m-0 {margin: 0}
+/* ADS margin left 10px */
+.ads .ml-10 {
+    margin-left: 10px;
+}
+/* ADS Filters Reporting buttons */
+.ads-filters-reporting .sp-filters-button {
+    text-align: center;
+    outline: 0;
+    white-space: nowrap;
+    color: #0073aa;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0,0,0,.2) rgba(0,0,0,.1);
+}
+/* ADS Filters Reporting buttons active */
+.ads-filters-reporting .sp-filters-button.active {
+    background-color: #0085ba;
+    color: white;
+}
+/* ADS Filters Reporting label */
+.ads-filters-reporting .sp-filters-label {
+    display: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0,0,0,.2) rgba(0,0,0,.1);
+    color: #0073aa;
+    padding: 2px 10px;
+    margin-left: 30px;
+}
+/* ADS select 2 container */
+.ads .select2-container {
+    width: 100% !important; 
+}
+/* ADS select 2 search field */
+.ads .select2-search__field {
+    border: none !important;
+}
+/* ADS Responsive */
+@media screen and (max-width: 1279px) {
+    /* ADS tables hide tfoot */
+    #wpbody table.ads.spMobileTable1280 tfoot {
+        display: none;
+    }
+}

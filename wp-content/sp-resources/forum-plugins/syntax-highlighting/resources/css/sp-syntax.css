@@ -1,0 +1,9 @@
+/*
+Simple:Press Syntax Highlighting CSS
+$LastChangedDate:2009-06-23 00:17:06 +0100 (Tue, 23 Jun 2009) $
+$Rev:2099 $
+*/
+
+#spEditorContent .mce-i-syntax:before {
+	content: "\e600";
+}

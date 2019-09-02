@@ -1,0 +1,12 @@
+/*
+Simple:Press Tags Admin CSS (RTL))
+$LastChangedDate:2009-06-23 00:17:06 +0100 (Tue, 23 Jun 2009) $
+$Rev:2099 $
+*/
+
+/* FORM TAGS =======================================================================================*/
+
+.tag_wrap #tagslist ul {
+	margin:10px 20px 10px 0px !important;
+}
+

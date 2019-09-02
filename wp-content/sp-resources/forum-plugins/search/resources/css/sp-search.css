@@ -1,0 +1,140 @@
+#spMainContainer #spSearchList .spListSection {
+    width: auto;
+}
+
+#spMainContainer #spSearchList .spListSection.spPostSearchSection {
+    padding: 5px 10px 0px 0px;
+	box-sizing: border-box;
+	font-size: 90%;
+}
+
+#spMainContainer #spSearchList .spPostSearchSection .spPostSearchResultsSection {
+	padding: 0 5px 0 0;
+	margin: 0 5px 5px;
+	background: #ffffff;
+	-webkit-border-radius: 5px;
+	border: 1px solid #4682B4;
+    border-radius: 5px;
+    width: 100%;
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: flex;
+}
+
+#spMainContainer #spSearchList .spPostSearchResultsSection .spPostSearchItemSection .spListPostRowName {
+    border-bottom: 1px solid #4682B4;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+	position: relative;
+}
+
+#spMainContainer #spSearchList .spPostSearchResultsSection .spPostSearchItemSection .spListPostRowName a {
+    font-weight: bold;
+}
+
+#spMainContainer #spSearchList .spPostSearchResultsSection .spPostSearchItemSection .spPostContent {
+    border: none;
+    padding: 15px 10px 5px 10px;
+	position: relative;
+	font-size: 100%;
+}
+
+#spMainContainer #spSearchList .spPostSearchResultsSection .spPostSearchItemSection .spPostContent p {
+	font-size: 100%;
+    padding-bottom: 10px;
+}
+
+#spMainContainer #spSearchList .spPostSearchResultsSection .spPostSearchItemSection .spPostContent .spSearchTermHighlight,
+#spMainContainer #spSearchList .spPostSearchResultsSection .spPostSearchItemSection .spListPostRowName .spSearchTermHighlight {
+    background-color: #f3bfcc;
+    color: #bc2a4d;
+    padding: 0 2px 1px;
+}
+
+#spMainContainer #spSearchList .spPostSearchResultsSection .spPostInfoSection {
+    border-left: 1px solid #4682B4;
+    padding: 7px 4px 7px 7px;
+	position: relative;
+}
+
+#spMainContainer #spSearchList .spPostSearchSection .spPostSearchResultsSection .spPostInfoSection .spPostUserName {
+	padding-top: 5px;
+	padding-left: 50px;
+	font-size: 100%;
+}
+
+#spMainContainer #spSearchList .spPostSearchSection .spPostSearchResultsSection .spPostInfoSection .spPostUserDate {
+    padding-left: 50px;
+	padding-top: 0;
+	font-size: 80%;
+}
+
+#spMainContainer #spSearchList .spPostSearchSection .spPostSearchResultsSection .spPostInfoSection .spListPostForumRowName,
+#spMainContainer #spSearchList .spPostSearchSection .spPostSearchResultsSection .spPostInfoSection .spListPostCountRowName {
+    padding-top: 10px;
+    font-size: 80%;
+}
+
+#spMainContainer #spSearchList .spPostSearchSection .spPostSearchResultsSection .spPostInfoSection .spListPostTopicRowName,
+#spMainContainer #spSearchList .spPostSearchSection .spPostSearchResultsSection .spPostInfoSection .spListPostViewsRowName {
+	padding-bottom: 5px;
+	padding-top: 5px;
+    font-size: 80%;
+}
+
+#spMainContainer #spSearchList .spPostSearchSection .spPostSearchResultsSection .spPostInfoSection .spListPostForumRowName a,
+#spMainContainer #spSearchList .spPostSearchSection .spPostSearchResultsSection .spPostInfoSection .spListPostTopicRowName a {
+    font-size: 100%;
+}
+
+#spMainContainer #spSearchList .spPostSearchSection .spPostSearchResultsSection .spPostInfoSection .spResultsInfo {
+
+}
+
+#spMainContainer #spSearchList .spListSection .spResultsInfo .spLink{
+	font-size: 90%;
+}
+
+#spMainContainer #spSearchList .spPostSearchSection .spPostSearchResultsSections .spListPostGoToPostRowName {
+    padding: 5px;
+    font-size: 70%;
+	background: red;
+}
+
+/* blog search */
+
+#spMainContainer ul#spSearchTabs {
+	margin: 0;
+	padding: 0 0 1px 5px;
+	height: 23px;
+}
+
+#spMainContainer ul#spSearchTabs li {
+	float: left;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 600px) {
+
+	#spMainContainer #spSearchList .spPostUserAvatar  {
+		display: none;
+	}
+
+	#spMainContainer #spSearchList .spPostSearchSection .spPostSearchResultsSection .spPostInfoSection .spPostUserName {
+		padding-top: 5px;
+		padding-left: 0;
+		font-size: 100%;
+	}
+
+	#spMainContainer #spSearchList .spPostSearchSection .spPostSearchResultsSection .spPostInfoSection .spPostUserDate {
+		padding-left: 0;
+		padding-top: 0;
+		font-size: 80%;
+	}
+
+}

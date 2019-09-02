@@ -1,0 +1,61 @@
+#spMainContainer .spThanksList {
+    font-size: 80%;
+	background: <?php echo($postSectionBackGroundColor); ?>;
+    color: #333333;
+    padding: 5px;
+}
+
+#spMainContainer .spThanksList .spProfilePopupLink {
+	font-weight: bold;
+	margin: 0 5px;
+}
+
+#spMainContainer .spThanksList p {
+    padding-bottom: 5px;
+	margin: 0 5px;
+}
+
+#spMainContainer a.spThanked {
+    cursor: default;
+}
+#spMainContainer .spPostUserThanksReputation,
+#spMainContainer .spThanksUserStats {
+    font-size: 80%;
+    padding: 0 0 5px 0;
+}
+
+#spMainContainer .spPostUserThanksReputation1 {
+    background: url("images/sp_ThanksRank.png") no-repeat scroll 5px 0px transparent;
+	height: 11px;
+	width: 120px
+}
+#spMainContainer .spPostUserThanksReputation2 {
+    background: url("images/sp_ThanksRank.png") no-repeat scroll 5px -16px transparent;
+	height: 11px;
+	width: 120px
+}
+#spMainContainer .spPostUserThanksReputation3 {
+    background: url("images/sp_ThanksRank.png") no-repeat scroll 5px -32px transparent;
+	height: 11px;
+	width: 120px
+}
+#spMainContainer .spPostUserThanksReputation4 {
+    background: url("images/sp_ThanksRank.png") no-repeat scroll 5px -48px transparent;
+	height: 11px;
+	width: 120px
+}
+#spMainContainer .spPostUserThanksReputation5 {
+    background: url("images/sp_ThanksRank.png") no-repeat scroll 5px -64px transparent;
+	height: 11px;
+	width: 120px
+}
+#spMainContainer .spPostUserThanksReputation6 {
+    background: url("images/sp_ThanksRank.png") no-repeat scroll 5px -80px transparent;
+	height: 11px;
+	width: 120px
+}
+#spMainContainer .spPostUserThanksReputation7 {
+    background: url("images/sp_ThanksRank.png") no-repeat scroll 5px -96px transparent;
+	height: 11px;
+	width: 120px
+}

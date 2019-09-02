@@ -1,0 +1,18 @@
+---
+Thanks Plugin Help ---
+
+[thanks-options]
+<strong>Post Thanks Options</strong><br /><br />
+In this section, you can set up the labels to be used before and after the user display name that can be given thanks to.
+[end]
+
+[thanks-points]
+<strong>Thanks Points System</strong><br /><br />
+In this section you can define the points awarded for various actions.
+[end]
+
+[thanks-levels]
+<strong>Thanks Levels</strong><br /><br />
+In this section you can set up to 7 levels of rank that can be achieved for giving and/or receiving thanks.  The points levels should be increasing in value
+with the last two points levels being identical.
+[end]

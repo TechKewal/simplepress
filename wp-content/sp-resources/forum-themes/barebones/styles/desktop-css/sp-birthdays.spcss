@@ -1,0 +1,49 @@
+#spMainContainer #spBirthdays {
+	margin: 0 0 0 0;
+	padding: 0 0 5px 0;
+}
+
+#spMainContainer #spBirthdays .spBirthdaysHeader {
+    font-weight: bold;
+	color: <?php echo($contentFontColor); ?>;
+	padding: 0px 0 0 5px;
+}
+
+#spMainContainer #spBirthdays .spBirthdaysBody {
+    padding: 0;
+}
+
+#spMainContainer #spBirthdays .spBirthdaysBody img {
+    float: left;
+    margin-top: -5px;
+    margin-right: 5px;
+	display: none;
+}
+
+#spMainContainer #spBirthdays .spBirthdaysToday,
+#spMainContainer #spBirthdays .spBirthdaysUpcoming {
+    display: block;
+    font-weight: normal;
+	color: <?php echo($contentFontColor); ?>;
+}
+
+#spMainContainer #spBirthdays .spBirthdaysToday span,
+#spMainContainer #spBirthdays .spBirthdaysUpcoming span{
+    font-weight: bold;
+	color: <?php echo($contentFontColor); ?>;
+}
+
+#spMainContainer #spBirthdays .spLink {
+	font-weight: bold;
+	color: <?php echo($linkFontColor); ?>;
+}
+
+#spMainContainer #spBirthdays .spLink:hover {
+	color: <?php echo($linkFontColorHover); ?>;
+}
+
+#spMainContainer .spBirthdaysHolder {
+	text-align: right;
+	font-size: 80%;
+	margin: 0 8px 0 0;
+}

@@ -1,0 +1,15 @@
+---
+Featured Topics and Posts Plugin Help ---
+
+[featured-lists]
+<strong>Featured Topics and Posts Lists</strong><br /><br />
+In this section, you can set up the topics and posts that you want to feature in the template tags.<br /><br />
+To set a topic list or post list to be featured, enter a comma separated list of topics IDs or post IDs in the input field.
+The order is not important as the template tag (or shortcode) will order the topics/posts with newer topics/posts shown first.<br /><br />
+Please note, there are two ways you can set a topic or post to be featured.  The first are these lists here in the admin.
+Additionally, on the front end, using the forum tools, you can add a topic or post to the featured list.
+The forum tools will add the topic or list to the current list of topics or posts.  If you set the lists here in the admin,
+it will replace the current lists.<br /><br />
+Additionally, if you have more topics or posts in the featured list than you are displaying in the featured topics/posts template tag,
+the list will be truncated with newer topics/posts shown.
+[end]

@@ -1,0 +1,57 @@
+---
+Ban Plugin Options ---
+
+[ban-ip]
+<strong>Ban by IP</strong><br /><br />
+Enter a list of IP addresses to ban with one IP per line.  You can use a wildcard (*) for one or more octets.
+[end]
+
+[ban-ip-range]
+<strong>Ban by IP Range</strong><br /><br />
+Enter an IP range to ban with one range per line.  Wildcards are not permitted.  Enter the first start address - end address.
+[end]
+
+[ban-hostname]
+<strong>Ban by Hostname</strong><br /><br />
+Enter a hostname to ban with one range per line.  Wildcards (*) are permitted.  A hostname is any portion of the fully qualified domain the user is visiting from.
+[end]
+
+[ban-user-agent]
+<strong>Ban by User Agent</strong><br /><br />
+Enter a user agent to ban with one user agent per line.  Wildcards (*) are permitted.  A user agent is the software identifier in use by the user
+visiting.  It could be crawler, bot, browser or other.
+[end]
+
+[ban-general-message]
+<strong>General Banned Message</strong><br /><br />
+This is the messaga user will see displayed when they have been banned by IP, IP range, Hostname or User Agent.
+[end]
+
+[ban-restriction-message]
+<strong>Banned with Restriction Notice</strong><br /><br />
+This is the message a registered user will see when they have been banned and have been moved to a different usergroup that potentially has restricted permissions.
+[end]
+
+[ban-user-message]
+<strong>Banned User Message</strong><br /><br />
+This is the message a registered user will see when they have been banned based on their user account.
+[end]
+
+[ban-expire-message]
+<strong>Ban Expire Notice</strong><br /><br />
+This is the notification that a registered user will see when they visit the forum and their ban restriction (moved to different usergroup) has expired.
+[end]
+
+[ban-user]
+<strong>Ban by User</strong><br /><br />
+In this panel, you can ban a registered user of your forum.  Start typing the dipslay name of the user and the input field will show potential autocomplete users.
+When you ban a user, you can optionally also move them to a differen usergroup.  This new usergroup potentially would have different permissions than the user's current
+usergroups so as to give them new restrictions.  If you move a user to a different usergroup, all other usergroup memberships are removed.  You may also optionally make the
+ban temporary but specifying a ban time limit in hours.  If the ban is temporary and you move the user to a different usergroup, when the ban expires, their old usergroup memberships
+will be restored.
+[end]
+
+[current-banned]
+<strong>Current Banned Users</strong><br /><br />
+This panel lists the currently banned users.  You may remove any current bans in this panel too.
+[end]

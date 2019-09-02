@@ -1,0 +1,26 @@
+--- Barebones Custom Options ---
+
+[custom-options]
+This Barebones Custom Theme Options panel allows you to make some basic customisations to the Barebones theme
+without the need to create a child theme. Of course, if this panel does not cover items you want to change then
+a child theme is your best way forward.
+Please see <a href="https://simple-press.com/documentation/themes/theme-basics/creating-a-child-theme/">
+Creating a Child Theme</a>.
+<br><br>
+<h4>How this panel works</h4>
+After you make any changes you wish to make, use the update buttons at the bottom of the panel which will allow you
+to test what the changes look like and only commit to your theme when you are comfortable with them.
+<br><br>
+<b>Update for Test</b>: Using this option will allow you to save your changes in a way that you can see the effect
+using the <b>View Test</b> option. Your actual website forum will not be changed and will continue to display as usual.
+<br><br>
+<b>Reset to Defaults</b>: As it implies, this option will reset any changes made to the pre-supplied default values. <b>Note</b> -
+this option resets both the test settings AND the main website forum and returns all values to their supplied defaults.
+<br><br>
+<b>View Test</b>: The View option loads your forum page into a popup window so that you can view any changes you have made
+to see quickly and easily whether you are happy with them. Once again - the actual forum on your website remains unaffected. Close
+the popup 'test view' window using the 'X' in the top hand corner.
+<br><br>
+<b>Commit Custom Settings</b>: This option will commit your changes to the actual main forum on your website causing it
+to reflect your custom option settings.
+[end]

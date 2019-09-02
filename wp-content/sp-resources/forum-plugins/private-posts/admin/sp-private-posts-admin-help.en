@@ -1,0 +1,11 @@
+---
+Private PostsPlugin Help ---
+
+[private-posts]
+<strong>Private Post Message Text</strong><br />
+Enter the text you would like shown for posts that have been marked private.  This is what users will see who cannot see private posts. HTML is allowed.<br /><br />
+<strong>Private Post Uninstall Options</strong><br />
+Select the option you would like on how to handle private posts when uninstalling the private posts plugin.  You can either delete the private posts or have the post
+content blanked out for private posts.  In order to maintain the integrity of user's private posts, we cannot allow these posts to remain as is.  If you absolutely must
+retain private post content when uninstalling the plugin, you will need to manually mark the posts as not being private before uninstalling the plugin.
+[end]

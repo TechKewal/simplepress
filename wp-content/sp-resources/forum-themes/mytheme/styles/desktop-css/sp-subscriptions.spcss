@@ -1,0 +1,45 @@
+#spMainContainer .spUnsubscribeAll {
+	text-align: center;
+	padding: 5px 0;
+    font-size:  90%;
+}
+
+#spMainContainer #spSubCount {
+	padding-bottom: 3px;
+}
+
+#spMainContainer #spSubCount .spSubCountUnread {
+	color: #ff0000;
+}
+
+#spMainContainer #spSubCount .spSubCountRead {
+	font-weight: bold;
+	color: inherit;
+}
+
+#spMainContainer .spSubscriptionsNotice {
+	color: <?php echo ($contentFontColor); ?>;
+	font-size: 95%;
+	margin: 5px 0;
+	text-align: center;
+}
+
+#spMainContainer .spSubscriptionsNotice img {
+    vertical-align: bottom;
+}
+
+#spMainContainer .spProfileForumSubscriptions label.list,
+#spMainContainer .spProfileTopicSubscriptions label.list {
+    width: auto;
+    margin-top:  -3px;
+}
+
+#spMainContainer .spProfileForumSubscriptions p.spProfileLabel {
+    font-weight: bold;
+    padding: 10px 0;
+    clear: both;
+}
+
+#spMainContainer a.spSubRemoveButton {
+	margin-top: 0;
+}

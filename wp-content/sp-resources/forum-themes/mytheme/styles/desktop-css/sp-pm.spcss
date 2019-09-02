@@ -1,0 +1,518 @@
+/* Columns and Media Rules */
+[id^="spColThread1"] { width: 10%; }
+[id^="spColThread2"] { width: 100%; }
+[id^="spColThread3"] { width: 16%; }
+
+	[id^="spColMessage1"] { width: auto; }
+	[id^="spColMessage2"] { width: 39%; }
+	[id^="spColMessage3"] { width: 100%; }
+	[id^="spColHeader1"] { width: auto; text-wrap: normal; word-wrap: break-word; max-width: 78%;}
+	[id^="spColHeader2"] { width: auto; }
+
+/* Some overrides */
+
+#spMainContainer #spPmContainer .spTopicViewSection {
+	color: <?php echo($contentFontColor); ?>;
+	background: <?php echo($titleContainerBackground); ?>;
+	width: 100%;
+	margin: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	padding: 0 10px;
+}
+
+#spMainContainer #spPmContainer .spPmHeaderMessages {
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#spMainContainer .spPmHeader .spHeaderIcon {
+	display: none;
+}
+
+#spMainContainer #spPmContainer a.spButton img {
+	display: none;
+}
+
+#spMainContainer #spPmContainer a.spButton {
+	margin: 5px 0px 5px 10px;
+}
+
+#spMainContainer #spPmContainer .spAvatar {
+	margin: auto;
+	min-height: 50px;
+	min-width: 50px;
+}
+
+#spMainContainer #spPmContainer .spInRowLabel {
+	margin: auto 10px auto 0;
+	display: inline;
+}
+
+#spMainContainer #spPmContainer .spInRowLabelBold span {
+	font-weight: bold;
+}
+
+#spMainContainer #spPmContainer .spInRowLabel span {
+	color: <?php echo($contentFontColor); ?>;
+}
+
+#spMainContainer #spPmContainer .spLabelBordered {
+	width: 24px;
+	border: none;
+	padding: 4px 2px 0;
+}
+
+/* Some sections */
+
+#spMainContainer .spPmMessageSection {
+	display: block;
+	flex-direction: column;
+	margin-top: 10px;
+	box-sizing: border-box;
+}
+
+#spMainContainer .spPmHeaderButtons .spButton {
+	color: <?php echo($linkFontColor); ?>;
+}
+
+#spMainContainer .spPmHeaderButtons .spButton:hover {
+	color: <?php echo($linkFontColorHover); ?>;
+}
+
+#spMainContainer .spPmMessageSection .spPmInfoHolder{
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+}
+
+#spMainContainer .spPmMessageSection .spPmInfoHolder .spInRowLabel.spRight span {
+	padding: 0;
+	font-size: 100%;
+}
+
+#spMainContainer .spPmMessageSection .spPmInfoHolder .spColumnSection.spRight {
+	align-self: flex-end;
+}
+
+#spMainContainer .spPmMessageSection a{
+	width: 90%;
+	align-self: flex-end;
+}
+
+#spMainContainer .spPmMessageSection .spColumnSection {
+	display: inline-block;
+}
+
+#spMainContainer .spPmMessageSection .spPmActionsColumn {
+	display: inline-block;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#spMainContainer .spPMDelete a:link {
+	font-weight: bold;
+	font-size: 80%;
+	color: <?php echo($linkFontColor); ?>;
+	white-space: nowrap;
+	margin: 0px 10px 0px 10px;
+	display: block;
+}
+
+#spMainContainer .spPMDelete a:link:hover {
+	color: <?php echo($linkFontColorHover); ?>;
+}
+
+#spMainContainer .spPmMessageSection .pmMessageActions {
+	margin-top: auto;
+}
+
+#spMainContainer .spPmMessageSection .pmMessageActions .spButton {
+	font-size: 80%;
+	font-weight: bold;
+	margin: 0px 2px;
+	padding: 3px;
+	line-height: 1em;
+	color: #959798;
+}
+
+#spMainContainer .spPmMessageSection .pmMessageActions a.spLink {
+	font-weight: bold;
+	font-size: 90%;
+}
+
+#spMainContainer #spPmContainer .spRowName {
+	margin: 0;
+}
+
+#spMainContainer .spPmThreadSection.spPmRead .spRowName,
+#spMainContainer .spPmMessageSection.spPmRead .spRowName {
+	color: <?php echo($linkFontColorHover); ?>;
+}
+
+#spMainContainer .spPmThreadSection.spPmUnread .spRowName,
+#spMainContainer .spPmMessageSection.spPmUnread .spRowName {
+	color: <?php echo($linkFontColor); ?>;
+}
+
+#spMainContainer #spPmContainer #spPmBody {
+	overflow-y: auto;
+	height: 100%;
+	margin-bottom: 10px;
+}
+
+#spMainContainer #PmInboxMessages {
+	font-size: 80%;
+	font-weight: normal;
+	color: <?php echo($contentFontColor); ?>;
+	padding: 5px 0;
+}
+
+#spMainContainer span.spHeaderName {
+	padding: 0;
+	font-size: 100%;
+}
+
+#spMainContainer #spPmContainer .spPmThreadHeader {
+	background: <?php echo($titleContainerBackground); ?>;
+	color: <?php echo($contentFontColor); ?>;
+	margin: 20px 0 0 0;
+	padding: 0 10px;
+	display: flex;
+	height: auto;
+}
+
+#spMainContainer #spPmContainer .spPmThreadHeader .spIcon {
+	margin: 0;
+}
+
+#spMainContainer #spPmContainer .spPmThreadHeader .spRowName {
+	color: <?php echo($contentFontColor); ?>;
+	font-size: 80%;
+	margin: 0;
+	font-weight: normal;
+}
+
+#spMainContainer #spPmContainer .spPmThreadHeader .spRowName span {
+	color: <?php echo($contentFontColor); ?>;
+	font-size: 100%;
+	margin: 0;
+	font-weight: bold;
+}
+
+#spMainContainer #spPmContainer .spPmThreadHeader .spColumnSection{
+	flex-direction: row;
+	margin: 3px;
+}
+
+#spMainContainer #spPmContainer .spPmThreadHeader .spColumnSection.spLeft{
+	margin: auto auto auto 0;
+	padding: 5px 0;
+}
+
+#spMainContainer #spPmContainer .spPmThreadHeader .spColumnSection.spRight{
+	margin: auto 0 auto auto;
+	padding: 5px 5px 6px;
+}
+
+#spMainContainer #spPmContainer .spPmThreadHeader .spColumnSection.spRight .spPmThreadCollapse,
+#spMainContainer #spPmContainer .spPmThreadHeader .spColumnSection.spRight .spPmThreadExpand {
+	display: none;
+}
+
+#spMainContainer #spPmContainer .spPmThreadHeader .spColumnSection.spRight .spPmDeleteIcon {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#spMainContainer .spPmThreadSection {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+#spMainContainer .spPmThreadSection a{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 70%;
+}
+
+#spMainContainer .spPmThreadSection .spColumnSection {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+#spMainContainer .spPmThreadSection .spColThread3 {
+	white-space: nowrap;
+	align-content: center;
+}
+
+#spMainContainer .spPmThreadSection .spLabelSmall {
+	padding: 0;
+}
+
+#spMainContainer #spColThread1 {
+	width: auto;
+}
+
+#spMainContainer #spColThread3 {
+	flex-direction: row-reverse;
+}
+
+#spMainContainer #spColThread3 .spRight {
+	display: flex;
+	align-items: center;
+}
+
+#spMainContainer #spColThread3 img {
+	padding: 0;
+}
+
+#spMainContainer #spColThread3 .spLabelSmall {
+	padding: 0 4px;
+}
+
+#spMainContainer #spColThread3 .spLabelSmall span {
+	padding: 0 2px;
+}
+
+#spMainContainer .spPmThreadSection .spColumnSection .spLabel {
+	margin: 0;
+	display: none;
+}
+
+#spMainContainer #spPmContainer .spPmThreadHeader .spPmDelete a{
+	color: <?php echo($secLinkFontColor); ?>;
+	font-size: <?php echo($linkFontSize); ?>;
+	font-weight: bold;
+}
+
+#spMainContainer #spPmContainer .spPmThreadHeader .spPmDelete a:hover{
+	color: <?php echo($secLinkFontColorHover); ?>;
+}
+
+#spMainContainer #spPmContainer .spTopicPostSection .spPostSection {
+	border: none;
+}
+
+#spMainContainer .spPmFooter {
+	background: <?php echo($titleContainerBackground); ?>;
+	padding: 0px 10px;
+	position: relative;
+	display: none;
+}
+
+#spMainContainer #spPmFooterCompose #spPostForm {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+#spMainContainer #spPmFooterButtons {
+	background: transparent;
+	border: none;
+}
+
+#spMainContainer .spPmFooter .spLabelSmall{
+	font-size: 75%;
+}
+
+/* Quick Links */
+
+#spMainContainer #spPmQuickLinksThreadsSelect_msdd {
+	width: 100% !important;
+	margin-top: 9px;
+}
+
+#spMainContainer #spPmQuickLinksThreadsSelect_child {
+	max-height: 550px !important;
+	min-height: auto;
+	width: 350px !important;
+}
+
+/* Inbox tags */
+
+#spMainContainer #spPmCount {
+	padding-bottom: 3px;
+}
+
+#spMainContainer #spPmCount .spPmCountUnread {
+	font-weight: bold;
+	color: #ff0000;
+}
+
+#spMainContainer #spPmCount .spPmCountRead {
+	color: inherit;
+}
+
+#spMainContainer #spProfileAdversaries .spButton,
+#spMainContainer #spProfileBuddies .spButton {
+	margin: 0 5px 5px 0;
+	padding: 0 4px;
+	font-size: 100%;
+	color: <?php echo($linkFontColor); ?>;
+}
+
+#spMainContainer #spProfileAdversaries .spButton:hover,
+#spMainContainer #spProfileBuddies .spButton:hover {
+	color: <?php echo($linkFontColorHover); ?>;
+}
+
+#spMainContainer #spProfileAdversaries a img,
+#spMainContainer #spProfileBuddies a img {
+	margin: -10px 5px 0 0;
+}
+
+/* compose form */
+
+/* core autocomplete styles
+----------------------------------*/
+
+.ui-menu {
+	background: #ffffff;
+	border: 1px solid #222 !important;
+	color: black #666;
+	font-size: 80%;
+	font-weight: bold;
+}
+
+/* Columns */
+
+#spMainContainer .spPm1Col {
+	width: 43%;
+/*	border: 1px solid red;*/
+}
+
+#spMainContainer .spPm2Col {
+	width: 55%;
+/*	border: 1px solid red;*/
+}
+
+#spMainContainer .spPm3Col {
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+
+#spMainContainer #spPostForm #spPmRecipients {
+	padding: 0;
+	margin: 0 0 10px 0;
+	border: none;
+}
+
+#spMainContainer #spPostForm .spEditorTitle {
+	font-size: 95%;
+	font-weight: bold;
+}
+
+#spMainContainer #spPostForm .spLabelSmall {
+	font-weight: normal;
+	font-size: 85%;
+	padding-left: 0;
+}
+
+#spMainContainer #spPostForm .spEditorTitle #pmusers {
+	width: 48%;
+}
+
+#spMainContainer #spPostForm .spEditorTitle #pmtitle {
+	width: 98%;
+}
+
+#spMainContainer #spPostForm .spPmCompose {
+	width: auto;
+}
+
+#spMainContainer #spPostForm .spPmCompose fieldset {
+	border: none;
+}
+
+#spMainContainer #spPostForm #spPmComposeNameList {
+	height: auto;
+	padding: 0px 0;
+	margin: 0;
+	text-align: center;
+}
+
+#spMainContainer #spPostForm #spPmComposeNameList input {
+	max-width: 45%;
+}
+
+#spMainContainer #spPostForm .spPmUsers {
+	width: 87%;
+}
+
+#spMainContainer #spPostForm .spPmAddToBuddies {
+	text-align: center;
+	padding: 10px 0 0;
+}
+
+#spMainContainer #spPostForm .spPmMaxRecipients {
+	text-align: center;
+}
+
+#spMainContainer #spPostForm .spControl {
+	font-weight: normal;
+	font-size: 95%;
+}
+
+#spMainContainer #spPostForm .spControl[disabled] {
+	font-size: 1.1em;
+}
+
+/* Auto-complete control */
+
+.sp-pm-ac.ui-autocomplete {
+	position: absolute;
+	cursor: default;
+	background: <?php echo($stockColor6); ?>;
+	color: <?php echo($contentFontColor); ?>;
+}
+
+* html .sp-pm-ac.ui-autocomplete {
+	width: 1px;
+}
+
+.sp-pm-ac.ui-menu {
+	list-style: none;
+	padding: 2px;
+	margin: 0;
+	display: block;
+	float: left;
+}
+
+.sp-pm-ac.ui-menu .ui-menu {
+	margin-top: -3px;
+}
+
+.sp-pm-ac.ui-menu .ui-menu-item {
+	margin: 0;
+	padding: 0;
+	zoom: 1;
+	float: left;
+	clear: left;
+	width: 100%;
+}
+
+.sp-pm-ac.ui-menu .ui-menu-item a {
+	text-decoration: none;
+	display: block;
+	padding: .1em .4em;
+	line-height: 1.0;
+	zoom: 1;
+	color: <?php echo($contentFontColor); ?>;
+}
+
+.sp-pm-ac.ui-menu .ui-menu-item a.ui-state-hover,
+.sp-pm-ac.ui-menu .ui-menu-item a.ui-state-active {
+	font-weight: bold;
+	margin: -1px;
+	background: <?php echo($contentFontColor); ?>;
+}

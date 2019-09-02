@@ -1,0 +1,14 @@
+--- WooCommerce Plugin Options ---
+
+[woocommerce-optional-links]
+<strong>WooCommerce Optional Links</strong><br /><br />
+You can set up two optional links in the WooCommerce dashboard.  Just enter the URLS for the links along with the text that should appear in the users WooCommerce dashboard.  <br /><br />
+
+Tip: Usually you would set the first link to be a direct link to your main forum page.
+[end]
+
+[woocommerce-labels]
+<strong>WooCommerce Integration Features</strong><br /><br />
+There is no special configuration needed for this plugin.<br /><br />
+Now that it is activated, your users can go to their WooCommerce dashboard and be able to click through to their SimplePress user profile.  There will be a new option on their dashboard - by default it will be labeled "Forums User Profile".  You can change the label on this screen though!
+[end]

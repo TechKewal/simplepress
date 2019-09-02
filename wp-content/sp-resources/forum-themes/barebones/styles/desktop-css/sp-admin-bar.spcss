@@ -1,0 +1,356 @@
+
+#spMainContainer .spAdminBar {
+	color: <?php echo($contentFontColor); ?>;
+	/*background: <?php echo($titleContainerBackground); ?>;*/
+	padding: 0;
+	margin-bottom: 10px;
+	width: 100%;
+	height: auto;
+	box-shadow: inset 0 30px 0 0 <?php echo($stockColor3); ?>;
+}
+
+#spMainContainer .spAdminBar a.spButton img {
+	display: none;
+}
+
+#spMainContainer .spAdminBar a.spButton {
+	color: <?php echo($linkFontColor); ?>;
+	border: none;
+	padding: 0;
+	margin: 0 5px;
+	width: auto;
+	height: auto;
+}
+
+#spMainContainer .spAdminBar a.spButton:hover {
+	color: <?php echo ($linkFontColorHover); ?>;
+	background: none;
+	border: none;
+}
+
+#spMainContainer .spAdminBar .spButtonAsLabel {
+	color: <?php echo($contentFontColor); ?>;
+	background: transparent;
+	padding: 1px 0;
+	margin: 0 7px;
+	font-size: 80%;
+	width: auto;
+	height: auto;
+	border: none;
+}
+
+#spMainContainer .spAdminBar .spButtonAsLabel span{
+	color: <?php echo ($contentFontColor); ?>;
+}
+
+#spMainContainer #spUnread .spUnreadUnread{
+	color: <?php echo ($contentFontColor); ?>;
+}
+
+#spMainContainer #spAdminQueue {
+	width: auto;
+}
+
+#spMainContainer #spAdminQueueList {
+	padding: 0 0 15px 0;
+	background: none;
+	clear: both;
+    display: block;
+    max-height: 700px !important;
+    z-index: 10000;
+	overflow: auto;
+}
+
+#spBarSpinner.spInlineSection {
+	width: auto;
+	background: transparent;
+	margin-bottom: -4px;
+}
+
+#spMainContainer #spAdminQueueCounts {
+	margin: 5px;
+	display: flex;
+
+}
+
+#spMainContainer #spUnread,
+#spMainContainer #spNeedModeration,
+#spMainContainer #spSpam {
+	padding-bottom: 3px;
+}
+
+#spMainContainer #spUnread .spUnreadUnread,
+#spMainContainer #spNeedModeration .spModUnread,
+#spMainContainer #spSpam .spSpamUnread {
+	color: #ff0000;
+	background: <?php echo($whiteContainer); ?>;
+	padding: 0 5px 1px;
+	font-weight: bold;
+}
+
+#spMainContainer #spUnread .spUnreadRead,
+#spMainContainer #spNeedModeration .spModRead,
+#spMainContainer #spSpam .spSpamRead {
+	color: <?php echo($contentFontColor); ?>;
+}
+
+#spMainContainer .spAdminQueueHeader p {
+	margin-left: 5px;
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 85%;
+	color: <?php echo($contentFontColor); ?>;
+	display: none;
+}
+
+#spMainContainer .spAdminQueueHeader p a {
+	font-weight: normal;
+	margin-top: -5px;
+    padding-top: 3px;
+}
+
+#spMainContainer #spAdminQueueList .spAdminQueueHeader a.spButton {
+	margin: 5px;
+}
+
+#spMainContainer .spAdminQueueSection {
+	background: none;
+	color: <?php echo($contentFontColor); ?>;
+	padding: 5px 0 10px 0px;
+	margin: 0 0 0 0;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#spMainContainer .spAdminQueueSection p.spAdminBarTitle {
+	font-weight: bold;
+	color: <?php echo($contentFontColor); ?>;
+	font-size: 80%;
+	display: none;
+}
+
+
+#spMainContainer .spAdminQueueForum{
+	background: none;
+	border: none;
+	margin: 20px 0 5px 0;
+	box-sizing: border-box;
+	width: 98%;
+}
+
+#spMainContainer .spAdminQueueTopic {
+	background: <?php echo($indexRowEvenBackGround); ?>;
+	border: none;
+	padding: 0;
+	margin: 10px 0 0 0;
+	box-sizing: border-box;
+	width: 100%;
+	font-size: 80%;
+}
+
+#spMainContainer .spAdminQueueForum a{
+	color: <?php echo($contentFontColor); ?>;
+	font-weight: bold;
+	padding: 13px 0 0 0;
+}
+
+#spMainContainer .spAdminQueueTopic a {
+	color: <?php echo($contentFontColor); ?>;
+	font-weight: normal;
+}
+
+
+#spMainContainer .spAdminQueueForum .spColumnSection  {
+	padding: 2px 0px 0px 0px;
+	margin: 0 0 0 0;
+	display: flex;
+}
+
+#spMainContainer .spAdminQueueForum .spColumnSection img {
+	min-height: 32px;
+	min-width: 32px;
+	max-height: 32px;
+	max-width: 32px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#spMainContainer .spAdminQueueForum p.spRowName {
+	padding-top: 9px;
+}
+
+#spMainContainer .spAdminQueueTopic .spSubmit {
+	margin: 4px 0 4px 9px;
+}
+
+#spMainContainer .spAdminQueueTopic .spUnreadButton {
+	background: none;
+	color: <?php echo($linkFontColor); ?>;
+	border: none;
+	padding: 0 10px;
+	font-size: 100%;
+	font-weight: bold;
+}
+
+#spMainContainer .spAdminQueueTopic .spUnreadButton:hover {
+	color: <?php echo($linkFontColorHover); ?>;
+}
+
+#spMainContainer .spAdminQueueTopic .spModButton {
+	background: none;
+	color: #ff0000;
+	border: none;
+	padding: 0 10px;
+	font-size: 100%;
+	font-weight: bold;
+}
+
+#spMainContainer .spAdminQueueTopic .spModButton:hover {
+	color: <?php echo($linkFontColorHover); ?>;
+}
+
+#spMainContainer .spAdminQueueTopic p {
+	padding: 5px 0 0 0;
+	font-size: 100%;
+}
+
+#spMainContainer .spAdminQueueTopic a {
+	color: <?php echo($linkFontColor); ?>;
+	font-weight: bold;
+	font-size: 100%;
+	margin: 3px 0px 3px 10px;
+}
+
+#spMainContainer .spAdminQueueTopic a:hover {
+	color: <?php echo($linkFontColorHover); ?>;
+}
+
+#spMainContainer .spAdminQueueTopic .spLabelSmall {
+	font-size: 85%;
+}
+
+#spMainContainer .spAdminQueueThisPostButtons {
+	text-align: center;
+	background: none;
+	margin: 0 0 5px 0;
+}
+
+#spMainContainer .spAdminQueueTopic p.spLabelSmall {
+	padding: 0;
+	margin: 3px 0px 3px 10px;
+	color: <?php echo($contentFontColor); ?>;
+	font-weight: normal;
+	font-size: 90%;
+	}
+
+#spMainContainer .spAdminQueueTopic .spColumnSection  {
+	padding: 0;
+	margin: 0px;
+	float: right;
+}
+
+#spMainContainer .spAdminQueuePost p,
+#spMainContainer .spAdminQueuePost b,
+#spMainContainer .spAdminQueuePost small{
+	padding: 10px 0;
+	color: <?php echo($contentFontColor); ?>;
+	font-size: 80%;
+}
+
+#spMainContainer .spAdminQueuePost p {
+	border-left: <?php echo($thickBorder); ?>;
+	margin: 5px 0 5px 15px;
+	padding: 10px;
+}
+
+#spMainContainer .spAdminQueuePost {
+	overflow: hidden;
+	width: 100%;
+	margin: 0;
+	background: none;
+	border: none;
+	box-sizing: border-box;
+}
+
+#spMainContainer .spAdminQueueSection .spPostSection {
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+#spMainContainer .spAdminQueueSection .spPostSection textarea {
+    line-height: 1.3em;
+    padding: 6px 10px;
+}
+
+#spMainContainer .spAdminQueueMod {
+	float: none;
+	margin-right: auto;
+	margin-top: -5px;
+	background: none;
+	font-weight: bold;
+	color: red;
+	border: none;
+	padding: 0;
+	font-size: 80%;
+}
+
+#spMainContainer .spAdminQueueSection .spPostSection .spSubmit {
+	margin: 5px 15px 0px 15px;
+	color: <?php echo($linkFontColor); ?>;
+	font-size: 80%;
+	font-weight: bold;
+}
+
+#spMainContainer .spAdminQueueSection .spPostSection .spSubmit:hover {
+	color: <?php echo($linkFontColorHover); ?>;
+}
+
+#spMainContainer .spAdminQueueThisPostButtons tbody {
+	border: none;
+}
+
+#spMainContainer .spAdminQueue #spUnread,
+#spMainContainer .spAdminQueue #spNeedModeration,
+#spMainContainer .spAdminQueue #spSpam {
+	vertical-align: top;
+}
+
+#spMainContainer .spAdminQueueSection .spAdminQueueThisPost {
+	padding: 10px;
+	background: <?php echo($postSectionBackGroundColor); ?>;
+	border: none;
+	font-size: 100%;
+}
+
+#spMainContainer .spAdminQueueThisPost hr {
+	display: none;
+}
+
+#spMainContainer .spAdminQueuePost textarea,
+#spMainContainer .spAdminQueuePost textarea:hover {
+	width: 95%;
+	background-color: <?php echo($whiteContainer); ?>
+}
+
+#spMainContainer .spAdminQueuePost small {
+	font-weight: bold;
+}
+
+#spMainContainer .spAdminQueueThisPostButtons table,
+#spMainContainer .spAdminQueueThisPostButtons tr td,
+#spMainContainer .spAdminQueueThisPostButtons tr,
+#spMainContainer .spAdminQueueThisPostButtons td {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#spMainContainer #spAdminLinks {
+	margin: 5px;
+}

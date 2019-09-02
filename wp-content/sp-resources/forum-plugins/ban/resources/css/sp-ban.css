@@ -1,0 +1,15 @@
+/* =============================================================
+Simple:Press
+Ban Plugin CSS
+============================================================= */
+
+#spMainContainer .spBannedSection {
+	color: #4c5d77;
+	background: #eff3f8;
+	border: 1px solid #dddddd;
+	padding: 10px;
+	margin: 0px;
+	-webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 90%;
+}

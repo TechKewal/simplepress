@@ -1,0 +1,42 @@
+---
+Buddypress Plugin Help ---
+
+[buddypress-options]
+<strong>BuddyPress Profile Options</strong><br /><br />
+In this section, you can some general BuddyPress / Simple:Press profile options.
+If you want to integrate the forum profile and the BuddyPress profiles, select the integration option. Please note, this will NOT move all the
+various forum profile tabs over to BuddyPress.  It will duplicate the key options and items on the BuddyPres profile.  You may or may not want to disable the link
+to the forum profile with this option enabled.<br /><br />
+You can also elect to have the manage topic and forum subscriptions profile menus show up in the buddypress profile.
+[end]
+
+[buddypress-activity]
+<strong>BuddyPress Activity Options</strong><br /><br />
+In this section, you can choose how to have forum activity reflected in the BuddyPress activity streams.  You can choose to not have any forum
+activity show up, you can choose to have only new topics show up or you can choose to have both new topics and replies show up.  Only posts added
+since the activity was enabled will show up in the activity feed.
+[end]
+
+[buddypress-avatars]
+<strong>BuddyPress Avatar Options</strong><br /><br />
+In this section, you can choose how to have BuddyPress and Simple Press share avatars.  You can elect to keep the avatars completely separate
+and have each plugin continue using their own avatars.  Or you can choose to have a common avatar, selecting to use either the BP or SP avatar for both.<br /><br />
+If you do choose to use the Buddypress avatar in the forum, you can also select whether you want to use the BuddyPress thumbnail avatar or the full size avatar.
+The image quality is the same, just the file size is different with the full size avatar taking more time to display.  The BuddyPress thumbnail avatar is 50px by 50px.
+So if you are displaying forum avatars at a size of 50px or less, we recommend using the thumbnail avatar size. If you are displaying your your forum avatars at more
+than 50px, we recommend usng the full size avatar since the smaller won't scale up very well.
+[end]
+
+[buddypress-links]
+<strong>BuddyPress WP Admin Bar and BuddyBar Links</strong><br /><br />
+In this section, you can choose which forum links you want to add to the WP Admin Bar BuddyPress section and to the BuddyBar.  The options shown will depend on
+which SP plugins you have activated.  Possible links are: to main site, SP profile, new forum posts, new PMs, new subscribed topics, new watched topics, topics
+started and topics posted in.
+[end]
+
+[buddypress-notifications]
+<strong>BuddyPress WP Admin Bar Notifications</strong><br /><br />
+In this section, you can choose which forum notifications you want to add to the WP Admin Bar BuddyPress notifications section.  The options shown will depend on
+which SP plugins you have activated.  Possible notifications are: new forum posts, new PMs, new subscribed topics and new watched topics.
+[end]
+

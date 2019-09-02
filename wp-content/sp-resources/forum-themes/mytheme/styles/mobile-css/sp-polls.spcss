@@ -1,0 +1,59 @@
+@media screen and (max-width: 2000px) {
+    #spMainContainer #sp_poll_create {
+        color: <?php echo($contentFontColor); ?>;
+    }
+	
+	#spMainContainer #spMobilePanel input.spControl {
+		margin: 0;
+	}
+
+    #sp_poll_create #sp_poll_body .spEditorTitle {
+        margin-top: 10px;
+        color: <?php echo($contentFontColor); ?>;
+		font-size: 100%;
+    }
+	
+	#sp_poll_create #sp_poll_body .sp_poll_label {
+		font-size: 100%;
+	}
+
+    #sp_poll_create #sp_poll_body .sp_poll_label,
+    #sp_poll_create #sp_poll_body .sp_poll_input {
+        clear: both;
+        float: none;
+        width: 100%;
+        text-align: center;
+        color: <?php echo($contentFontColor); ?>;
+    }
+
+    #sp_poll_create #sp_poll_body .spSubmit {
+        margin: 0;
+    }
+
+    #sp_poll_create #sp_poll_body .sp_poll_submit .spSubmit {
+        margin: 0;
+    }
+
+    #sp_poll_create #sp_poll_body .sp_poll_submit #sfsave.spSubmit {
+        margin: 0 10px 0;
+    }
+
+    #ui-datepicker-div {
+        left: 0 !important;
+        width: 97% !important;
+    }
+
+    .sp-polls-dp.ui-datepicker table {
+        margin: 0 !important;
+    }
+
+    .sp-polls-dp.ui-datepicker .ui-datepicker-title {
+        line-height: 0.8em !important;
+    }
+
+    .sp-polls-dp.ui-datepicker .ui-datepicker-prev,
+    .sp-polls-dp.ui-datepicker .ui-datepicker-next {
+        line-height: 1em !important;
+        top: 3px !important;
+    }
+}

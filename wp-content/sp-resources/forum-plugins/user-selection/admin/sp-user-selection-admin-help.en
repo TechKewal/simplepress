@@ -1,0 +1,13 @@
+---
+User Selection Plugin Help ---
+
+[language-names]
+<strong>User Language Selection Custom Names</strong><br /><br />
+In this panel, you can attach a custom display name to each of the available language packs for your users to select.  This custom display name will be used instead of
+the language translation locale.  If a custom name is not supplied, the language translation locale will be used instead.
+[end]
+
+[language-options]
+<strong>Default English Language</strong><br /><br />
+In this panel, you can optionally choose whether or not to offer the forum default language of English for users to select as a language.
+[end]

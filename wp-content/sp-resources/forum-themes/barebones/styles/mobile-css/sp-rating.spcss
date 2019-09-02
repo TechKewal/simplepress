@@ -1,0 +1,25 @@
+@media screen and (max-width: 800px) {
+    #spMainContainer .spTopicRatingStars .hreview-aggregate {
+        display: block;
+    }
+	
+	#spMainContainer .spForumTopicSection .spTopicRatingThumbs,
+	#spMainContainer .spForumTopicSection .spTopicRatingStars {
+		margin: 5px 0 0 0;
+	}
+
+	#spMainContainer .spTopicRatingThumbs,
+	#spMainContainer .spTopicRatingStars {
+		margin: -5px 0 5px 0;
+	}	
+	
+	#spMainContainer .spPostRatingContainer img {
+		width: auto;
+		height: auto;
+	}
+	
+	#spMainContainer .spPostRateStars .spIcon {
+		padding: 0px 2px;
+		margin: 0;
+	}	
+}

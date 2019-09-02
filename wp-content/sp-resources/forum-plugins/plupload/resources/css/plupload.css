@@ -1,0 +1,160 @@
+#spMainContainer #sp_file_uploader {
+	display: none;
+	margin-top: 10px;
+	text-align: left;
+}
+
+#spMainContainer .spEditorSection.sp_file_uploader a.spPlupEditorAttachments {
+    float: left;
+    margin-bottom: 0px;
+    margin-left: 4px;
+    margin-top: 1px;
+    font-size: 90%;
+}
+
+#spMainContainer .spEditorSection.sp_file_uploader {
+	padding-bottom: 2px !important;
+}
+
+#spMainContainer .spEditorSection.sp_file_uploader a {
+    margin-bottom: 6px;
+    margin-top: 1px;
+    font-weight: normal;
+}
+
+#spMainContainer .spProfileSignature .spEditorSection.sp_file_uploader {
+	text-align: center;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    #spMainContainer .spProfileSignature .spEditorSection.sp_file_uploader {
+        margin-top: 4px;
+    }
+}
+
+#spMainContainer .spProfileSignature .spEditorSection.sp_file_uploader a {
+	float: none;
+    padding: 5px;
+    font-size: 0.9em;
+}
+
+#spMainContainer #sp_uploader_info {
+	display: none;
+	margin-bottom: 10px;
+	text-align: left;
+    font-size: 85%;
+}
+
+#spMainContainer #sp_file_uploader .plupload_wrapper {
+    margin-top: 25px;
+}
+
+#spMainContainer #sp_uploader_info table {
+    width:  100%;
+    font-size: 110%;
+    border: 1px solid #AAAAAA;
+}
+
+@media screen and (max-width: 480px) {
+    #spMainContainer #sp_uploader_info table {
+    	display: none;
+    }
+}
+
+#spMainContainer #sp_uploader_info td {
+	padding: 3px 10px;
+}
+
+#spMainContainer #sp_uploader_info td.plup-header {
+	font-weight: bold;
+}
+
+#spMainContainer #sp_uploader_attachments {
+	display: none;
+	margin-bottom: 10px;
+	padding: 0 0 0 12px !important;
+	text-align: center;
+    font-size: 100%;
+    clear: both;
+}
+
+#spMainContainer #sp_uploader_attachments .spPlupHeaderTitle {
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+#spMainContainer #sp_uploader_errors {
+	padding: 5px 5px 5px 22px;
+	line-height: 1.5em;
+	color: #c00000;
+}
+
+#spMainContainer #sp_uploader_status {
+	padding: 0px 5px 10px 22px;
+	line-height: 1.5em;
+	color: #00A000;
+}
+
+#spMainContainer .spTopicViewSection .spPostContentSection .spPostIndexAttachments {
+	padding: 20px 20px 20px 0;
+	float: left;
+	font-size: 70%;
+}
+
+#spMainContainer .spTopicViewSection .spPostContentSection .spPostIndexAttachments fieldset {
+	border-style: dashed;
+}
+
+#spMainContainer .spTopicViewSection .spPostContentSection .spPostIndexAttachments fieldset legend {
+	font-size: 110%;
+}
+
+#spMainContainer .spTopicViewSection .spPostContentSection .spPostIndexAttachments ul {
+	list-style: none;
+}
+
+#spMainContainer .spTopicViewSection .spPostContentSection .spPostIndexAttachments li {
+	padding: 2px 0;
+    list-style: none;
+}
+
+#spMainContainer .spTopicViewSection .spPostContentSection .spPostIndexAttachments img {
+	padding-right: 5px;
+}
+
+#spMainContainer .spTopicViewSection .spPostContentSection .spPostIndexAttachments a {
+	vertical-align: middle;
+}
+
+#spMainContainer .spTopicViewSection .spPostContentSection .spPostIndexAttachments span {
+	vertical-align: middle;
+	padding-left: 10px;
+}
+
+#spMainContainer .spEditorSection.sp_file_uploader a.spFileUploaderRemoveButton {
+    float: left;
+    font-size: 90%;
+    margin-bottom: 6px;
+    margin-top: 1px;
+    padding: 1px 5px;
+}
+
+#spMainContainer .spProfilePhotos table {
+    width: 100%;
+}
+
+#spMainContainer .spProfilePhotos table td {
+    padding: 10px 0;
+    text-align: center;
+}
+
+#spMainContainer .spProfilePhotos table td.spPlupPhotoDel {
+    width: 50px;
+}
+
+@media screen and (max-width: 520px) {
+    #spMainContainer #spPostForm .spEditorSection.sp_file_uploader {
+        width: 100%;
+    }
+}

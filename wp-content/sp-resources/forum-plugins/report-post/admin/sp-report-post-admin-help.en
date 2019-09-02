@@ -1,0 +1,7 @@
+--- Report Post Plugin Options ---
+
+[report-post]
+<strong>Report Post</strong><br /><br />
+With the Report Post plugin, you can allow users (via permissions) to report posts with questionable content. <br /><br />
+On this form, you can enter a comma separated list of email addresses you would like to receive a reported post.  When someone reports a post with questionable content, this list of email addresses will receive the question post report email.
+[end]

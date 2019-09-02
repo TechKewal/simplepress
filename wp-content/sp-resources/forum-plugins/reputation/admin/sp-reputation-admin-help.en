@@ -1,0 +1,72 @@
+--- Reputation System Plugin Options ---
+
+[reputation-options]
+<strong>Reputation Setup</strong><br /><br />
+In this panel, you can configure the basic options of the reputation system.<br /><br />
+You can set a default reputation value for new users. This is the reputation they will start out with after becoming registered on your site.  It can be and valid integer.<br /><br />
+You can set an amount of reputation to be gained by users for every X days they have been registered on your system.  If you do not want to use this feature, set the reputation gain to 0.  This value must be 0 or greater.<br /><br />
+You can set an amount of reputation to be gained by users for every X posts they make on your site.  If you do not want to use this feature, set the reputation gain to 0. This value must be 0 or greater.<br /><br />
+NOTE:  Reputation for registration is calculated when a user logs in.  Reputation for post count is calculated when a user makes a post. If you change these values, it will essentially reset the repuation
+earned for a user the next time they log in or post, and will have the effect of a gain or loss in reputation to the user.  Changes are not a 'go forward' change, but a reset of the earned reputation,
+so use caution when changing these values.
+[end]
+
+[highlight-options]
+<strong>Reputation Higlight Setup</strong><br /><br />
+Using the reputation highlight setup, you can cause posts by highly reputable users to be given a distinct background color in order to make these posts standout.  If you do not want to use this system, make sure the enable option is unchecked.<br /><br />
+If enabled, you can set the background color (do not add a # character) that you want to highlight these posts with.  You can also set the amount of reputation needed to trigger the background highlight coloring.
+When a user's reputation is higher than this value, their posts will be highlighted.<br /><br />
+[end]
+
+[lowlight-options]
+<strong>Reputation Lowlight Setup</strong><br /><br />
+Using the reputation lowlight setup, you can cause posts by low reputable users to be given a distinct background color in order to make these posts standout.  If you do not want to use this system, make sure the enable option is unchecked.<br /><br />
+If enabled, you can set the background color (do not add a # character) that you want to lowlight these posts with.  You can also set the amount of reputation needed to trigger the background lowlight coloring.
+When a user's reputation is lower than this value, their posts will be lowlighted.<br /><br />
+[end]
+
+[reputation-strings]
+<strong>Reputation Custom Strings</strong><br /><br />
+In this panel, you can edit or change some strings that are outside of the labels/strings that can be customized via our template functions for the reputation system.
+Typically, these strings are ones used by the ajax and javascript components of the reputation system.<br /><br />
+If you want to localize these strings, that would be done here instead of in a translation file.
+[end]
+
+[reputation-levels]
+<strong>Reputation Levels</strong><br /><br />
+In this panel, you can set up your various reputation levels. For each level you define, you can set the name, max points for the level (when exceeding, users move to next level), the max amount of reputation
+they can give or take at one time, the max amount of reputation they can give in one day (defined as last 24 hours), and a select a badge (uploaded in another section of this panel) for the level.<br /><br />
+When a max points value of the level is reached, the user is moved to the next reputation level.  The last reputation level you have defined should have a
+sufficiently large enough max points value that it will not be exceeded or the user will not have any reputation level.<br /><br />
+In the manage column of this reputation level list, you can also delete a current reputation level.  This will not affect users except in what level they may now be at.<br /><br />
+[end]
+
+[reputation-upload]
+<strong>Reputation Badge Upload</strong><br /><br />
+In this panel, you can upload images to be used as badges for reputation levels.  Any badges uploaded via this uploader, will be available to be selected in the section above
+as the badge for a reputation level.<br /><br />
+[end]
+
+[reputation-badges]
+<strong>Reputation Badges</strong><br /><br />
+In this panel, you will see the badge images that have been uploaded for use.  You can remove the badges if not longer needed from this panel.<br /><br />
+[end]
+
+[reputation-reset]
+<strong>Reputation Reset</strong><br /><br />
+In this panel, you can reset all the user reputation levels and user ratings to the default settings.  You can also set a new reputation value to give all users.<br /><br />
+Warning:  This will reset your reputation system and cannot be undone!
+[end]
+
+[options-reset]
+<strong>Options Reset</strong><br /><br />
+In this panel, you can reset all of the options, strings and levels (from the reputation options admin panel) back to their default setting.
+While this affects how the reputation system functions, it does not affect user reputation value though it may change their reputation level.<br /><br />
+Warning:  This will affect your reputation system and cannot be undone!
+[end]
+
+[user-reputation]
+<strong>User Reputation Reset</strong><br /><br />
+In this panel, you can reset the reputation for a specific user. Choose the user you want to adjust and then set their new reputation value.<br /><br />
+Warning:  This will affect the reputation of a specific user and cannot be undone!
+[end]

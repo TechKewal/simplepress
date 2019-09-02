@@ -1,0 +1,61 @@
+#item-nav #object-nav ul li#forum-personal-li {
+    display: none;
+}
+
+#sp_buddypress_watches_form .spProfileLabel,
+#sp_buddypress_forum_subs_form .spProfileLabel,
+#sp_buddypress_topic_subs_form .spProfileLabel,
+#sp_buddypress_profile_form .spProfileLabel {
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+#sp_buddypress_watches_form .spProfileData,
+#sp_buddypress_forum_subs_form .spProfileData,
+#sp_buddypress_topic_subs_form .spProfileData,
+#sp_buddypress_profile_form .spProfileData {
+    padding-left: 10px;
+    vertical-align: top;
+}
+
+#sp_buddypress_profile_form .spProfileRadioLabel input {
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+#sp_buddypress_profile_form p.spProfileRadioLabel {
+    margin: 0;
+}
+
+#sp_buddypress_watches_form p.submit,
+#sp_buddypress_forum_subs_form p.submit,
+#sp_buddypress_topic_subs_form p.submit,
+#sp_buddypress_profile_form p.submit {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#sp_buddypress_watches_form p.submit input,
+#sp_buddypress_topic_subs_form p.submit input {
+    margin-right: 10px;
+}
+
+#sp_buddypress_forum_subs_form .spProfileHeader {
+    font-weight: bold;
+    margin: 15px 0 0;
+    border-bottom: 1px solid grey;
+}
+
+.sp_captcha_check div#ajax-fc-content {
+    width: 378px;
+}
+
+.sp_captcha_check div#ajax-fc-content div#ajax-fc-left {
+    width: 260px;
+}
+
+.sp_captcha_check ul#ajax-fc-task,
+.sp_captcha_check ul#ajax-fc-task {
+    background: inherit;
+    padding-left: 25px;
+}

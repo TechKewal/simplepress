@@ -1,0 +1,147 @@
+#spMainContainer .spTagsInside {
+	padding: 10px;
+    clear: both;
+}
+
+#spMainContainer .spTagsForm p {
+	color: <?php echo($contentFontColor); ?>;
+	margin: 0 0 10px 0;
+}
+
+#spMainContainer #spPostForm .spEditorSection.spTagsForm .spEditorTitle,
+#spMainContainer #spPostForm .spEditorSection.spTagsForm .spEditorHeading {
+    padding: 10px;
+}
+
+#spMainContainer #spPostForm .spEditorSection.spTagsForm #spTopicTags {
+    width: 80%;
+}
+
+#spMainContainer .spEditorTitle a.spButton {
+	font-weight: bold;
+	color: <?php echo($linkFontColor); ?>;
+	padding: 5px;
+	margin: 0;
+	line-height: 1.1em;
+}
+
+#spMainContainer .spEditorTitle a.spButton:hover{
+	color: <?php echo($linkFontColorHover); ?>;
+}
+
+#spMainContainer .spEditorTitle .spTagsButtonsLabel {
+	padding: 5px;
+	font-weight: bold;
+	font-size: 100%;
+}
+
+#spMainContainer #spTagsSuggested {
+	padding-top: 10px;
+}
+
+#spMainContainer #spTagsSuggested .spButton {
+	font-size: 100%;
+}
+
+#spMainContainer .spTopicIndexTags {
+	padding: 5px 0;
+}
+
+#spMainContainer .spTopicIndexTags a {
+	display: inline-table;
+	padding: 0 5px;
+}
+
+#spMainContainer a.spTopicIndexTags  {
+	cursor: pointer;
+	padding-top: 5px;
+	font-size: 80%;
+	line-height: 2em;
+}
+
+#spMainContainer .spTopicTagsList {
+	padding: 0px;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#spMainContainer .spTopicTagsList span {
+	font-size: 80% !important;
+	font-weight: normal;
+    color: <?php echo($contentFontColor); ?>;
+}
+
+#spMainContainer .spTopicViewSection .spTopicViewHeader .spTopicTagsList .spButton {
+	border: none;
+	margin: 0 0 0 0;
+	color: <?php echo($linkFontColor); ?>;
+	background: none;
+	padding: 0px 3px;
+
+}
+
+#spMainContainer .spTopicViewSection .spTopicViewHeader .spTopicTagsList .spButton:hover {
+	border: none;
+	color: <?php echo($linkFontColorHover); ?>;
+	background: none;
+	background: transparent;
+}
+
+#spMainContainer a.spTopicTagsList {
+	margin-top: 5px;
+}
+
+#spMainContainer .spTopicTagsList a {
+	display: inline;
+	padding: 0px 5px 1px;
+	margin-left: 0;
+}
+
+#spMainContainer #edittags textarea {
+	width: 95%;
+	border-radius: 0px;
+	margin: 20px auto 5px auto;
+	box-sizing: border-box;
+	display: block;
+	border: <?php echo($solidBorderLight); ?>;
+}
+
+#spMainContainer a.spRelated {
+    color: <?php echo($linkFontColor); ?>;
+	font-size: 80%;
+	margin: 0;
+	padding: 0;
+}
+
+#spMainContainer a.spRelated:hover {
+	color: <?php echo($linkFontColorHover); ?>;
+}
+
+#spMainContainer a.spRelated .spIcon {
+	margin: 0 5px 0 0;
+}
+
+#spMainContainer .spTopicTagsList span.spTagsDelimiterForum  {
+	color: <?php echo($linkFontColor); ?>;
+	padding: 0 2px 0px 2px;
+}
+
+#spMainContainer .spColumnSection .spTopicTagsList {
+	background: none;
+	text-align: left;
+	margin: 0;
+	opacity: 0.7;
+}
+
+#spMainContainer .spColumnSection .spTopicTagsList a.spButton {
+	color: <?php echo($linkFontColor); ?>;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+}
+
+#spMainContainer .spColumnSection .spTopicTagsList a.spButton:hover {
+	color: <?php echo($linkFontColorHover); ?>;
+}

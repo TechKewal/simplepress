@@ -1,0 +1,28 @@
+#spMainContainer #spBirthdays {
+    font-size:  0.8em;
+}
+
+#spMainContainer #spBirthdays .spBirthdaysHeader {
+    font-weight: bold;
+}
+
+#spMainContainer #spBirthdays .spBirthdaysBody {
+    padding-top: 5px;
+}
+
+#spMainContainer #spBirthdays .spBirthdaysBody img {
+    float: left;
+    margin-top: -5px;
+    margin-right: 5px;
+}
+
+#spMainContainer #spBirthdays .spBirthdaysToday,
+#spMainContainer #spBirthdays .spBirthdaysUpcoming {
+    display: block;
+    font-weight: bold;
+}
+
+#spMainContainer #spBirthdays .spBirthdaysToday span,
+#spMainContainer #spBirthdays .spBirthdaysUpcoming span{
+    font-weight: normal;
+}

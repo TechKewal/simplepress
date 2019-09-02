@@ -1,0 +1,135 @@
+#login {
+    width: 378px !important;
+}
+
+#spMainContainer .ajax-fc-container,
+.ajax-fc-container {
+    background: #ffffff;
+    color: #fff;
+    margin: 1em 0 0 0;
+}
+
+#spMainContainer .ajax-fc-container {
+    width: 375px;
+    margin: 0 auto 1em;
+}
+
+/* describes left and right boxes */
+#spMainContainer div#ajax-fc-content,
+div#ajax-fc-content {
+    height: 105px;
+    background: url(imgs/bg-content-div.png);
+    border-left: 1px solid #E5E5E5;
+    border-right: 1px solid #E5E5E5;
+}
+
+
+div#ajax-fc-content div#ajax-fc-left {
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+#setupform div#ajax-fc-content div#ajax-fc-left {
+    width: 250px;
+}
+
+#spMainContainer div#ajax-fc-content div#ajax-fc-left {
+    width: 225px;
+}
+
+#spMainContainer div#ajax-fc-content div#ajax-fc-right,
+div#ajax-fc-content div#ajax-fc-right {
+    width: 98px;
+    height: 100px;
+    float: right;
+}
+
+/* block left: task and pictures */
+#spMainContainer p#ajax-fc-task,
+p#ajax-fc-task {
+    line-height: 16px;
+    margin: 0;
+    padding: 11px 0 0 11px;
+    color: #777777;
+    text-align: left;
+}
+
+#spMainContainer p#ajax-fc-task span,
+p#ajax-fc-task span {
+    color: #21759B;
+    font-weight: bold;
+}
+
+#spMainContainer ul#ajax-fc-task,
+ul#ajax-fc-task {
+    width: 190px;
+    height: 18px;
+    list-style-type: none;
+    background: url(imgs/bg-items.png) -4px 0px;
+    background-repeat: no-repeat;
+    margin: 6px 0 0 0;
+    padding: 5px 0 0 2px;
+}
+
+#spMainContainer ul#ajax-fc-task img,
+ul#ajax-fc-task img {
+    display: block;
+}
+
+/* block right: cycle and backlink */
+#spMainContainer ul#ajax-fc-task li,
+ul#ajax-fc-task li {
+    float: left;
+    margin-right: 1px;
+    margin-top: 6px;
+    list-style-type: none;
+    background: none;
+}
+
+#spMainContainer p#ajax-fc-circle,
+p#ajax-fc-circle {
+    margin: 12px 0 0 10px;
+    width: 79px;
+    height: 79px;
+    background: url(imgs/circle.png);
+    background-repeat: no-repeat;
+}
+
+#spMainContainer img#ajax-fc-backlink,
+img#ajax-fc-backlink {
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 6px;
+    border: 0px;
+    z-index: 101;
+}
+
+/* items */
+#spMainContainer .ajax-fc-highlighted,
+.ajax-fc-highlighted {
+    cursor: pointer;
+    z-index: 102;
+}
+
+/* rounded corners */
+#spMainContainer .ajax-fc-r1,
+.ajax-fc-r1 {
+    margin: 0 5px;
+}
+
+#spMainContainer .ajax-fc-r2,
+.ajax-fc-r2 {
+    margin: 0 3px;
+}
+
+#spMainContainer .ajax-fc-r3,
+.ajax-fc-r3 {
+    margin: 0 2px;
+}
+
+#spMainContainer .ajax-fc-r4,
+.ajax-fc-r4 {
+    margin: 0 1px;
+    height: 2px;
+}

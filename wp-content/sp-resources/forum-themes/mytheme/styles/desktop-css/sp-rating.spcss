@@ -1,0 +1,106 @@
+#spMainContainer .spPostRatingContainer {
+	padding: 2px 0 0 0;
+	margin: -2px 0 0 4px;
+	font-size: 100%;
+}
+
+#spMainContainer .spTopicRatingStars,
+#spMainContainer .spTopicRatingThumbs {
+	margin: 0;
+	font-size: 80%;
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+#spMainContainer .spTopicRatingStars .spIconNoAction{
+	margin: 0;
+}
+ 
+#spMainContainer .spTopicRatingStars span,
+#spMainContainer .spTopicRatingThumbs span {
+    color: <?php echo($contentFontColor); ?>;
+	margin-top: 1px;
+}
+
+#spMainContainer .spPostRateStars .spIcon {
+	padding: 0 2px;
+}
+#spMainContainer .spTopicRatingStars .spIcon, 
+#spMainContainer .spTopicRatingThumbs .spIcon {
+	padding: 0;
+}
+
+#spMainContainer .spTopicRatingStars img,
+#spMainContainer .spTopicRatingThumbs img {
+	max-width: 16px;
+	max-height: 16px;
+}
+
+#spMainContainer .spTopicRatingStars .spPostRateStars img,
+#spMainContainer .spTopicRatingThumbs .spPostRateThumbs img {
+	padding: 0;
+    margin: 0;
+	max-width: 16px;
+	max-height: 16px;
+	float: left;
+}
+
+#spMainContainer .spTopicRating .hreview-aggregate {
+	float: left;
+}
+
+#spMainContainer .spTopicRatingThumbs .spPostRateThumbs {
+    float: right;
+}
+
+#spMainContainer .spPostRateStars img,
+#spMainContainer .spPostRateDown img,
+#spMainContainer .spPostRateUp img {
+	padding: 0px;
+	margin: 0px;
+	opacity: 1;
+}
+
+#spMainContainer .spPostRating .spPostRateStars img:hover,
+#spMainContainer .spPostRating .spPostRateDown img:hover,
+#spMainContainer .spPostRating .spPostRateUp img:hover {
+	opacity: 1;
+}
+
+#spMainContainer .spPostRatingScore {
+	padding: 5px 5px 0 0;
+	font-weight: bold;
+	font-size: 80%;
+}
+
+#spMainContainer .spTopicRatingStars .average,
+#spMainContainer .spTopicRatingThumbs .average {
+    display: inline-block;
+    vertical-align: middle;
+	margin: 0 2px;
+	font-weight: bold;
+}
+
+#spMainContainer .spTopicRatingStars .hreview-aggregate .average,
+#spMainContainer .spTopicRatingThumbs .hreview-aggregate .average {
+    display: inline;
+    padding-top: 0px;
+    vertical-align: inherit;
+}
+
+#spMainContainer .spTopicViewHeader .spTopicRatingStars .hreview-aggregate .average,
+#spMainContainer .spTopicViewHeader .spTopicRatingThumbs .hreview-aggregate .average {
+    display: inline;
+    padding-top: 0px;
+    vertical-align: inherit;
+}
+
+#spMainContainer .spPostSection .spLabelBordered.spPostRating {
+	margin-bottom: -15px;
+	margin-top: 5px;
+}
+
+#spMainContainer .spPostRating {
+    margin: -4px 0 0 0;
+    padding: 0 8px;
+}

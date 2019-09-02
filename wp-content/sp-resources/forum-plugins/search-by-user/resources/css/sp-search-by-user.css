@@ -1,0 +1,75 @@
+/* =============================================================
+Simple:Press
+Search By User CSS
+Loosely based on SP default theme with Ice overlay
+$LastChangedDate: 2012-11-18 10:09:46 -0800 (Sun, 18 Nov 2012) $
+$Rev: 9314 $
+============================================================= */
+
+#spMainContainer #spHiddenUser {
+    display: none;
+}
+
+#spMainContainer .spUserSearch .spLabel {
+    font-size: 75%;
+    text-align: center;
+    margin: 5px;
+    width: 100%;
+}
+
+#spMainContainer #sp_search_user {
+	width: 100%;
+}
+
+.sp-user-search-ac.ui-autocomplete {
+	position: absolute;
+	cursor: default;
+	background: #ffffff;
+	border: 1px solid #DDE8EE;
+	color: #4C5D77;
+}
+
+* html .sp-user-search-ac.ui-autocomplete {
+	width: 1px;
+}
+
+.sp-user-search-ac.ui-menu {
+	list-style: none;
+	padding: 2px;
+	margin: 0;
+	display: block;
+	float: left;
+}
+
+.sp-user-search-ac.ui-menu {
+	margin-top: -3px;
+}
+
+.sp-user-search-ac.ui-menu .ui-menu-item {
+	margin: 0;
+	padding: 0;
+	zoom: 1;
+	float: left;
+	clear: left;
+	width: 100%;
+}
+
+.sp-user-search-ac.ui-menu .ui-menu-item a {
+	text-decoration: none;
+	display: block;
+	padding: .1em .4em;
+	line-height: 1.0;
+	zoom: 1;
+	color: #4C5D77;
+}
+
+.sp-user-search-ac.ui-menu .ui-menu-item a.ui-state-hover,
+.sp-user-search-ac.ui-menu .ui-menu-item a.ui-state-active {
+	font-weight: bold;
+	margin: -1px;
+	background: #DCE7EE;
+}
+
+#spMainContainer #spHiddenUser .ui-helper-hidden-accessible {
+    display: none;
+}

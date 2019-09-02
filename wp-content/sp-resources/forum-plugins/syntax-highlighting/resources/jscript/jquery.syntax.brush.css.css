@@ -1,0 +1,8 @@
+.syntax .css .selector {
+  color: green !important; }
+.syntax .css .property {
+  color: red !important; }
+.syntax .css .value {
+  font-style: italic !important; }
+.syntax .css .color {
+	color: black !important; }

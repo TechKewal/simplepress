@@ -1,0 +1,192 @@
+/****** from original content.css ******/
+
+body, td, pre {background:#FFF; color:#000; font-family:Tahoma, Helvetica, Arial, Verdana, sans-serif; font-size:15px; margin:3px 8px 0px 0px; padding: 0;}
+.mceContentBody { margin-left:15px; padding-left:0;}
+body.mceForceColors {background:#FFF; color:#000;}
+h1 {font-size: 2em}
+h2 {font-size: 1.5em}
+h3 {font-size: 1.17em}
+h4 {font-size: 1em}
+h5 {font-size: .83em}
+h6 {font-size: .75em}
+.mceItemTable, .mceItemTable td, .mceItemTable th, .mceItemTable caption, .mceItemVisualAid {border: 1px dashed #BBB;}
+span.mceItemNbsp {background: #DDD}
+td.mceSelected, th.mceSelected {background-color:#3399ff !important}
+
+img {border:0; padding: 1px 2px;}
+
+table {cursor:default}
+table td, table th {cursor:text}
+ins {border-bottom:1px solid green; text-decoration: none; color:green}
+del {color:red; text-decoration:line-through}
+cite {border-bottom:1px dashed blue}
+acronym {border-bottom:1px dotted #CCC; cursor:help}
+abbr {border-bottom:1px dashed #CCC; cursor:help}
+
+* html body {
+scrollbar-3dlight-color:#F0F0EE;
+scrollbar-arrow-color:#676662;
+scrollbar-base-color:#F0F0EE;
+scrollbar-darkshadow-color:#DDD;
+scrollbar-face-color:#E0E0DD;
+scrollbar-highlight-color:#F0F0EE;
+scrollbar-shadow-color:#F0F0EE;
+scrollbar-track-color:#F5F5F5;
+}
+
+img:-moz-broken {-moz-force-broken-image-icon:1; width:24px; height:24px}
+font[face=mceinline] {font-family:inherit !important}
+
+.mceItemMedia {border:1px dotted #314C8A; background-position:center; background-repeat:no-repeat; background-color:#ffffcc}
+.mceItemShockWave {background-image:url(../../img/shockwave.gif)}
+.mceItemFlash {background-image:url(../../img/flash.gif)}
+.mceItemQuickTime {background-image:url(../../img/quicktime.gif)}
+.mceItemWindowsMedia {background-image:url(../../img/windowsmedia.gif)}
+.mceItemRealMedia {background-image:url(../../img/realmedia.gif)}
+.mceItemVideo {background-image:url(../../img/video.gif)}
+.mceItemIframe {background-image:url(../../img/iframe.gif)}
+.mcePageBreak {display:block;border:0;width:100%;height:12px;border-top:1px dotted #ccc;margin-top:15px;background:#fff url(../../img/pagebreak.gif) no-repeat center top;}
+
+/****** now our stuff to match display better ******/
+
+p {
+	padding-bottom: 1em;
+    margin: 0;
+    background: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 5px 0px;
+	font-family: inherit;
+	font-weight: bold;
+	letter-spacing: 0;
+	text-transform: none;
+    line-height: 1em;
+}
+
+h1 {
+    font-size:  1.6em;
+}
+
+h2 {
+    font-size:  1.5em;
+}
+
+h3 {
+    font-size:  1.4em;
+}
+
+h4 {
+    font-size:  1.3em;
+}
+
+h5 {
+    font-size:  1.2em;
+}
+
+h6 {
+    font-size:  1.1em;
+}
+
+pre {
+	margin: 0;
+	padding: 5px 0px;
+}
+
+blockquote {
+    overflow: hidden;
+	background: #e8f1f6;
+	color: #6e9bb0;
+	border: 1px solid #e8f1f6;
+	margin: 0 0 1em;
+	padding: 10px;
+	-webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-weight: normal;
+	font-size: 100%;
+    line-height: 1.2em;
+}
+
+cite {
+    overflow: hidden;
+	background: #e8f1f6;
+	border: 1px solid #e8f1f6;
+	color: #6e9bb0;
+	padding: 10px;
+	font-style: italic;
+}
+
+img {
+    overflow: hidden;
+	margin: 5px;
+    vertical-align: middle;
+}
+
+a {
+    overflow: hidden;
+	text-decoration: underline;
+}
+
+ul,
+ol {
+	padding: 0 0 1em 2em;
+	list-style-position: inside;
+}
+
+ul li,
+ol li {
+	padding-bottom: 0.5em;
+}
+
+hr {
+	border: 1px solid #e8f1f6;
+}
+
+table {
+	width: 100%;
+	margin: 1em 0;
+}
+
+table td {
+	padding: 0.5em;
+	border: 1px solid #e8f1f6;
+}
+
+span.sfcode,
+div.sfcode {
+    overflow: hidden;
+	background: #e8f1f6;
+	color: #6e9bb0;
+	border: 1px solid #e8f1f6;
+	font-family: monospace, Courier;
+    font-size: 1em;
+	-webkit-border-radius: 5px;
+    border-radius: 5px;
+    display: block;
+	margin: 2em;
+	padding: 0.5em;
+}
+
+div.sfcode table.syntax {
+    width: 99%;
+    padding: 0;
+    margin: 0;
+}
+
+div.sfcode table.syntax td {
+	padding: 0;
+}
+
+input.sfcodeselect {
+	margin: 5px !important;
+	padding: 2px !important;
+	font-size: 10px;
+	-webkit-border-radius: 5px;
+    border-radius: 5px;
+}

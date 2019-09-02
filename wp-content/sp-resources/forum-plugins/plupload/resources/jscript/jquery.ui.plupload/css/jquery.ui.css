@@ -1,0 +1,352 @@
+/*
+ * jQuery UI CSS Framework 1.8.14
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Theming/API
+ */
+
+/* Layout helpers
+----------------------------------*/
+#spMainContainer #sp_file_uploader .ui-helper-hidden { display: none; }
+#spMainContainer #sp_file_uploader .ui-helper-hidden-accessible { position: absolute !important; clip: rect(1px 1px 1px 1px); clip: rect(1px,1px,1px,1px); }
+#spMainContainer #sp_file_uploader .ui-helper-reset { margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none; }
+#spMainContainer #sp_file_uploader .ui-helper-clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+#spMainContainer #sp_file_uploader .ui-helper-clearfix { display: inline-block; }
+/* required comment for clearfix to work in Opera \*/
+* html #spMainContainer #sp_file_uploader .ui-helper-clearfix { height:1%; }
+#spMainContainer #sp_file_uploader .ui-helper-clearfix { display:block; }
+/* end clearfix */
+#spMainContainer #sp_file_uploader .ui-helper-zfix { width: 100%; height: 100%; top: 0; left: 0; position: absolute; opacity: 0; filter:Alpha(Opacity=0); }
+
+
+/* Interaction Cues
+----------------------------------*/
+#spMainContainer #sp_file_uploader .ui-state-disabled { cursor: default !important; }
+
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+#spMainContainer #sp_file_uploader .ui-icon { display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat; }
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Overlays */
+#spMainContainer #sp_file_uploader .ui-widget-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+/*
+ * jQuery UI Button 1.8.14
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Button#theming
+ */
+#spMainContainer #sp_file_uploader .ui-button { display: inline-block; position: relative; padding: 0; margin-right: .1em; text-decoration: none !important; cursor: pointer; text-align: center; zoom: 1; overflow: visible; } /* the overflow property removes extra width in IE */
+#spMainContainer #sp_file_uploader .ui-button-icon-only { width: 2.2em; } /* to make room for the icon, a width needs to be set here */
+#spMainContainer #sp_file_uploader button.ui-button-icon-only { width: 2.4em; } /* button elements seem to need a little more width */
+#spMainContainer #sp_file_uploader .ui-button-icons-only { width: 3.4em; }
+#spMainContainer #sp_file_uploader button.ui-button-icons-only { width: 3.7em; }
+
+/*button text element */
+#spMainContainer #sp_file_uploader .ui-button .ui-button-text { display: block; line-height: 1.4;  }
+#spMainContainer #sp_file_uploader .ui-button-text-only .ui-button-text { padding: .4em 1em; }
+#spMainContainer #sp_file_uploader .ui-button-icon-only .ui-button-text, #spMainContainer #sp_file_uploader .ui-button-icons-only #spMainContainer #sp_file_uploader .ui-button-text { padding: .4em; text-indent: -9999999px; }
+#spMainContainer #sp_file_uploader .ui-button-text-icon-primary .ui-button-text, #spMainContainer #sp_file_uploader .ui-button-text-icons .ui-button-text { padding: .4em 1em .4em 2.1em; }
+#spMainContainer #sp_file_uploader .ui-button-text-icon-secondary .ui-button-text, #spMainContainer #sp_file_uploader .ui-button-text-icons .ui-button-text { padding: .4em 2.1em .4em 1em; }
+#spMainContainer #sp_file_uploader .ui-button-text-icons .ui-button-text { padding-left: 2.1em; padding-right: 2.1em; }
+/* no icon support for input elements, provide padding by default */
+#spMainContainer #sp_file_uploader input.ui-button { padding: .4em 1em; }
+
+/*button icon element(s) */
+#spMainContainer #sp_file_uploader .ui-button-icon-only .ui-icon, #spMainContainer #sp_file_uploader .ui-button-text-icon-primary .ui-icon, #spMainContainer #sp_file_uploader .ui-button-text-icon-secondary .ui-icon, #spMainContainer #sp_file_uploader .ui-button-text-icons .ui-icon, #spMainContainer #sp_file_uploader .ui-button-icons-only .ui-icon { position: absolute; top: 50%; margin-top: -8px; }
+#spMainContainer #sp_file_uploader .ui-button-icon-only .ui-icon { left: 50%; margin-left: -8px; }
+#spMainContainer #sp_file_uploader .ui-button-text-icon-primary .ui-button-icon-primary, .ui-button-text-icons .ui-button-icon-primary, .ui-button-icons-only .ui-button-icon-primary { left: .5em; }
+#spMainContainer #sp_file_uploader .ui-button-text-icon-secondary .ui-button-icon-secondary, #spMainContainer #sp_file_uploader .ui-button-text-icons .ui-button-icon-secondary, #spMainContainer #sp_file_uploader .ui-button-icons-only .ui-button-icon-secondary { right: .5em; }
+#spMainContainer #sp_file_uploader .ui-button-text-icons .ui-button-icon-secondary, #spMainContainer #sp_file_uploader .ui-button-icons-only .ui-button-icon-secondary { right: .5em; }
+
+/*button sets*/
+/*#spMainContainer #sp_file_uploader .ui-buttonset { margin-right: 7px; }*/
+#spMainContainer #sp_file_uploader .ui-buttonset .ui-button { margin-left: 0; margin-right: -.3em; }
+
+/* workarounds */
+button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra padding in Firefox */
+
+/*
+ * jQuery UI Progressbar 1.8.14
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Progressbar#theming
+ */
+#spMainContainer #sp_file_uploader .ui-progressbar { height:2em; text-align: left; }
+#spMainContainer #sp_file_uploader .ui-progressbar .ui-progressbar-value {margin: -1px; height:100%; }
+
+/*
+ * jQuery UI CSS Framework 1.8.14
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Theming/API
+ *
+ * To view and modify this theme, visit http://jqueryui.com/themeroller/
+ */
+
+
+/* Component containers
+----------------------------------*/
+#spMainContainer #sp_file_uploader .ui-widget { font-family: Verdana,Arial,sans-serif/*{ffDefault}*/; font-size: 1.1em/*{fsDefault}*/; }
+#spMainContainer #sp_file_uploader .ui-widget .ui-widget { font-size: 1em; }
+#spMainContainer #sp_file_uploader .ui-widget input, #spMainContainer #sp_file_uploader .ui-widget select, #spMainContainer #sp_file_uploader .ui-widget textarea, .ui-widget button { font-family: Verdana,Arial,sans-serif/*{ffDefault}*/; font-size: 1em; }
+#spMainContainer #sp_file_uploader .ui-widget-content { border: 1px solid #aaaaaa/*{borderColorContent}*/; background: #ffffff/*{bgColorContent}*/ url(images/ui-bg_flat_75_ffffff_40x100.png)/*{bgImgUrlContent}*/ 50%/*{bgContentXPos}*/ 50%/*{bgContentYPos}*/ repeat-x/*{bgContentRepeat}*/; color: #222222/*{fcContent}*/; }
+#spMainContainer #sp_file_uploader .ui-widget-content a { color: #222222/*{fcContent}*/; }
+#spMainContainer #sp_file_uploader .ui-widget-header { height: auto; width:100%; border: 1px solid #aaaaaa/*{borderColorHeader}*/; background: #cccccc/*{bgColorHeader}*/ url(images/ui-bg_highlight-soft_75_cccccc_1x100.png)/*{bgImgUrlHeader}*/ 50%/*{bgHeaderXPos}*/ 50%/*{bgHeaderYPos}*/ repeat-x/*{bgHeaderRepeat}*/; color: #222222/*{fcHeader}*/; font-weight: bold; }
+#spMainContainer #sp_file_uploader .ui-widget-header a { color: #222222/*{fcHeader}*/; }
+
+#spMainContainer #sp_file_uploader table.plupload_filelist_header {height:26px;}
+
+/* Interaction states
+----------------------------------*/
+#spMainContainer #sp_file_uploader .ui-state-default, #spMainContainer #sp_file_uploader .ui-widget-content .ui-state-default,#spMainContainer #sp_file_uploader  .ui-widget-header .ui-state-default { border: 1px solid #d3d3d3/*{borderColorDefault}*/; background: #e6e6e6/*{bgColorDefault}*/ url(images/ui-bg_glass_75_e6e6e6_1x400.png)/*{bgImgUrlDefault}*/ 50%/*{bgDefaultXPos}*/ 50%/*{bgDefaultYPos}*/ repeat-x/*{bgDefaultRepeat}*/; font-weight: normal/*{fwDefault}*/; color: #555555/*{fcDefault}*/; }
+#spMainContainer #sp_file_uploader .ui-state-default a, #spMainContainer #sp_file_uploader .ui-state-default a:link, #spMainContainer #sp_file_uploader .ui-state-default a:visited { color: #555555/*{fcDefault}*/; text-decoration: none; }
+#spMainContainer #sp_file_uploader .ui-state-hover, #spMainContainer #sp_file_uploader .ui-widget-content .ui-state-hover, #spMainContainer #sp_file_uploader .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { border: 1px solid #999999/*{borderColorHover}*/; background: #dadada/*{bgColorHover}*/ url(images/ui-bg_glass_75_dadada_1x400.png)/*{bgImgUrlHover}*/ 50%/*{bgHoverXPos}*/ 50%/*{bgHoverYPos}*/ repeat-x/*{bgHoverRepeat}*/; font-weight: normal/*{fwDefault}*/; color: #212121/*{fcHover}*/; }
+#spMainContainer #sp_file_uploader .ui-state-hover a, #spMainContainer #sp_file_uploader .ui-state-hover a:hover { color: #212121/*{fcHover}*/; text-decoration: none; }
+#spMainContainer #sp_file_uploader .ui-state-active, #spMainContainer #sp_file_uploader .ui-widget-content .ui-state-active, #spMainContainer #sp_file_uploader .ui-widget-header .ui-state-active { border: 1px solid #aaaaaa/*{borderColorActive}*/; background: #ffffff/*{bgColorActive}*/ url(images/ui-bg_glass_65_ffffff_1x400.png)/*{bgImgUrlActive}*/ 50%/*{bgActiveXPos}*/ 50%/*{bgActiveYPos}*/ repeat-x/*{bgActiveRepeat}*/; font-weight: normal/*{fwDefault}*/; color: #212121/*{fcActive}*/; }
+#spMainContainer #sp_file_uploader .ui-state-active a, #spMainContainer #sp_file_uploader .ui-state-active a:link, .ui-state-active a:visited { color: #212121/*{fcActive}*/; text-decoration: none; }
+.ui-widget :active { outline: none; }
+
+/* Interaction Cues
+----------------------------------*/
+#spMainContainer #sp_file_uploader .ui-state-highlight, #spMainContainer #sp_file_uploader .ui-widget-content .ui-state-highlight, #spMainContainer #sp_file_uploader .ui-widget-header .ui-state-highlight  {border: 1px solid #fcefa1/*{borderColorHighlight}*/; background: #fbf9ee/*{bgColorHighlight}*/ url(images/ui-bg_glass_55_fbf9ee_1x400.png)/*{bgImgUrlHighlight}*/ 50%/*{bgHighlightXPos}*/ 50%/*{bgHighlightYPos}*/ repeat-x/*{bgHighlightRepeat}*/; color: #363636/*{fcHighlight}*/; }
+#spMainContainer #sp_file_uploader .ui-state-highlight a, #spMainContainer #sp_file_uploader .ui-widget-content .ui-state-highlight a, #spMainContainer #sp_file_uploader .ui-widget-header .ui-state-highlight a { color: #363636/*{fcHighlight}*/; }
+.ui-state-error, .ui-widget-content .ui-state-error, .ui-widget-header .ui-state-error {border: 1px solid #cd0a0a/*{borderColorError}*/; background: #fef1ec/*{bgColorError}*/ url(images/ui-bg_glass_95_fef1ec_1x400.png)/*{bgImgUrlError}*/ 50%/*{bgErrorXPos}*/ 50%/*{bgErrorYPos}*/ repeat-x/*{bgErrorRepeat}*/; color: #cd0a0a/*{fcError}*/; }
+#spMainContainer #sp_file_uploader .ui-state-error a, #spMainContainer #sp_file_uploader .ui-widget-content .ui-state-error a, #spMainContainer #sp_file_uploader .ui-widget-header .ui-state-error a { color: #cd0a0a/*{fcError}*/; }
+#spMainContainer #sp_file_uploader .ui-state-error-text, #spMainContainer #sp_file_uploader .ui-widget-content .ui-state-error-text, #spMainContainer #sp_file_uploader .ui-widget-header .ui-state-error-text { color: #cd0a0a/*{fcError}*/; }
+#spMainContainer #sp_file_uploader .ui-priority-primary, #spMainContainer #sp_file_uploader .ui-widget-content .ui-priority-primary, #spMainContainer #sp_file_uploader .ui-widget-header .ui-priority-primary { font-weight: bold; }
+#spMainContainer #sp_file_uploader .ui-priority-secondary, #spMainContainer #sp_file_uploader .ui-widget-content .ui-priority-secondary, #spMainContainer #sp_file_uploader .ui-widget-header .ui-priority-secondary { opacity: .7; filter:Alpha(Opacity=70); font-weight: normal; }
+#spMainContainer #sp_file_uploader .ui-state-disabled, #spMainContainer #sp_file_uploader .ui-widget-content .ui-state-disabled, #spMainContainer #sp_file_uploader .ui-widget-header .ui-state-disabled { opacity: .35; filter:Alpha(Opacity=35); background-image: none; }
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+#spMainContainer #sp_file_uploader .ui-icon { width: 16px; height: 16px; background-image: url(images/ui-icons_222222_256x240.png)/*{iconsContent}*/; }
+#spMainContainer #sp_file_uploader .ui-widget-content .ui-icon {background-image: url(images/ui-icons_222222_256x240.png)/*{iconsContent}*/; }
+#spMainContainer #sp_file_uploader .ui-widget-header .ui-icon {background-image: url(images/ui-icons_222222_256x240.png)/*{iconsHeader}*/; }
+#spMainContainer #sp_file_uploader .ui-state-default .ui-icon { background-image: url(images/ui-icons_888888_256x240.png)/*{iconsDefault}*/; }
+#spMainContainer #sp_file_uploader .ui-state-hover .ui-icon, .ui-state-focus .ui-icon {background-image: url(images/ui-icons_454545_256x240.png)/*{iconsHover}*/; }
+#spMainContainer #sp_file_uploader .ui-state-active .ui-icon {background-image: url(images/ui-icons_454545_256x240.png)/*{iconsActive}*/; }
+#spMainContainer #sp_file_uploader .ui-state-highlight .ui-icon {background-image: url(images/ui-icons_2e83ff_256x240.png)/*{iconsHighlight}*/; }
+#spMainContainer #sp_file_uploader .ui-state-error .ui-icon, #spMainContainer #sp_file_uploader .ui-state-error-text .ui-icon {background-image: url(images/ui-icons_cd0a0a_256x240.png)/*{iconsError}*/; }
+
+/* positioning */
+#spMainContainer #sp_file_uploader .ui-icon-carat-1-n { background-position: 0 0; }
+#spMainContainer #sp_file_uploader .ui-icon-carat-1-ne { background-position: -16px 0; }
+#spMainContainer #sp_file_uploader .ui-icon-carat-1-e { background-position: -32px 0; }
+#spMainContainer #sp_file_uploader .ui-icon-carat-1-se { background-position: -48px 0; }
+#spMainContainer #sp_file_uploader .ui-icon-carat-1-s { background-position: -64px 0; }
+#spMainContainer #sp_file_uploader .ui-icon-carat-1-sw { background-position: -80px 0; }
+#spMainContainer #sp_file_uploader .ui-icon-carat-1-w { background-position: -96px 0; }
+#spMainContainer #sp_file_uploader .ui-icon-carat-1-nw { background-position: -112px 0; }
+#spMainContainer #sp_file_uploader .ui-icon-carat-2-n-s { background-position: -128px 0; }
+#spMainContainer #sp_file_uploader .ui-icon-carat-2-e-w { background-position: -144px 0; }
+#spMainContainer #sp_file_uploader .ui-icon-triangle-1-n { background-position: 0 -16px; }
+#spMainContainer #sp_file_uploader .ui-icon-triangle-1-ne { background-position: -16px -16px; }
+#spMainContainer #sp_file_uploader .ui-icon-triangle-1-e { background-position: -32px -16px; }
+#spMainContainer #sp_file_uploader .ui-icon-triangle-1-se { background-position: -48px -16px; }
+#spMainContainer #sp_file_uploader .ui-icon-triangle-1-s { background-position: -64px -16px; }
+#spMainContainer #sp_file_uploader .ui-icon-triangle-1-sw { background-position: -80px -16px; }
+#spMainContainer #sp_file_uploader .ui-icon-triangle-1-w { background-position: -96px -16px; }
+#spMainContainer #sp_file_uploader .ui-icon-triangle-1-nw { background-position: -112px -16px; }
+#spMainContainer #sp_file_uploader .ui-icon-triangle-2-n-s { background-position: -128px -16px; }
+#spMainContainer #sp_file_uploader .ui-icon-triangle-2-e-w { background-position: -144px -16px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrow-1-n { background-position: 0 -32px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrow-1-ne { background-position: -16px -32px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrow-1-e { background-position: -32px -32px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrow-1-se { background-position: -48px -32px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrow-1-s { background-position: -64px -32px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrow-1-sw { background-position: -80px -32px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrow-1-w { background-position: -96px -32px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrow-1-nw { background-position: -112px -32px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrow-2-n-s { background-position: -128px -32px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrow-2-ne-sw { background-position: -144px -32px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrow-2-e-w { background-position: -160px -32px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrow-2-se-nw { background-position: -176px -32px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrowstop-1-n { background-position: -192px -32px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrowstop-1-e { background-position: -208px -32px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrowstop-1-s { background-position: -224px -32px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrowstop-1-w { background-position: -240px -32px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrowthick-1-n { background-position: 0 -48px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrowthick-1-ne { background-position: -16px -48px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrowthick-1-e { background-position: -32px -48px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrowthick-1-se { background-position: -48px -48px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrowthick-1-s { background-position: -64px -48px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrowthick-1-sw { background-position: -80px -48px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrowthick-1-w { background-position: -96px -48px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrowthick-1-nw { background-position: -112px -48px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrowthick-2-n-s { background-position: -128px -48px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrowthick-2-ne-sw { background-position: -144px -48px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrowthick-2-e-w { background-position: -160px -48px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrowthick-2-se-nw { background-position: -176px -48px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrowthickstop-1-n { background-position: -192px -48px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrowthickstop-1-e { background-position: -208px -48px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrowthickstop-1-s { background-position: -224px -48px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrowthickstop-1-w { background-position: -240px -48px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrowreturnthick-1-w { background-position: 0 -64px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrowreturnthick-1-n { background-position: -16px -64px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrowreturnthick-1-e { background-position: -32px -64px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrowreturnthick-1-s { background-position: -48px -64px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrowreturn-1-w { background-position: -64px -64px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrowreturn-1-n { background-position: -80px -64px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrowreturn-1-e { background-position: -96px -64px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrowreturn-1-s { background-position: -112px -64px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrowrefresh-1-w { background-position: -128px -64px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrowrefresh-1-n { background-position: -144px -64px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrowrefresh-1-e { background-position: -160px -64px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrowrefresh-1-s { background-position: -176px -64px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrow-4 { background-position: 0 -80px; }
+#spMainContainer #sp_file_uploader .ui-icon-arrow-4-diag { background-position: -16px -80px; }
+#spMainContainer #sp_file_uploader .ui-icon-extlink { background-position: -32px -80px; }
+#spMainContainer #sp_file_uploader .ui-icon-newwin { background-position: -48px -80px; }
+#spMainContainer #sp_file_uploader .ui-icon-refresh { background-position: -64px -80px; }
+#spMainContainer #sp_file_uploader .ui-icon-shuffle { background-position: -80px -80px; }
+#spMainContainer #sp_file_uploader .ui-icon-transfer-e-w { background-position: -96px -80px; }
+#spMainContainer #sp_file_uploader .ui-icon-transferthick-e-w { background-position: -112px -80px; }
+#spMainContainer #sp_file_uploader .ui-icon-folder-collapsed { background-position: 0 -96px; }
+#spMainContainer #sp_file_uploader .ui-icon-folder-open { background-position: -16px -96px; }
+#spMainContainer #sp_file_uploader .ui-icon-document { background-position: -32px -96px; }
+#spMainContainer #sp_file_uploader .ui-icon-document-b { background-position: -48px -96px; }
+#spMainContainer #sp_file_uploader .ui-icon-note { background-position: -64px -96px; }
+#spMainContainer #sp_file_uploader .ui-icon-mail-closed { background-position: -80px -96px; }
+#spMainContainer #sp_file_uploader .ui-icon-mail-open { background-position: -96px -96px; }
+#spMainContainer #sp_file_uploader .ui-icon-suitcase { background-position: -112px -96px; }
+#spMainContainer #sp_file_uploader .ui-icon-comment { background-position: -128px -96px; }
+#spMainContainer #sp_file_uploader .ui-icon-person { background-position: -144px -96px; }
+#spMainContainer #sp_file_uploader .ui-icon-print { background-position: -160px -96px; }
+#spMainContainer #sp_file_uploader .ui-icon-trash { background-position: -176px -96px; }
+#spMainContainer #sp_file_uploader .ui-icon-locked { background-position: -192px -96px; }
+#spMainContainer #sp_file_uploader .ui-icon-unlocked { background-position: -208px -96px; }
+#spMainContainer #sp_file_uploader .ui-icon-bookmark { background-position: -224px -96px; }
+#spMainContainer #sp_file_uploader .ui-icon-tag { background-position: -240px -96px; }
+#spMainContainer #sp_file_uploader .ui-icon-home { background-position: 0 -112px; }
+#spMainContainer #sp_file_uploader .ui-icon-flag { background-position: -16px -112px; }
+#spMainContainer #sp_file_uploader .ui-icon-calendar { background-position: -32px -112px; }
+#spMainContainer #sp_file_uploader .ui-icon-cart { background-position: -48px -112px; }
+#spMainContainer #sp_file_uploader .ui-icon-pencil { background-position: -64px -112px; }
+#spMainContainer #sp_file_uploader .ui-icon-clock { background-position: -80px -112px; }
+#spMainContainer #sp_file_uploader .ui-icon-disk { background-position: -96px -112px; }
+#spMainContainer #sp_file_uploader .ui-icon-calculator { background-position: -112px -112px; }
+#spMainContainer #sp_file_uploader .ui-icon-zoomin { background-position: -128px -112px; }
+#spMainContainer #sp_file_uploader .ui-icon-zoomout { background-position: -144px -112px; }
+#spMainContainer #sp_file_uploader .ui-icon-search { background-position: -160px -112px; }
+#spMainContainer #sp_file_uploader .ui-icon-wrench { background-position: -176px -112px; }
+#spMainContainer #sp_file_uploader .ui-icon-gear { background-position: -192px -112px; }
+#spMainContainer #sp_file_uploader .ui-icon-heart { background-position: -208px -112px; }
+#spMainContainer #sp_file_uploader .ui-icon-star { background-position: -224px -112px; }
+#spMainContainer #sp_file_uploader .ui-icon-link { background-position: -240px -112px; }
+#spMainContainer #sp_file_uploader .ui-icon-cancel { background-position: 0 -128px; }
+#spMainContainer #sp_file_uploader .ui-icon-plus { background-position: -16px -128px; }
+#spMainContainer #sp_file_uploader .ui-icon-plusthick { background-position: -32px -128px; }
+#spMainContainer #sp_file_uploader .ui-icon-minus { background-position: -48px -128px; }
+#spMainContainer #sp_file_uploader .ui-icon-minusthick { background-position: -64px -128px; }
+#spMainContainer #sp_file_uploader .ui-icon-close { background-position: -80px -128px; }
+#spMainContainer #sp_file_uploader .ui-icon-closethick { background-position: -96px -128px; }
+#spMainContainer #sp_file_uploader .ui-icon-key { background-position: -112px -128px; }
+#spMainContainer #sp_file_uploader .ui-icon-lightbulb { background-position: -128px -128px; }
+#spMainContainer #sp_file_uploader .ui-icon-scissors { background-position: -144px -128px; }
+#spMainContainer #sp_file_uploader .ui-icon-clipboard { background-position: -160px -128px; }
+#spMainContainer #sp_file_uploader .ui-icon-copy { background-position: -176px -128px; }
+#spMainContainer #sp_file_uploader .ui-icon-contact { background-position: -192px -128px; }
+#spMainContainer #sp_file_uploader .ui-icon-image { background-position: -208px -128px; }
+#spMainContainer #sp_file_uploader .ui-icon-video { background-position: -224px -128px; }
+#spMainContainer #sp_file_uploader .ui-icon-script { background-position: -240px -128px; }
+#spMainContainer #sp_file_uploader .ui-icon-alert { background-position: 0 -144px; }
+#spMainContainer #sp_file_uploader .ui-icon-info { background-position: -16px -144px; }
+#spMainContainer #sp_file_uploader .ui-icon-notice { background-position: -32px -144px; }
+#spMainContainer #sp_file_uploader .ui-icon-help { background-position: -48px -144px; }
+#spMainContainer #sp_file_uploader .ui-icon-check { background-position: -64px -144px; }
+#spMainContainer #sp_file_uploader .ui-icon-bullet { background-position: -80px -144px; }
+#spMainContainer #sp_file_uploader .ui-icon-radio-off { background-position: -96px -144px; }
+#spMainContainer #sp_file_uploader .ui-icon-radio-on { background-position: -112px -144px; }
+#spMainContainer #sp_file_uploader .ui-icon-pin-w { background-position: -128px -144px; }
+#spMainContainer #sp_file_uploader .ui-icon-pin-s { background-position: -144px -144px; }
+#spMainContainer #sp_file_uploader .ui-icon-play { background-position: 0 -160px; }
+#spMainContainer #sp_file_uploader .ui-icon-pause { background-position: -16px -160px; }
+#spMainContainer #sp_file_uploader .ui-icon-seek-next { background-position: -32px -160px; }
+#spMainContainer #sp_file_uploader .ui-icon-seek-prev { background-position: -48px -160px; }
+#spMainContainer #sp_file_uploader .ui-icon-seek-end { background-position: -64px -160px; }
+#spMainContainer #sp_file_uploader .ui-icon-seek-start { background-position: -80px -160px; }
+/* ui-icon-seek-first is deprecated, use ui-icon-seek-start instead */
+#spMainContainer #sp_file_uploader .ui-icon-seek-first { background-position: -80px -160px; }
+#spMainContainer #sp_file_uploader .ui-icon-stop { background-position: -96px -160px; }
+#spMainContainer #sp_file_uploader .ui-icon-eject { background-position: -112px -160px; }
+#spMainContainer #sp_file_uploader .ui-icon-volume-off { background-position: -128px -160px; }
+#spMainContainer #sp_file_uploader .ui-icon-volume-on { background-position: -144px -160px; }
+#spMainContainer #sp_file_uploader .ui-icon-power { background-position: 0 -176px; }
+#spMainContainer #sp_file_uploader .ui-icon-signal-diag { background-position: -16px -176px; }
+#spMainContainer #sp_file_uploader .ui-icon-signal { background-position: -32px -176px; }
+#spMainContainer #sp_file_uploader .ui-icon-battery-0 { background-position: -48px -176px; }
+#spMainContainer #sp_file_uploader .ui-icon-battery-1 { background-position: -64px -176px; }
+#spMainContainer #sp_file_uploader .ui-icon-battery-2 { background-position: -80px -176px; }
+#spMainContainer #sp_file_uploader .ui-icon-battery-3 { background-position: -96px -176px; }
+#spMainContainer #sp_file_uploader .ui-icon-circle-plus { background-position: 0 -192px; }
+#spMainContainer #sp_file_uploader .ui-icon-circle-minus { background-position: -16px -192px; }
+#spMainContainer #sp_file_uploader .ui-icon-circle-close { background-position: -32px -192px; }
+#spMainContainer #sp_file_uploader .ui-icon-circle-triangle-e { background-position: -48px -192px; }
+#spMainContainer #sp_file_uploader .ui-icon-circle-triangle-s { background-position: -64px -192px; }
+#spMainContainer #sp_file_uploader .ui-icon-circle-triangle-w { background-position: -80px -192px; }
+#spMainContainer #sp_file_uploader .ui-icon-circle-triangle-n { background-position: -96px -192px; }
+#spMainContainer #sp_file_uploader .ui-icon-circle-arrow-e { background-position: -112px -192px; }
+#spMainContainer #sp_file_uploader .ui-icon-circle-arrow-s { background-position: -128px -192px; }
+#spMainContainer #sp_file_uploader .ui-icon-circle-arrow-w { background-position: -144px -192px; }
+#spMainContainer #sp_file_uploader .ui-icon-circle-arrow-n { background-position: -160px -192px; }
+#spMainContainer #sp_file_uploader .ui-icon-circle-zoomin { background-position: -176px -192px; }
+#spMainContainer #sp_file_uploader .ui-icon-circle-zoomout { background-position: -192px -192px; }
+#spMainContainer #sp_file_uploader .ui-icon-circle-check { background-position: -208px -192px; }
+#spMainContainer #sp_file_uploader .ui-icon-circlesmall-plus { background-position: 0 -208px; }
+#spMainContainer #sp_file_uploader .ui-icon-circlesmall-minus { background-position: -16px -208px; }
+#spMainContainer #sp_file_uploader .ui-icon-circlesmall-close { background-position: -32px -208px; }
+#spMainContainer #sp_file_uploader .ui-icon-squaresmall-plus { background-position: -48px -208px; }
+#spMainContainer #sp_file_uploader .ui-icon-squaresmall-minus { background-position: -64px -208px; }
+#spMainContainer #sp_file_uploader .ui-icon-squaresmall-close { background-position: -80px -208px; }
+#spMainContainer #sp_file_uploader .ui-icon-grip-dotted-vertical { background-position: 0 -224px; }
+#spMainContainer #sp_file_uploader .ui-icon-grip-dotted-horizontal { background-position: -16px -224px; }
+#spMainContainer #sp_file_uploader .ui-icon-grip-solid-vertical { background-position: -32px -224px; }
+#spMainContainer #sp_file_uploader .ui-icon-grip-solid-horizontal { background-position: -48px -224px; }
+#spMainContainer #sp_file_uploader .ui-icon-gripsmall-diagonal-se { background-position: -64px -224px; }
+#spMainContainer #sp_file_uploader .ui-icon-grip-diagonal-se { background-position: -80px -224px; }
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Corner radius */
+#spMainContainer #sp_file_uploader .ui-corner-all, #spMainContainer #sp_file_uploader .ui-corner-top, .ui-corner-left, #spMainContainer #sp_file_uploader .ui-corner-tl { -webkit-border-top-left-radius: 4px/*{cornerRadius}*/; -khtml-border-top-left-radius: 4px/*{cornerRadius}*/; border-top-left-radius: 4px/*{cornerRadius}*/; }
+#spMainContainer #sp_file_uploader .ui-corner-all, #spMainContainer #sp_file_uploader .ui-corner-top, #spMainContainer #sp_file_uploader .ui-corner-right, #spMainContainer #sp_file_uploader .ui-corner-tr { -webkit-border-top-right-radius: 4px/*{cornerRadius}*/; -khtml-border-top-right-radius: 4px/*{cornerRadius}*/; border-top-right-radius: 4px/*{cornerRadius}*/; }
+#spMainContainer #sp_file_uploader .ui-corner-all, #spMainContainer #sp_file_uploader .ui-corner-bottom, #spMainContainer #sp_file_uploader .ui-corner-left, #spMainContainer #sp_file_uploader .ui-corner-bl { -webkit-border-bottom-left-radius: 4px/*{cornerRadius}*/; -khtml-border-bottom-left-radius: 4px/*{cornerRadius}*/; border-bottom-left-radius: 4px/*{cornerRadius}*/; }
+#spMainContainer #sp_file_uploader .ui-corner-all, #spMainContainer #sp_file_uploader .ui-corner-bottom, #spMainContainer #sp_file_uploader .ui-corner-right, #spMainContainer #sp_file_uploader .ui-corner-br { -webkit-border-bottom-right-radius: 4px/*{cornerRadius}*/; -khtml-border-bottom-right-radius: 4px/*{cornerRadius}*/; border-bottom-right-radius: 4px/*{cornerRadius}*/; }
+
+/* Overlays */
+#spMainContainer #sp_file_uploader .ui-widget-overlay { background: #aaaaaa/*{bgColorOverlay}*/ url(images/ui-bg_flat_0_aaaaaa_40x100.png)/*{bgImgUrlOverlay}*/ 50%/*{bgOverlayXPos}*/ 50%/*{bgOverlayYPos}*/ repeat-x/*{bgOverlayRepeat}*/; opacity: .3;filter:Alpha(Opacity=30)/*{opacityOverlay}*/; }
+#spMainContainer #sp_file_uploader .ui-widget-shadow { margin: -8px/*{offsetTopShadow}*/ 0 0 -8px/*{offsetLeftShadow}*/; padding: 8px/*{thicknessShadow}*/; background: #aaaaaa/*{bgColorShadow}*/ url(images/ui-bg_flat_0_aaaaaa_40x100.png)/*{bgImgUrlShadow}*/ 50%/*{bgShadowXPos}*/ 50%/*{bgShadowYPos}*/ repeat-x/*{bgShadowRepeat}*/; opacity: .3;filter:Alpha(Opacity=30)/*{opacityShadow}*/; -khtml-border-radius: 8px/*{cornerRadiusShadow}*/; -webkit-border-radius: 8px/*{cornerRadiusShadow}*/; border-radius: 8px/*{cornerRadiusShadow}*/; }
+
+@media screen and (max-width: 470px) {
+    #spMainContainer #sp_file_uploader .plupload_filelist_footer.ui-widget-header {
+        background: #aaaaaa;
+    }
+
+    #spMainContainer #sp_file_uploader #sp_file_uploader_buttons .ui-button {
+        display: block;
+    }
+}

@@ -1,0 +1,19 @@
+---
+Identities Plugin Options ---
+
+[identity-upload]
+<strong>Add User Identity Icon</strong><br /><br />
+To add a new identity, use the Identity Icon uploader to upload the desired image/icon to use when displaying the identiy for the user. The form below will be populated with the icon
+after uploading.
+[end]
+
+[identities]
+<strong>Add User Identity</strong><br /><br />
+After you have uploaded an icon for the identiy, you can set the rest of the identiy data.  An icon is required for these identities. While not required,
+you really should add a base url for the identiy or else you won't get a link for the icon when you display it.  If you don't enter a name for the identity, the filename (minus
+the extension) will be used for the name. <br /><br />
+After you create a new identity, it will show up on the identities menu of your user's SP profile.<br /><br />
+These identities are for user accounts similar to facebook, twitter, google plus, etc.  You will need a base url and the user will have to enter an account for
+the base url site.  If you just want a different profile field, then you should be using the Custom Profile Fields plugin.  This identity plugin is specifically for
+online identities
+[end]

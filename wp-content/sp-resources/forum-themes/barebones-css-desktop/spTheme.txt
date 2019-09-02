@@ -1,0 +1,9 @@
+Simple:Press Theme Title: Barebones-CSS-Desktop
+Version: 2.0
+Theme URI: https://simple-press.com
+Description: A variant of the Barebones theme (desktop version) using standard CSS only - for those who are unable to use our php overlay styled themes
+Author: Ike Staines, Andy Staines & Steve Klasen
+Author URI: https://simple-press.com
+Stylesheet: barebones-desktop.css
+Screenshot: spTheme.png
+Simple:Press Versions: 6.0 and above

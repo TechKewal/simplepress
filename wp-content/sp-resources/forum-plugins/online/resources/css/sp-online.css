@@ -1,0 +1,20 @@
+/* =============================================================
+Simple:Press
+Who's Online 'Plugin CSS
+============================================================= */
+
+#spMainContainer .spOnlineActivity {
+	font-weight: bold;
+}
+
+#spMainContainer span.spOnlineActivity {
+	font-weight: normal;
+}
+
+#spMainContainer .spOnline {
+	border: 1px solid #ccc;
+    padding: 10px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 90%;
+}

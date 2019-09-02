@@ -1,0 +1,45 @@
+---
+Subscriptions Plugin Options ---
+
+[subscriptions-forums]
+<strong>View User Subscriptions by Forum</strong><br /><br />
+This admin panel is used to display the current subscriptions by forum if you are allowing forum subscriptions.<br /><br />
+You may remove all subscriptions for each forum in this panel.
+[end]
+
+[subscriptions-topics]
+<strong>View User Subscriptions by Topic</strong><br /><br />
+This admin panel is used to display the current subscriptions by topics in the forum.<br /><br />
+You can choose to either view all subscriptions or filter them based on Groups or Forums.  Please note, you may filter by either Groups or Forums but not by a combination.  The radio button chooses your filter criteria.  If you select either Groups or Forums, you can select which ones via the dropdown lists activiated via the Show Groups or Show Forums button.<br /><br />
+Once you have set up your choices, hit the Show Subscriptions button to view the results.<br /><br />
+You may remove all subscriptions for each topic in this panel.
+[end]
+
+[subscriptions-users]
+<strong>View User Subscriptions by User</strong><br /><br />
+This admin panel is used to display the current subscriptions by users in the forum.<br /><br />
+You may remove all subscriptions for each user on this panel.
+[end]
+
+[subscriptions-options]
+<strong>Auto Subscription</strong><br /><br />
+Using this option, you can make the default value for the user's auto subscribe option when posting to topics be true.  Selecting this option will only affect new users when their user account is created.<br /><br />
+Warning: Auto subscribing members is the same as Opt Out (vs Opt In) and is considered bad practice.  If you enable this option, be sure of what you are doing and consider a disclaimer or notice to your users so they know their options.<br /><br />
+You can also choose to allow members to subscribe to a forum.  Use caution with this option as for busy servers it will put an additional load on them including many emails.
+<br /><br />
+<strong>Subscribe to Forums</strong><br /><br />
+Using this option, you can chose to allow users to subscribe to forums.  When they subscribe to a forum, they will receive a notification on EVERY post to that forum.  Warning, on busy forums this may
+put a strain on the server and/or email system.  It is not suggestedf for busy forums.
+<br /><br />
+<strong>Include Post Content</strong><br /><br />
+This option allows you to select whether to include the content of a new post in the standard subscription emails (not digest emails which are handled separately).
+[end]
+
+[subscriptions-digest]
+<strong>Subscription Digests</strong><br /><br />
+Here you can enabled subscription digest emails for users. Then in their profile options they will be able to select receiving an email notification on every post for subscribed forums and/or topics or
+receiving a single email with links to all subscribed topics at the digest interval specified in this panel.<br /><br />
+If you are using digest emails for subscriptions, you can also force all users to get digests. By default, the user can choose to receive a digest or continue receiving an email for each subscription.
+On a busy server this can be a lot of emails.  If you force digest, all users will receive digest emails and will not see an option to get individual emails.<br /><br />
+You can also choose whether or not you want to have the post content included in a digest email.  Warning:  on a busy site, this may make for huge emails.
+[end]

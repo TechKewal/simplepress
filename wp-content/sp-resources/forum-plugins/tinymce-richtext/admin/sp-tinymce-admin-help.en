@@ -1,0 +1,72 @@
+--- TinyMCE Editor Plugin Popup Help ---
+
+[tinymce-options]
+The <b>height</b> of the editing window can all be set here.
+<br /><br />
+<b>Rejecting Embedded Formatting</b><br />
+Some users may paste content into the editing window that has been copied from a source with embedded formatting such as MS Word or
+even from their browser display. This can add a large amount of unwanted and unseen data to a post and will usually force a unique display
+when the post is shown.<br />
+You can set an option here to reject any such post and force the user to paste their content into one of the toolbar filters (MS Word or Text)
+that automatically removes the embedded formatting. This is strongly recommended when  using the Rich Text Editor.<br /><br />
+[end]
+
+[tinymce-functions]
+The TinyMCE Rich Text Editor can utilise 2 toolbars. Buttons are specified by their name and the list is comma or space delimited. The '|' character
+specifies a separator.<br />
+TinyMCE Plugins can also be utilised. Plugin buttons must be placed on the 'add' toolbar button fields.<br /><br />
+Pre-supplied TinyMCE Plugins are:
+<ul>
+<li>image</li>
+<li>media</li>
+<li>paste</li>
+<li>link</li>
+<li>textcolor</li>
+<li>charmap</li>
+<li>spoiler</li>
+<li>sphelp</li>
+</ul>
+<br />
+Built in TinyMCE Buttons available are:<br /><br />
+(1) The Simple:Press Default set
+<ul>
+<li>bold</li>
+<li>italic</li>
+<li>underline</li>
+<li>strikethrough</li>
+<li>forecolor</li>
+<li>bullist</li>
+<li>numlist</li>
+<li>blockquote</li>
+<li>outdent</li>
+<li>indent</li>
+<li>link</li>
+<li>unlink</li>
+<li>undo</li>
+<li>redo</li>
+<li>image</li>
+<li>media</li>
+<li>pastetext</li>
+<li>spoiler</li>
+<li>code</li>
+<li>sp_help</li>
+<li>formatselect</li>
+<li>formatsizeselect</li>
+<li>alignleft</li>
+<li>aligncenter</li>
+<li>alignright</li>
+<li>alignjustify</li>
+<li>charmap</li>
+<li>removeformat</li>
+</ul>
+(2) Additionally Available:
+<ul>
+<li>cut</li>
+<li>copy</li>
+<li>paste</li>
+<li>hr</li>
+<li>backcolor</li>
+<li>backcolorpicker</li>
+</ul>
+To add and use any of the optional butons, just add them to the toolbar in the row and location where you want them to show up.
+[end]

@@ -1,0 +1,7 @@
+--- Hide Posters Plugin Options ---
+
+[hide-poster]
+<strong>Hide Poster Info</strong><br /><br />
+By setting this option, you can by default have the enable hide poster info option checked on the new topic form. This will only be applicable if the current
+forum has enabled hide post info.  With this option enabled, you can still turn it off for specific topics by unchecking the option on the new topic form.
+[end]

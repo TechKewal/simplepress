@@ -1,0 +1,26 @@
+/* =============================================================
+Simple:Press
+Post Rating Plugin CSS
+============================================================= */
+
+#spMainContainer .spTopicRatingStars,
+#spMainContainer .spTopicRatingThumbs {
+	margin-top: 3px;
+	font-size: 90%;
+}
+
+#spMainContainer .spTopicRatingStars img,
+#spMainContainer .spTopicRatingThumbs img {
+	padding-top: 0;
+}
+
+
+#spMainContainer .spPostRateStars img,
+#spMainContainer .spPostRateDown img,
+#spMainContainer .spPostRateUp img {
+	padding: 0 2px 3px;
+}
+
+#spMainContainer .spPostRatingScore {
+	padding-right: 5px;
+}

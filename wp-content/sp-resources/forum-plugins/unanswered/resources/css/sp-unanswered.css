@@ -1,0 +1,28 @@
+/* =============================================================
+Simple:Press
+Unanswered Plugin CSS
+============================================================= */
+#spMainContainer .spUnansweredPosts .spListItemTag {
+    background: none repeat scroll 0 0 #F0F0F0;
+    border: 1px solid #C0C0C0;
+    border-radius: 5px 5px 5px 5px;
+    color: #000000;
+    font-family: inherit;
+    font-weight: normal;
+    margin: 5px;
+    padding: 10px;
+    text-align: left;
+	min-height: 25px;
+    line-height: 1.5em;
+}
+
+#spMainContainer .spUnansweredPosts .spAvatarTag{
+    display: inline;
+    margin-right: 5px;
+}
+
+#spMainContainer .spUnansweredPosts ul,
+#spMainContainer .spUnansweredPosts ol,
+#spMainContainer .spUnansweredPosts li {
+    list-style-type:  none;
+}

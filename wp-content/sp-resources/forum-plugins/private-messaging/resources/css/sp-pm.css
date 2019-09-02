@@ -1,0 +1,269 @@
+/* =============================================================
+Simple:Press
+Private Messaging CSS (PM Display)
+Loosely based on SP default theme
+$LastChangedDate: 2017-08-23 07:30:45 -0500 (Wed, 23 Aug 2017) $
+$Rev: 15521 $
+============================================================= */
+
+[id^="spColThread1"] { width: 10%; }
+[id^="spColThread2"] { width: 74%; text-wrap: normal; word-wrap: break-word; max-width: 72%; }
+[id^="spColThread3"] { width: 16%; }
+
+[id^="spColMessage1"] { width: 10%; }
+[id^="spColMessage2"] { width: 50%; }
+[id^="spColMessage3"] { width: 40%; }
+
+[id^="spColHeader1"] { width: 65%; text-wrap: normal; word-wrap: break-word; max-width: 63%; }
+[id^="spColHeader2"] { width: 35%; }
+
+#spMainContainer #spPmCount {
+	padding-bottom: 3px;
+}
+
+#spMainContainer #spPmCount .spPmCountUnread {
+    color: #ff0000;
+}
+
+#spMainContainer #spPmCount .spPmCountRead {
+    color: inherit;
+}
+
+
+#spMainContainer .spPmThreadSection.spPmUnread,
+#spMainContainer .spPmMessageSection.spPmUnread {
+    background: #e0e0e0;
+}
+
+#spMainContainer #spPmContainer #spPmBody {
+	overflow-y: auto;
+    height: 100%;
+}
+
+#spMainContainer #spPmContainer .spHeaderName {
+    font-size: 95%;
+}
+
+#spMainContainer #spPmContainer .spPmThreadHeader {
+    background: none repeat scroll 0 0 #FEFEFE;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px 5px 5px 5px;
+    color: #333333;
+    margin: -5px 0 10px;
+    padding: 10px;
+}
+
+#spMainContainer .spPmThreadSection .spPmDeleteIcon {
+    margin-top: -5px;
+}
+
+#spMainContainer #spPmQuickLinksThreads .dd .ddChild .spPostNew {
+	color: #488ccc !important;
+}
+
+#spMainContainer #spPmContainer .spTopicPostSection .spPostSection,
+#spMainContainer #spPmContainer .spTopicPostSection .spPostSection .spPostContent {
+    border: 0;
+}
+
+#spMainContainer .spPmMessageSection {
+	padding: 0 6px;
+}
+
+/* ===================================== */
+
+#spMainContainer .spMessageActions {
+	margin: 0 5px 15px 5px;
+}
+
+#spMainContainer .spMessageActions .spInline {
+	display: inline;
+}
+
+/* ===================================== */
+
+
+#spMainContainer #spPmContainer .spInRowLabel {
+	margin: 3px 5px 2px 0;
+	display: inline;
+}
+
+#spMainContainer #spPmContainer .spRowName {
+	margin: 0px 5px 2px 0;
+}
+
+#spMainContainer #spPmContainer .spAvatar {
+	margin: 1px 0 0 3px;
+}
+
+/** force integrated toolbar if themes dont have it set up */
+
+#spMainContainer .spBodyContainer #spPostForm .spEditorSection {
+    float: none;
+	padding: 5px 5px;
+	width: auto;
+}
+
+
+/* compose form */
+
+/* core autocomplete styles
+----------------------------------*/
+
+.ui-menu {
+	background: #ffffff;
+	border: 1px solid #222 !important;
+	color: black #666;
+	font-size: 80%;
+	font-weight: bold;
+}
+
+/* Columns */
+
+#spMainContainer .spPm1Col {
+	width: 43%;
+/*	border: 1px solid red;*/
+}
+
+#spMainContainer .spPm2Col {
+	width: 55%;
+/*	border: 1px solid red;*/
+}
+
+#spMainContainer .spPm3Col {
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+
+#spMainContainer #spPostForm #spPmRecipients {
+	padding: 0;
+	margin: 0 0 10px 0;
+	border: none;
+}
+
+#spMainContainer #spPostForm .spEditorTitle {
+	font-size: 95%;
+	font-weight: bold;
+}
+
+#spMainContainer #spPostForm .spLabelSmall {
+	font-weight: normal;
+	font-size: 85%;
+	padding-left: 0;
+}
+
+#spMainContainer #spPostForm .spEditorTitle #pmusers {
+	width: 48%;
+}
+
+#spMainContainer #spPostForm .spEditorTitle #pmtitle {
+	width: 98%;
+}
+
+#spMainContainer #spPostForm .spPmCompose {
+	width: auto;
+}
+
+#spMainContainer #spPostForm .spPmCompose fieldset {
+	border: none;
+}
+
+#spMainContainer #spPostForm #spPmComposeNameList {
+	height: auto;
+	padding: 0px 0;
+	margin: 0;
+	text-align: center;
+}
+
+#spMainContainer #spPostForm #spPmComposeNameList input {
+	max-width: 45%;
+}
+
+#spMainContainer #spPostForm .spPmUsers {
+	width: 87%;
+}
+
+#spMainContainer #spPostForm .spPmAddToBuddies {
+	text-align: center;
+	padding: 10px 0 0;
+}
+
+#spMainContainer #spPostForm .spPmMaxRecipients {
+	text-align: center;
+}
+
+#spMainContainer #spPostForm .spControl {
+	font-weight: bold;
+	font-size: 95%;
+}
+
+#spMainContainer #spPostForm .spControl[disabled] {
+	color: #4C5D77;
+    font-size: 1.1em;
+}
+
+/* Auto-complete control */
+
+.sp-pm-ac.ui-autocomplete {
+	position: absolute;
+	cursor: default;
+	background: #ffffff;
+	border: 1px solid #DDE8EE;
+	color: #4C5D77;
+}
+
+* html .sp-pm-ac.ui-autocomplete {
+	width: 1px;
+}
+
+.sp-pm-ac.ui-menu {
+	list-style: none;
+	padding: 2px;
+	margin: 0;
+	display: block;
+	float: left;
+}
+
+.sp-pm-ac.ui-menu .ui-menu {
+	margin-top: -3px;
+}
+
+.sp-pm-ac.ui-menu .ui-menu-item {
+	margin: 0;
+	padding: 0;
+	zoom: 1;
+	float: left;
+	clear: left;
+	width: 100%;
+}
+
+.sp-pm-ac.ui-menu .ui-menu-item a {
+	text-decoration: none;
+	display: block;
+	padding: .1em .4em;
+	line-height: 1.0;
+	zoom: 1;
+	color: #4C5D77;
+}
+
+.sp-pm-ac.ui-menu .ui-menu-item a.ui-state-hover,
+.sp-pm-ac.ui-menu .ui-menu-item a.ui-state-active {
+	font-weight: bold;
+	margin: -1px;
+	background: #DCE7EE;
+}
+
+/* Quick Links */
+
+#spMainContainer #spPmQuickLinksThreadsSelect_msdd {
+	width: 100% !important;
+}
+
+#spMainContainer #spPmQuickLinksThreadsSelect_child {
+	max-height: 550px !important;
+	min-height: auto;
+	width: 350px !important;
+}
+
+

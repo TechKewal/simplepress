@@ -1,0 +1,20 @@
+--- Profanity Filter Plugin Options ---
+
+[autolink-options]
+<strong>Auto Linking Options</strong><br /><br />
+If you are using a language that does not follow standard word breaks (space, punctuation, etc) you may want to disable word boundary checking for the keywords.
+[end]
+
+[autolink-keywords]
+<strong>Auto Linking Keywords</strong><br /><br />
+Enter a list of keywords that you want to be replace by a url. The keywords should be entered one keyword per line.  There must be a corresponding entry for the keyword
+in the replacements list.  The keywords may be a single word or phrase (multiple keywords) that must be matched in the post content.<br /><br />
+By default - each keyword triggers a case-sensitive replacement so the match has to be exact. To enable a case-insensitive action - prefix the word with a % symbol.<br /><br />
+For example - by default the keyword 'Ford' would not find a match in the post with the terms 'ford' or 'FORD'. However, the keyword '%ford' would match them all.
+[end]
+
+[autolink-replacements]
+<strong>Auto Linking Replacements</strong><br /><br />
+Enter a URL to replace the corresponding keyword on the left with.  The URL should be entered one URL per line.  The keyword(s) on the left will be replace with a hyperlink
+to this URL.
+[end]

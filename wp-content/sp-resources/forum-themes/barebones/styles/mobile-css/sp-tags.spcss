@@ -1,0 +1,74 @@
+@media screen and (max-width: 2000px) {
+    #spMainContainer .spTopicTagsList a {
+    	font-size: 90%;
+	    color: <?php echo($contentFontColor); ?>;
+        padding: 5px;
+    }
+
+    #spMainContainer a.spTopicTagsList {
+        	margin-top: 0px;
+    }
+
+    #spMainContainer .spRelated {
+        	padding: 5px;
+    }
+	
+	#spMainContainer .spTagsForm p {
+		color: <?php echo($contentFontColor); ?>;
+	}
+	
+	#spMainContainer .spEditorTitle a.spButton {
+		width: auto;
+		text-align: center;
+		background: none;
+		border: none;
+		font-weight: bold;
+		padding: 5px 5px 0px 5px;
+		font-size: 80%;
+	}
+	
+	#spMainContainer .spTagsInside a.spButton {
+		width: auto;
+		text-align: center;
+		background: transparent;
+		border: none;
+		font-weight: bold;
+		padding: 5px 5px;
+		font-size: 100%;
+		margin: 0 5px;
+	}
+	
+	#spMainContainer .spTopicTagsList {
+		padding: 0px;
+		margin: 0px 0 10px 0;
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	
+	#spMainContainer .spColumnSection .spTopicTagsList {
+		background: none;
+		text-align: left;
+		margin: 0;
+		opacity: 1;
+		font-size: 80%;
+		font-weight: bold;
+	}
+	
+	#spMainContainer .spColumnSection .spTopicTagsList a.spButton {
+		font-size: 100%;
+		color: <?php echo($contentFontColor); ?>;
+		opacity: 0.7;
+		margin: 0 5px 0 0;
+	}
+	
+	#spMainContainer #edittags input.spSubmit {
+		font-weight: bold;
+		color: <?php echo($linkFontColor); ?>;
+		margin: -10px 10px 20px 10px;
+	}
+	
+	#spMainContainer #edittags .spHeaderName {
+		margin: 5px 0 0 10px;
+	}
+}

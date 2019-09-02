@@ -1,0 +1,306 @@
+--- HTML Emails Plugin Options ---
+
+[html-email-css]
+Create optional - and standard - CSS rules that can be applied to your HTML Emails.<br /><br />
+<b>Note</b>: Do NOT include HTML Script tags around your CSS rules. These will be automatically added by the processor at email construction time.<br /><br />
+On each of the HTML Email Admin Panels you can then select whether to include the global CSS, Header and Footer.
+[end]
+
+[html-email-header]
+Create an optional - and standard - header block that can be applied to your HTML Emails.<br /><br />
+<b>Note</b>: Do NOT include HTML html, head or body tags. These will be automatically added by the processor at email construction time.<br /><br />
+On each of the HTML Email Admin Panels you can then select whether to include the global CSS, Header and Footer.
+[end]
+
+[html-email-footer]
+Create an optional - and standard - footer block that can be applied to your HTML Emails.<br /><br />
+<b>Note</b>: Do NOT include HTML closing body or html tags. These will be automatically added by the processor at email construction time.<br /><br />
+On each of the HTML Email Admin Panels you can then select whether to include the global CSS, Header and Footer.
+[end]
+
+[html-email-admin-notification]
+<strong>Admin New Post Notification Options</strong><br /><br />
+On this panel, you can enable HTML formatting for the admin new post notifications.<br />
+You can also seelct whether to make use of any global CSS, Header or Footer HTML.
+[end]
+
+[html-email-admin-notifications]
+<strong>Admin New Post Notification Email</strong><br /><br />
+On this panel, you can use an HTML template for formatting your the admin new post nofications.<br /><br />
+You can create a template for the email subject, though no HTML is allowed in the subject.  For the subject, several placeholders are allowed for inserting email specific values.
+To use a placeholder, insert the appropriate placeholder where you want it to appear within your subject.  The allowed subject placeholders are:
+<ul>
+<li>%BLOGNAME%</li>
+<li>%TOPICNAME%</li>
+</ul><br /><br />
+One this panel, you can also create a template for the email body with HTML allowed. For the email body, several placeholders are allowed for inserting email specific values.
+To use a placeholder, insert the appropriate placeholder where you want it to appear within your body.  The allowed body placeholders are:
+<ul>
+<li>%BLOGNAME%</li>
+<li>%GROUPNAME%</li>
+<li>%FORUMNAME%</li>
+<li>%TOPICNAME%</li>
+<li>%POSTERNAME%</li>
+<li>%POSTEREMAIL%</li>
+<li>%POSTEREIP%</li>
+<li>%POSTURL%</li>
+<li>%POSTCONTENT%</li>
+<li>%MODERATIONTEXT%</li>
+</ul><br /><br />
+Note that the text top use for a post awaiting moderation is also set on this panel. If a post is NOT awaiting moderation, no 
+text will be displayed.
+[end]
+
+[html-email-new-user]
+<strong>New User Email Options</strong><br /><br />
+On this panel, you can enable HTML formatting for the new user emails.  Please note, use of this HTML Email will override the email settings on forum - options - email settings.<br />
+You can also seelct whether to make use of any global CSS, Header or Footer HTML.
+[end]
+
+[html-email-new-users]
+<strong>New User Email</strong><br /><br />
+On this panel, you can use an HTML template for formatting your the emails sent to new users.<br /><br />
+You can create a template for the email subject, though no HTML is allowed in the subject.  For the subject, several placeholders are allowed for inserting email specific values.
+To use a placeholder, insert the appropriate placeholder where you want it to appear within your subject.  The allowed subject placeholders are:
+<ul>
+<li>%BLOGNAME%</li>
+<li>%USERNAME%</li>
+</ul><br /><br />
+One this panel, you can use also create a template for the email body with HTML allowed. For the email body, several placeholders are allowed for inserting email specific values.
+To use a placeholder, insert the appropriate placeholder where you want it to appear within your body.  The allowed body placeholders are:
+<ul>
+<li>%USERNAME%</li>
+<li>%BLOGNAME%</li>
+<li>%SITEURL%</li>
+<li>%LOGINURL%</li>
+<li>%PWURL%</li>
+</ul><br /><br />
+[end]
+
+[html-email-new-users-admin]
+<strong>Admin New User Email</strong><br /><br />
+On this panel, you can use an HTML template for formatting the emails sent to the admin for new users.<br /><br />
+You can create a template for the email subject, though no HTML is allowed in the subject.  For the subject, several placeholders are allowed for inserting email specific values.
+To use a placeholder, insert the appropriate placeholder where you want it to appear within your subject.  The allowed subject placeholders are:
+<ul>
+<li>%BLOGNAME%</li>
+<li>%USERNAME%</li>
+</ul><br /><br />
+One this panel, you can use also create a template for the email body with HTML allowed. For the email body, several placeholders are allowed for inserting email specific values.
+To use a placeholder, insert the appropriate placeholder where you want it to appear within your body.  The allowed body placeholders are:
+<ul>
+<li>%USERNAME%</li>
+<li>%USEREMAIL%</li>
+<li>%USERIP%</li>
+<li>%BLOGNAME%</li>
+</ul><br /><br />
+[end]
+
+[html-email-pw-change]
+<strong>Password Changed Email Options</strong><br /><br />
+On this panel, you can enable HTML formatting for the password changed emails.<br />
+You can also seelct whether to make use of any global CSS, Header or Footer HTML.
+[end]
+
+[html-email-pw-changes]
+<strong>Password Change Email</strong><br /><br />
+On this panel, you can use an HTML template for formatting your the emails sent to users who request to change their password.<br /><br />
+You can create a template for the email subject, though no HTML is allowed in the subject.  For the subject, several placeholders are allowed for inserting email specific values.
+To use a placeholder, insert the appropriate placeholder where you want it to appear within your subject.  The allowed subject placeholders are:
+<ul>
+<li>%BLOGNAME%</li>
+<li>%USERNAME%</li>
+</ul><br /><br />
+One this panel, you can use also create a template for the email body with HTML allowed. For the email body, several placeholders are allowed for inserting email specific values.
+To use a placeholder, insert the appropriate placeholder where you want it to appear within your body.  The allowed body placeholders are:
+<ul>
+<li>%USERNAME%</li>
+<li>%USEREMAIL%</li>
+<li>%USERIP%</li>
+<li>%BLOGNAME%</li>
+<li>%SITEURL%</li>
+<li>%RESETURL%</li>
+</ul><br /><br />
+[end]
+
+[html-email-pw-changes-admin]
+<strong>Admin Password Change Email</strong><br /><br />
+On this panel, you can use an HTML template for formatting the emails sent to the admin when a user requests to change their password.<br /><br />
+You can create a template for the email subject, though no HTML is allowed in the subject.  For the subject, several placeholders are allowed for inserting email specific values.
+To use a placeholder, insert the appropriate placeholder where you want it to appear within your subject.  The allowed subject placeholders are:
+<ul>
+<li>%BLOGNAME%</li>
+<li>%USERNAME%</li>
+</ul><br /><br />
+One this panel, you can use also create a template for the email body with HTML allowed. For the email body, several placeholders are allowed for inserting email specific values.
+To use a placeholder, insert the appropriate placeholder where you want it to appear within your body.  The allowed body placeholders are:
+<ul>
+<li>%USERNAME%</li>
+<li>%USEREMAIL%</li>
+<li>%USERIP%</li>
+<li>%BLOGNAME%</li>
+</ul><br /><br />
+[end]
+
+[html-email-mention]
+<strong>Mention Options</strong><br /><br />
+On this panel, you can enable HTML formatting for the emails sent to a user when they are mentioned in a post.<br />
+You can also seelct whether to make use of any global CSS, Header or Footer HTML.
+[end]
+
+[html-email-mentions]
+<strong>Mention Email</strong><br /><br />
+On this panel, you can use an HTML template for formatting your the emails sent to a user when mentioned in a post.<br /><br />
+You can create a template for the email subject, though no HTML is allowed in the subject.  For the subject, several placeholders are allowed for inserting email specific values.
+To use a placeholder, insert the appropriate placeholder where you want it to appear within your subject.  The allowed subject placeholders are:
+<ul>
+<li>%BLOGNAME%</li>
+<li>%MENTIONBY%</li>
+</ul><br /><br />
+One this panel, you can use also create a template for the email body with HTML allowed. For the email body, several placeholders are allowed for inserting email specific values.
+To use a placeholder, insert the appropriate placeholder where you want it to appear within your body.  The allowed body placeholders are:
+<ul>
+<li>%BLOGNAME%</li>
+<li>%GROUPNAME%</li>
+<li>%FORUMNAME%</li>
+<li>%TOPICNAME%</li>
+<li>%POSTURL%</li>
+<li>%USERNAME%</li>
+<li>%MENTIONBY%</li>
+<li>%SITEURL%</li>
+</ul><br /><br />
+[end]
+
+[html-email-report]
+<strong>Report Post Options</strong><br /><br />
+On this panel, you can enable HTML formatting for the emails sent to the admin users when a post is reported.<br />
+You can also seelct whether to make use of any global CSS, Header or Footer HTML.
+[end]
+
+[html-email-reports]
+<strong>Report Post Email</strong><br /><br />
+On this panel, you can use an HTML template for formatting your the emails sent to an admin when a post is reported.<br /><br />
+You can create a template for the email subject, though no HTML is allowed in the subject.  For the subject, several placeholders are allowed for inserting email specific values.
+To use a placeholder, insert the appropriate placeholder where you want it to appear within your subject.  The allowed subject placeholders are:
+<ul>
+<li>%BLOGNAME%</li>
+<li>%REPORTER%</li>
+</ul><br /><br />
+One this panel, you can use also create a template for the email body with HTML allowed. For the email body, several placeholders are allowed for inserting email specific values.
+To use a placeholder, insert the appropriate placeholder where you want it to appear within your body.  The allowed body placeholders are:
+<ul>
+<li>%BLOGNAME%</li>
+<li>%GROUPNAME%</li>
+<li>%FORUMNAME%</li>
+<li>%TOPICNAME%</li>
+<li>%POSTURL%</li>
+<li>%POSTCONTENT%</li>
+<li>%POSTREPORT%</li>
+<li>%REPORTER%</li>
+<li>%SITEURL%</li>
+</ul><br /><br />
+[end]
+
+[html-email-newpm]
+<strong>Private Message Options</strong><br /><br />
+On this panel, you can enable HTML formatting for the emails sent to a user when they receive a private message.<br />
+You can also seelct whether to make use of any global CSS, Header or Footer HTML.
+[end]
+
+[html-email-newpms]
+<strong>Private Message Email</strong><br /><br />
+On this panel, you can use an HTML template for formatting the emails sent to a user when they receive a private message.<br /><br />
+You can create a template for the email subject, though no HTML is allowed in the subject.  For the subject, several placeholders are allowed for inserting email specific values.
+To use a placeholder, insert the appropriate placeholder where you want it to appear within your subject.  The allowed subject placeholders are:
+<ul>
+<li>%BLOGNAME%</li>
+<li>%SENDER%</li>
+</ul><br /><br />
+One this panel, you can use also create a template for the email body with HTML allowed. For the email body, several placeholders are allowed for inserting email specific values.
+To use a placeholder, insert the appropriate placeholder where you want it to appear within your body.  The allowed body placeholders are:
+<ul>
+<li>%BLOGNAME%</li>
+<li>%PMTITLE%</li>
+<li>%PMCONTENT%</li>
+<li>%INBOXURL%</li>
+<li>%SENDER%</li>
+<li>%SITEURL%</li>
+</ul><br /><br />
+[end]
+
+[html-email-sub]
+<strong>Subscription Options</strong><br /><br />
+On this panel, you can enable HTML formatting for the emails sent to a user when a new post is made to a subscribed forum/topic.<br />
+You can also seelct whether to make use of any global CSS, Header or Footer HTML.
+[end]
+
+[html-email-subs]
+<strong>Subscription Email</strong><br /><br />
+On this panel, you can use an HTML template for formatting the emails sent to a user when a new post is made to a subscribed forum/topic.<br /><br />
+You can create a template for the email subject, though no HTML is allowed in the subject.  For the subject, several placeholders are allowed for inserting email specific values.
+To use a placeholder, insert the appropriate placeholder where you want it to appear within your subject.  The allowed subject placeholders are:
+<ul>
+<li>%BLOGNAME%</li>
+<li>%TOPICNAME%</li>
+</ul><br /><br />
+One this panel, you can use also create a template for the email body with HTML allowed. For the email body, several placeholders are allowed for inserting email specific values.
+To use a placeholder, insert the appropriate placeholder where you want it to appear within your body.  The allowed body placeholders are:
+<ul>
+<li>%BLOGNAME%</li>
+<li>%GROUPNAME%</li>
+<li>%FORUMNAME%</li>
+<li>%TOPICNAME%</li>
+<li>%POSTURL%</li>
+<li>%POSTCONTENT%</li>
+<li>%POSTER%</li>
+<li>%SITEURL%</li>
+</ul><br /><br />
+[end]
+
+[html-email-digest]
+<strong>Subscription Digest Options</strong><br /><br />
+On this panel, you can enable HTML formatting for the emails sent to a user for their subscription digests.<br />
+You can also seelct whether to make use of any global CSS, Header or Footer HTML.
+[end]
+
+[html-email-digests]
+<strong>Subscription Digest Email</strong><br /><br />
+On this panel, you can use an HTML template for formatting the emails sent to a user for their subscription digests.<br /><br />
+You can create a template for the email subject, though no HTML is allowed in the subject.  For the subject, several placeholders are allowed for inserting email specific values.
+To use a placeholder, insert the appropriate placeholder where you want it to appear within your subject.  The allowed subject placeholders are:
+<ul>
+<li>%BLOGNAME%</li>
+<li>%TYPE%</li>
+</ul><br /><br />
+One this panel, you can use also create a template for the email body header with HTML allowed. This body header is output once at the beginning of the digest email.
+For the email header, several placeholders are allowed for inserting email specific values.
+To use a placeholder, insert the appropriate placeholder where you want it to appear within your header.  The allowed header placeholders are:
+<ul>
+<li>%BLOGNAME%</li>
+<li>%TYPE%</li>
+<li>%PROFILEURL%</li>
+<li>%SITEURL%</li>
+</ul><br /><br />
+One this panel, you can use also create a template for the email body with HTML allowed.  The email body is output once per subscriptin entry in the digest.
+For the email body, several placeholders are allowed for inserting email specific values.
+To use a placeholder, insert the appropriate placeholder where you want it to appear within your body.  The allowed body placeholders are:
+<ul>
+<li>%BLOGNAME%</li>
+<li>%GROUPNAME%</li>
+<li>%FORUMNAME%</li>
+<li>%TOPICNAME%</li>
+<li>%POSTURL%</li>
+<li>%POSTCONTENT%</li>
+<li>%COUNT%</li>
+<li>%SITEURL%</li>
+</ul><br /><br />
+One this panel, you can use also create a template for the email body footer with HTML allowed. This body footer is output once at the end of the digest email.
+For the email footer, several placeholders are allowed for inserting email specific values.
+To use a placeholder, insert the appropriate placeholder where you want it to appear within your footer.  The allowed footer placeholders are:
+<ul>
+<li>%BLOGNAME%</li>
+<li>%TYPE%</li>
+<li>%PROFILEURL%</li>
+<li>%SITEURL%</li>
+</ul><br /><br />
+[end]

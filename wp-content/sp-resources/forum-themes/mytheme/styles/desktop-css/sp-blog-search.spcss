@@ -1,0 +1,88 @@
+#spMainContainer ul#spSearchTabs {
+	margin: 5px 0;
+	padding: 15px 10px 10px;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	border: none;
+}
+
+#spMainContainer ul#spSearchTabs li {
+	float: left;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#spMainContainer .spPageLinksSearchView .spPageLinks {
+	display: none;
+}
+
+#spMainContainer .search-panes .spPageLinks.spPageLinksBottom {
+	padding: 0px 0px 10px 7px;
+	margin: 0;
+}
+
+#spMainContainer .spPageLinksSearchViewBottom {
+	margin: 0 10px 10px 0;
+}
+
+#spMainContainer .search-panes .spMessage {
+	color: <?php echo ($titleFontColor); ?>;
+	background: <?php echo($titleContainerBackground); ?>;
+	margin: 0;
+	font-weight: bold;
+	font-size: 80%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#spMainContainer .spListSection {
+	padding: 0;
+}
+
+#spMainContainer .spListLabel {
+	font-size: 80%;
+}
+
+#spMainContainer .spSearchSection .spTopicListSection {
+	margin: 10px 0 0 0;
+}
+
+#spMainContainer .spSearchSection .spTopicListSection a{
+	float: left;
+}
+
+#spMainContainer .spBlogSearchSection .spListSection .spTopicListSection {
+	display: inline;
+	margin: 10px 0 0 0;
+	padding: 5px;
+}
+
+#spMainContainer .spBlogSearchSection .spListSection .spTopicListSection img {
+	margin: 0 10px 0 5px;
+}
+
+#spMainContainer .spBlogSearchSection .spListSection .spListPostLink {
+	margin: 3px 0 5px;
+	font-size: 90%;
+}
+
+#spMainContainer .spBlogSearchSection .spListSection .spListPostLink .spProfilePopupLink {
+	font-weight: bold;
+}
+	
+#spMainContainer #spBSButton,
+#spMainContainer #spFSButton {
+	color: <?php echo($linkFontColor); ?>;
+}
+
+#spMainContainer #spBSButton:hover,
+#spMainContainer #spFSButton:hover {
+	color: <?php echo($linkFontColorHover); ?>;
+}
+
+#spMainContainer .spPageLinksBlogSearchViewBottom {
+	margin: 0 10px 10px 0;
+}

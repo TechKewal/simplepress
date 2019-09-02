@@ -1,0 +1,102 @@
+---ADS Plugin Options ---
+
+[ads-ad-set-list]
+An AD SET is a way of grouping ads together.  One ad in the group (AD SET) will be shown in a location and ads in an AD SET will be rotated so that each ad in the set is shown an equal number of times. <br /><br />
+On this screen you can create a new AD SET by clicking the ADD AD SET button.  <br /><br />
+To edit an AD SET you can hover over a row and click the EDIT link that will show up while you are hovering. <br /><br />
+To delete an AD SET you can hover over a row and click the DELETE link that will show up while you are hovering. <br /><br />
+To view the actual ADS that are in an AD SET, you must hover over a row and click the ADS LIST link that will show up while you are hovering.
+[end]
+
+[ads-ad-set-add]
+All AD SETS must have a name.  Just give this set a name.<br /><br />
+By default the AD SET is turned on but you can turn it off and prevent ads from being displayed by simply unchecking the IS ACTIVE checkbox.<br /><br />
+<strong>Combine Ad set With Other Ad Sets</strong><br /><br />
+This is an advanced option.  Usually, if you have multiple AD SETS that have ads being displayed in the same location multiple ads will show in that location, stacked vertically.  <br /><br />
+But, you can choose to combine AD SETS together to show only a single ad from the combined ad sets.  Turn this checkbox on to enable this function.
+[end]
+
+[ads-ad-set-edit]
+All AD SETS must have a name.  You can change the name by simply editing the name field.<br /><br />
+By default the AD SET is turned on but you can turn it off and prevent ads from being displayed by simply unchecking the IS ACTIVE checkbox.<br /><br />
+<strong>Combine Ad set With Other Ad Sets</strong><br /><br />
+This is an advanced option.  Usually, if you have multiple AD SETS that have ads being displayed in the same location multiple ads will show in that location, stacked vertically.  <br /><br />
+But, you can choose to combine AD SETS together to show only a single ad from the combined ad sets.  Turn this checkbox on to enable this function.
+[end]
+
+[ads-select-forums-and-topics]
+You can restrict ads to run only in particular forums or to run in just particular topics.<br /><br />
+To find specific topics, you must start typing in the CHOOSE TOPIC field under a forum.  The plugin will then start to search that forum for matching topics that you can choose from.
+[end]
+
+[ads-date-limitations]
+An AD SET can be set to run all the time or can be set to run only between specific dates.  In this area you can specify when an AD set will be active.  If nothing is set in this area, the AD SET will be active at all times.
+[end]
+
+[ads-locations]
+You must specify at least one location in order for you ads to display.  You can specify more than one location.  If multiple ads are in an AD SET and you choose more than one location, then each location will be shown a different AD.<br /><br />
+The "Add Before" and "Add After" options for placing ads between forums, posts and topics require a delimited set of numbers such as "1,5,10" (without the quotes). Ads will appear before or after those items that correspond to those numbers.<br /><br />
+For example, if you specify "1,4,6" in the "Add Before" Topics row, ads will appear before the first topic, before the fourth topic and before the sixth topic.  Items will be counted as they appear on the screen and do not correspond to topic ids or post ids. <br /><br /> 
+[end]
+
+[ads-add-ad]
+Each AD must have a name so just give it one before saving. <br /><br />
+You can use the editor to enter the text of the ad and use the ADD MEDIA button to insert ads from your media library. <br /><br />
+If you want to enter HTML directly, you can switch the editor to TEXT mode. <br /><br />
+<strong>Script Allowed</strong><br /><br />
+Check this box if you want to enter javascript based ads.  To enter javascript, make sure that the editor is in TEXT mode by clicking on the TEXT tab in the upper right hand side (of the editor).<br /><br />
+<strong>Display Quantity</strong><br /><br />
+If you only want to display the ad a fixed number of times, enter a quantity in this field.  Leaving it blank or setting it to zero will display the ad an unlimited number of times.<br /><br />
+If you do enter a number in this field, the ad will be shown that many times and then will no longer be shown unless you increase the number later.<br /><br />
+<strong>Is Active</strong><br /><br />
+This flag is on by default. If you uncheck it, the ad will no longer be displayed.  However, you can, of course, turn it on again.<br /><br />
+[end]
+
+[ads-edit-ad]
+Each AD must have a name so just give it one before saving. <br /><br />
+You can use the editor to enter the text of the ad and use the ADD MEDIA button to insert ads from your media library. <br /><br />
+If you want to enter HTML directly, you can switch the editor to TEXT mode. <br /><br />
+<strong>Script Allowed</strong><br /><br />
+Check this box if you want to enter javascript based ads.  To enter javascript, make sure that the editor is in TEXT mode by clicking on the TEXT tab in the upper right hand side (of the editor).<br /><br />
+<strong>Display Quantity</strong><br /><br />
+If you only want to display the ad a fixed number of times, enter a quantity in this field.  Leaving it blank or setting it to zero will display the ad an unlimited number of times.<br /><br />
+If you do enter a number in this field, the ad will be shown that many times and then will no longer be shown unless you increase the number later.<br /><br />
+<strong>Is Active</strong><br /><br />
+This flag is on by default. If you uncheck it, the ad will no longer be displayed.  However, you can, of course, turn it on again.<br /><br />
+[end]
+
+[ads-user-group]
+You can specify that ads in this AD SET should only be shown to users in a particular user group.
+[end]
+
+[ads-keywords]
+You can restrict ads in this AD SET to screens where the posts and topics contain keywords you specify.<br /><br />
+To delete a keyword, just erase the contents of the keyword field and hit the save button at the bottom of this screen.
+[end]
+
+[ads-list]
+This is a list of ADS inside of an AD SET.<br /><br />
+On this screen you can create a new AD by clicking the ADD AD button.  <br /><br />
+To edit an AD you can hover over a row and click the EDIT link that will show up while you are hovering. <br /><br />
+To delete an AD you can hover over a row and click the DELETE link that will show up while you are hovering. <br /><br />
+[end]
+
+[ads-filter]
+Use these date filters to see the HITS statistics in the list below for the selected time period.
+[end]
+
+[ads-filter-list]
+Displays all ads.
+[end]
+
+
+
+
+
+
+
+
+
+
+
+

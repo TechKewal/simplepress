@@ -1,0 +1,12 @@
+---
+Ranks Info Plugin Options ---
+
+[rank-info-options]
+<strong>Rank Info Options</strong><br /><br />
+Here you can set the options for the rank information display.  Rank information display is broken down into two sections: standard forum ranks and special ranks.<br /><br />
+You always have to display the standard forum ranks.  Within the forum ranks, you will always display the rank name and the number of posts needed to achieve that rank.
+You can optionally also decide whether to show any usergroup memebership attained when you reach that forum rank, the badge for the rank and the current members that have
+achieved that forum rank. Or optionally, you can limit viewers to only see members of the forum rank they have attained.<br /><br />
+You can also optionally choose to show your special ranks you have set up.  If you enable the special ranks display, you will always show the special rank name and the badge.
+You can also optionally show the current members of that special rank. Or optionally, you can limit viewers to only see members of the special ranks they have.
+[end]

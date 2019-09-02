@@ -1,0 +1,9 @@
+@media screen and (max-width: 520px) {
+    #spMainContainer #spPostForm .spEditorSection.sp_file_uploader {
+        width: auto;
+    }
+	
+	#spMainContainer #sp_file_uploader .plupload_wrapper {
+		margin-left: -4px;
+	}
+}

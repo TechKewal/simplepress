@@ -1,0 +1,45 @@
+/* =============================================================
+Simple:Press
+Push Notifications Plugin CSS
+============================================================= */
+#spMainContainer .spUnsubscribeAll {
+	text-align: center;
+	padding: 5px 0;
+    font-size:  90%;
+}
+
+#spMainContainer #spSubCount {
+	padding-bottom: 3px;
+}
+
+#spMainContainer #spSubCount .spSubCountUnread {
+	color: #ff0000;
+}
+
+#spMainContainer #spSubCount .spSubCountRead {
+	color: inherit;
+}
+
+#spMainContainer .spPushNotificationsNotice {
+    padding-left: 10px;
+}
+
+#spMainContainer .spPushNotificationsNotice img {
+    vertical-align: bottom;
+}
+
+#spMainContainer .spProfileForumSubscriptions label.list,
+#spMainContainer .spProfileTopicSubscriptions label.list {
+    width: auto;
+    margin-top:  -3px;
+}
+
+#spMainContainer .spProfileForumSubscriptions p.spProfileLabel {
+    font-weight: bold;
+    padding: 10px 0;
+    clear: both;
+}
+
+#spMainContainer a.spPushNotificationsRemoveButton {
+	margin-top: -5px;
+}

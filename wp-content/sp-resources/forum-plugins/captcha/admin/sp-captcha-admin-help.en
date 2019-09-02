@@ -1,0 +1,9 @@
+---
+Captcha Plugin Options ---
+
+[captcha]
+<strong>Captcha Options</strong><br /><br />
+The Captcha spam check can be enabled on the WP registration and multisite signup page if desired.
+The Captcha is a rigorous anti-spam check that requires a user to choose a requested image from a list and drag it to a drop area.
+You probably don't want both the math spam and this Captcha enabled.
+[end]

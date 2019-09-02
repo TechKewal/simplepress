@@ -1,0 +1,38 @@
+/*
+Simple:Press TinyMCE Override CSS
+$LastChangedDate:2009-06-23 00:17:06 +0100 (Tue, 23 Jun 2009) $
+$Rev:2099 $
+*/
+
+#spMainContainer .wp-editor-area {
+	font-family: Consolas, Monaco, monospace;
+	padding: 10px;
+	margin: 1px 0 0;
+	line-height: 150%;
+	border: 0 none;
+	outline: none;
+	display: block;
+	resize: vertical;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#spMainContainer .wp-editor-tools {
+	height: 30px;
+	padding: 0 10px 0 0;
+}
+
+#spMainContainer .wp-editor-container {
+    border-width: 1px;
+	border-style: solid;
+	-webkit-border-top-right-radius: 3px;
+	-webkit-border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	border-color: #ccc #ccc #dfdfdf;
+}
+
+#spMainContainer .wp-editor-container textarea.wp-editor-area {
+	width: 99.9%;
+}

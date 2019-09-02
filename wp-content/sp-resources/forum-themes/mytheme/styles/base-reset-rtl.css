@@ -1,0 +1,168 @@
+/*
+# --------------------------------------------------------------------------------------
+#
+#	Simple:Press Template Reset CSS
+#	Theme		:	Barebones
+#	Author		:	Simple:Press
+#
+#	This is the reset and common class CSS file for the SP Unified theme.
+#
+# --------------------------------------------------------------------------------------
+*/
+
+/* ----------------------
+Base reset CSS
+-------------------------*/
+
+#spMainContainer {
+	margin: 0;
+	padding: 0;
+}
+
+#spMainContainer div,
+#spMainContainer span,
+#spMainContainer h1,
+#spMainContainer h2,
+#spMainContainer h3,
+#spMainContainer h4,
+#spMainContainer h5,
+#spMainContainer h6,
+#spMainContainer p,
+#spMainContainer blockquote,
+#spMainContainer pre,
+#spMainContainer code,
+#spMainContainer img,
+#spMainContainer big,
+#spMainContainer small,
+#spMainContainer strong,
+#spMainContainer b,
+#spMainContainer i,
+#spMainContainer ol,
+#spMainContainer ul,
+#spMainContainer li,
+#spMainContainer form,
+#spMainContainer label,
+#spMainContainer input,
+#spMainContainer select,
+#spMainContainer legend {
+	margin: 0;
+	padding: 0;
+	border: <?php echo($resetBorder); ?>;
+	outline: 0;
+	vertical-align: baseline;
+	background-color: <?php echo($resetBackGroundColor); ?>;
+	color: <?php echo($resetTextColor); ?>;
+	font-family: <?php echo($resetFontFamily); ?>;
+	font-size: <?php echo($resetFontSize); ?>;
+	font-weight: <?php echo($resetFontWeight); ?>;
+	line-height: <?php echo($resetLineHeight); ?>;
+	min-height: 0;
+	min-width: 0;
+    float: none;
+	border-radius: none;
+	box-shadow: none;
+}
+
+#spMainContainer fieldset{
+	margin: 0;
+	border: <?php echo($resetBorder); ?>;
+	outline: 0;
+	vertical-align: baseline;
+	background-color: <?php echo($resetBackGroundColor); ?>;
+	color: <?php echo($resetTextColor); ?>;
+	font-family: <?php echo($resetFontFamily); ?>;
+	font-size: <?php echo($resetFontSize); ?>;
+	font-weight: <?php echo($resetFontWeight); ?>;
+	line-height: <?php echo($resetLineHeight); ?>;
+	min-height: 0;
+	min-width: 0;
+    float: none;
+	border-radius: none;
+	box-shadow: none;
+}
+
+#spMainContainer strong,
+#spMainContainer b {
+	font-weight: bold;
+}
+
+#spMainContainer a,
+#spMainContainer a:link,
+#spMainContainer a:active,
+#spMainContainer a:visited {
+    color: <?php echo($resetLinkColor); ?>;
+    text-decoration: <?php echo($resetLinkDecoration); ?>;
+    cursor: pointer;
+}
+
+#spMainContainer a:hover {
+    color: <?php echo($resetLinkHover); ?>;
+}
+
+#spMainContainer small {
+    font-size: <?php echo($resetFontSizeSmall); ?>;
+	padding: 0;
+}
+
+#spMainContainer ol,
+#spMainContainer ul {
+	list-style-position: inside;
+}
+
+#spMainContainer img,
+#spMainContainer a img {
+	display: inline;
+	border: none;
+	vertical-align: middle;
+}
+
+#spMainContainer table,
+#spMainContainer tr td,
+#spMainContainer tr,
+#spMainContainer td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	vertical-align: middle;
+	width: auto;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ----------------------
+Some base, useful classes
+-------------------------*/
+
+#spMainContainer .spClear {
+	clear: both;
+}
+
+#spMainContainer .spClearRight {
+	clear: left;
+}
+
+#spMainContainer .spClearLeft {
+	clear: right;
+}
+
+#spMainContainer .spLeft {
+	float: right;
+}
+
+#spMainContainer .spRight {
+	float: left;
+}
+
+#spMainContainer .spTextRight {
+	text-align: left;
+}
+
+#spMainContainer .spTextLeft {
+	text-align: right;
+}
+
+#spMainContainer .spCenter {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}

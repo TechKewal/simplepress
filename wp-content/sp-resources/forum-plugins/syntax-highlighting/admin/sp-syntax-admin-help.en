@@ -1,0 +1,36 @@
+--- Syntax Highlighting Plugin Options ---
+
+[syntax-highlighting]
+<strong>Syntax Highlighting of Program Code</strong><br /><br />
+Simple:Press has built in support for the highlighting and formatting of program code in a wide variety of popular and common languages.<br /><br />
+This feature can be turned on for your forum posts and can  also be turned on and used for linked blog posts as well - although the Simple:Press Blog Linking plugin will be required for this..<br /><br />
+You can specify which code languages you wish to support through the editor. Note that only the TinyMCE editor offers toolbar support for this feature.
+Separate each language with a comma. You can also reorder them to suit your requirements. Available languages are:
+<ul>
+<li>apache</li>
+<li>applescript</li>
+<li>asm</li>
+<li>bash-script</li>
+<li>bash</li>
+<li>basic</li>
+<li>clang</li>
+<li>css</li>
+<li>diff</li>
+<li>html</li>
+<li>java</li>
+<li>javascript</li>
+<li>lisp</li>
+<li>ooc</li>
+<li>plain</li>
+<li>php</li>
+<li>python</li>
+<li>ruby</li>
+<li>sql</li>
+<li>yaml</li>
+</ul>
+
+You must use these names and they nmust be specified in lower case.<br /><br />
+<b>Important Note:</b> If you are already using one of the Syntax Highlighting plugins on your website then please note that it will be
+necessary to either turn off the options for the forum and blog - or - remove the other plugin. Attempting to use both will most likely
+result in an error or give other, unpredictable results.
+[end]

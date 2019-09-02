@@ -1,0 +1,30 @@
+/*
+Simple:Press Tags Admin CSS
+$LastChangedDate:2009-06-23 00:17:06 +0100 (Tue, 23 Jun 2009) $
+$Rev:2099 $
+*/
+
+/* FORM TAGS =======================================================================================*/
+
+.tag_wrap #tagslist ul {
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:square;
+	margin:10px 0 10px 20px;
+	padding:0;
+}
+
+.tag_wrap #tagslist ul li {
+	line-height:1.4;
+	margin:0;
+	padding:0;
+}
+
+.tag_wrap #tagslist ul li span {
+	cursor:pointer;
+}
+
+.tag_wrap td.list_tags {
+	vertical-align:top;
+	width:240px;
+}

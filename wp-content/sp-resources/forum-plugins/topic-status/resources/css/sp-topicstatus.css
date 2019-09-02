@@ -1,0 +1,39 @@
+/* =============================================================
+Simple:Press
+Tppoic Status Plugin CSS
+============================================================= */
+
+#spMainContainer a.spTopicIndexStatus.spButton {
+	margin: 5px 0 0 3px;
+}
+
+
+#spMainContainer .spTopicViewStatus {
+	padding: 5px 2px 5px 2px;
+}
+
+#spMainContainer .spTopicViewStatus span {
+	font-size: 85%;
+}
+
+#spMainContainer a.spTopicViewStatus {
+	margin-top: 5px;
+}
+
+#spMainContainer .spTopicViewStatus a {
+	display: inline-table;
+	padding: 0 5px;
+	margin-left: 0;
+}
+
+#spMainContainer .spLabel.spSelect.spTopicStatusLabel {
+    float: left;
+    padding-left: 25px;
+    font-size: 100%;
+}
+
+#spMainContainer #spTopicStatusSelect {
+    float: left;
+    height: auto;
+    padding: 0 0 0 5px
+}

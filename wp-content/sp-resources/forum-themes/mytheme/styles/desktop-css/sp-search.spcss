@@ -1,0 +1,148 @@
+#spMainContainer #spSearchList .spListSection {
+    width: auto;
+}
+
+#spMainContainer #spSearchList .spListSection.spPostSearchSection {
+    padding: 5px 0px 0px 0px;
+	box-sizing: border-box;
+}
+
+#spMainContainer #spBSButton .spButton a,
+#spMainContainer #spFSButton .spButton a {
+	background: red;
+}
+
+#spMainContainer #spSearchList .spPostSearchSection .spPostSearchResultsSection {
+	padding: 0 0 0 0;
+	margin: 5px 0 15px 0;
+	background: #ffffff;
+	-webkit-border-radius: 5px;
+    width: 100%;
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: flex;
+	flex-direction: row-reverse;
+	box-shadow: none;
+}
+
+#spMainContainer #spSearchList .spPostSearchSection .spColumnSection .spPostSearchResultsSection {
+	display: inline-block;
+	margin: 0;
+	background: <?php echo($stockColor2); ?>;
+}
+
+#spMainContainer #spSearchList .spPostSearchResultsSection .spPostSearchItemSection .spListPostRowName {
+	padding: 5px;
+	margin: 0;
+	position: relative;
+	background: <?php echo($titleContainerBackground); ?>;
+}
+
+#spMainContainer #spSearchList .spPostSearchResultsSection .spPostSearchItemSection {
+	background: <?php echo($stockColor6); ?>;
+}
+#spMainContainer #spSearchList .spPostSearchResultsSection .spPostSearchItemSection .spListPostRowName a {
+    font-weight: bold;
+	font-size: 80%;
+}
+
+#spMainContainer #spSearchList .spPostSearchResultsSection .spPostSearchItemSection .spPostContent {
+    border: none;
+    padding: 15px 10px 5px 10px;
+	position: relative;
+	font-size: 85%;
+	word-wrap: break-word;
+}
+
+#spMainContainer #spSearchList .spPostSearchResultsSection .spPostSearchItemSection .spPostContent p {
+	font-size: 100%;
+}
+
+#spMainContainer #spSearchList .spPostSearchResultsSection .spPostSearchItemSection .spPostContent .spSearchTermHighlight,
+#spMainContainer #spSearchList .spPostSearchResultsSection .spPostSearchItemSection .spListPostRowName .spSearchTermHighlight {
+    background-color: #f3bfcc;
+    color: #bc2a4d;
+    padding: 0 2px 1px;
+}
+
+#spMainContainer .spColumnSection .spPostInfoSection {
+    padding: 7px 6px 4px 7px;
+	margin: 0;
+	position: relative;
+	box-sizing: border-box;
+	background: <?php echo($stockColor2); ?>;
+}
+
+#spMainContainer #spSearchList .spPostSearchSection .spPostSearchResultsSection .spPostInfoSection .spPostUserName {
+	padding-top: 0px;
+	padding-bottom: 2px;
+	padding-left: 50px;
+	font-size: 80%;
+}
+
+#spMainContainer #spSearchList .spPostSearchSection .spPostSearchResultsSection .spPostInfoSection .spPostUserName .spProfilePopupLink {
+	font-weight: bold;
+}
+
+#spMainContainer #spSearchList .spPostSearchSection .spPostSearchResultsSection .spPostInfoSection .spPostUserDate {
+    padding-left: 50px;
+	padding-top: 0;
+	font-size: 80%;
+}
+
+#spMainContainer #spSearchList .spPostSearchSection .spPostSearchResultsSection .spPostInfoSection .spListPostForumRowName,
+#spMainContainer #spSearchList .spPostSearchSection .spPostSearchResultsSection .spPostInfoSection .spListPostCountRowName {
+    padding-top: 10px;
+    font-size: 80%;
+}
+
+#spMainContainer #spSearchList .spPostSearchSection .spPostSearchResultsSection .spPostInfoSection .spListPostTopicRowName,
+#spMainContainer #spSearchList .spPostSearchSection .spPostSearchResultsSection .spPostInfoSection .spListPostViewsRowName {
+	padding-bottom: 5px;
+	padding-top: 5px;
+    font-size: 80%;
+}
+
+#spMainContainer #spSearchList .spPostSearchSection .spPostSearchResultsSection .spPostInfoSection .spListPostForumRowName a,
+#spMainContainer #spSearchList .spPostSearchSection .spPostSearchResultsSection .spPostInfoSection .spListPostTopicRowName a {
+    font-size: 100%;
+	font-weight: bold;
+}
+
+#spMainContainer #spSearchList .spPostSearchSection .spPostSearchResultsSection .spPostInfoSection .spResultsInfo {
+
+}
+
+#spMainContainer #spSearchList .spListSection .spResultsInfo .spLink{
+	font-size: 80%;
+	font-weight: bold;
+}
+
+#spMainContainer #spSearchList .spPostSearchSection .spPostSearchResultsSections .spListPostGoToPostRowName {
+    padding: 5px;
+    font-size: 70%;
+	background: red;
+}
+
+#spMainContainer #spSearchList .spPostUserAvatar  {
+		display: inline;
+	}
+
+/* blog search */
+
+#spMainContainer ul#spSearchTabs {
+	margin: 0;
+	padding: 0 0 30px 0;
+	height: 25px;
+	background: <?php echo($stockColor3); ?>;
+	position: relative;
+	box-sizing: border-box;
+	border-bottom: none;
+}
+
+#spMainContainer ul#spSearchTabs li {
+	float: left;
+	padding: 13px 0px 0 8px;
+	margin: 0;
+	list-style: none;
+}

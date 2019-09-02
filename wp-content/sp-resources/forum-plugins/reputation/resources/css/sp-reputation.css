@@ -1,0 +1,30 @@
+/* =============================================================
+Simple:Press
+Reputation CSS
+$LastChangedDate: 2013-08-25 03:06:17 -0700 (Sun, 25 Aug 2013) $
+$Rev: 10592 $
+============================================================= */
+
+/* reputation popup styling */
+#spMainContainer .spRepUserHeader {
+    font-family: inherit;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2px solid #890b00;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+#spMainContainer #spRepUser {
+    margin: 10px;
+}
+
+#spMainContainer input#rep-amount {
+    text-align: right;
+    width: 50px;
+}
+
+#spMainContainer .rep-submit {
+    margin: 10px 0;
+    text-align: center;
+}

@@ -1,0 +1,56 @@
+#spReportPost .spLabel {
+	font-weight: bold;
+	line-height: 1.8em;
+}
+
+#spReportPost textarea.spControl {
+	width: 100%;
+	font-size: 100%;
+}
+
+#spMainContainer #spReportPost {
+	background: none;
+	padding: 0 0 20px 0;
+	margin: 0 0 5px 0;
+}
+
+#spMainContainer #spReportPost fieldset {
+	padding: 0;
+	font-size: 80%;
+}
+
+#spMainContainer #spReportPost fieldset legend {
+	margin: 0 0 15px 0;
+	font-size: 100%;
+	width: 100%;
+	text-align: center;
+	background: #F27474;
+	padding: 5px 0;
+}
+
+#spMainContainer #spReportPost fieldset .spLabel {
+	font-size: 100%;
+}
+
+#spMainContainer #spReportPost p {
+	color: <?php echo($contentFontColor); ?>;
+	border-left: <?php echo($thickBorder); ?>;
+	margin: 0 0 0 15px;
+	padding: 0 0 0 10px;
+}
+
+#spMainContainer #spReportPost input.spSubmit {
+	font-weight: bold;
+	color: <?php echo($linkFontColor); ?>;
+	background: none;
+	border: none;
+	font-size: 100%;
+	float: right;
+	margin: 0 10px;
+}
+
+#spMainContainer #spReportPost input.spSubmit:hover{
+	background: none;
+	border: none;
+	color: <?php echo($linkFontColorHover); ?>;
+}

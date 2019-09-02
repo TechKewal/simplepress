@@ -1,0 +1,38 @@
+/* =============================================================
+Simple:Press
+Watches Plugin CSS
+============================================================= */
+#spMainContainer .spStopWatchingAll {
+	text-align: center;
+	padding: 5px 0;
+    font-size:  90%;
+}
+
+#spMainContainer #spWatchCount {
+	padding-bottom: 3px;
+}
+
+#spMainContainer #spWatchCount .spWatchCountUnread {
+	color: #ff0000;
+}
+
+#spMainContainer #spWatchCount .spWatchCountRead {
+	color: inherit;
+}
+
+#spMainContainer .spWatchesNotice {
+    padding-left: 10px;
+}
+
+#spMainContainer .spWatchesNotice img {
+    vertical-align: top;
+}
+
+#spMainContainer .spProfileManageWatches label.list {
+    width: auto;
+    margin-top:  -3px;
+}
+
+#spMainContainer a.spWatchEndButton {
+	margin-top: -5px;
+}

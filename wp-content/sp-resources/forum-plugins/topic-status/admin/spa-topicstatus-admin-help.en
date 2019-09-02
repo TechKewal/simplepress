@@ -1,0 +1,14 @@
+--- Topic Status Plugin Popup Help ---
+
+[topic-status-sets]
+
+<strong>Topic Status Sets</strong><br /><br />
+A 'Topic Status Set' is an optional list of flags - or 'states' that a topic can go through. For example, if your forum is used
+as a support tool, a new topic could be flagged as, for example, 'New Issue'. The first response could change the state to 'Unresolved' and
+when the problem is dealt with, 'Resolved'.<br /><br />
+These sets of flags are user-definable and you can define as many as you need. Topic Status Sets are assigned to forums in the 'Manage Forums'
+admin panel by selecting the set to assign.<br /><br />
+<strong>Keys</strong><br /><br />
+It is STRONGLY RECOMMENDED to change the numeric keys for short alphanumeric ones before the status set is used. Once set, the keys should <b>NEVER</b>
+be changed to ensure that data integrity is maintained.
+[end]

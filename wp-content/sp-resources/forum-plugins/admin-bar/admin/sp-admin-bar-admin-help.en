@@ -1,0 +1,23 @@
+---
+Admin Bar Plugin Options ---
+
+[admin-bar-options]
+<strong>Admin Bar Options</strong><br /><br />
+The Admin Bar makes it easy to monitor all new posts to the forum, quickly approve any posts in moderation and, if the Akismet option is in use,
+check for and quickly deal with spam posts.
+[end]
+
+[admin-bar]
+<strong>Admin Bar Options</strong><br /><br />
+This options applies globally to all Administrators and Moderators.<br /><br />
+<strong>Display the admins postbag in the dashboard:</strong><br />
+Show a list of all new posts awaiting reading and moderation by a forum admin or moderator in the forum section of the WP Dashboard.
+[end]
+
+[akismet]
+<strong>Using Akismet</strong><br /><br />
+Forum posts made by Members and Guests can be passed to Akismet for interrogation and marking as Spam if so deemed.<br /><br />
+Any such post marked as Spam can either be placed in moderation, regardless of current moderation settings, or can be rejected.<br />
+Rejection is not recommended as Akismet is not perfect and will sometimes mark spam incorrectly.<br /><br />
+Any 'spam' placed in moderation will show that is is so marked in the Admins postbag.
+[end]

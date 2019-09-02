@@ -1,0 +1,18 @@
+/*
+Simple:Press ADS CSS
+*/
+/* ADS ad container  */
+#spMainContainer .sp-forum-ad-wrap {
+    margin:5px 0;
+    text-align: center;
+}
+/* ADS ad  */
+#spMainContainer .sp-forum-ad {
+    margin: auto;
+    padding:5px;
+    overflow:hidden;
+}
+/* ADS ad img  */
+#spMainContainer .sp-forum-ad img {
+    width: 100%;
+}

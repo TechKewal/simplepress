@@ -1,0 +1,20 @@
+#spMainContainer .spTopicPostSection .spPostUserCubePoints {
+    font-size: 80%;
+	margin: 0;
+	padding: 5px;
+	line-height: 1em;
+}
+
+#spMainContainer .spTopicPostSection .spUserSectionMobile .spPostUserCubePoints {
+    float: right;
+    border: 1px solid #FFFFFF;
+    margin: 3px 0 0 0;
+    padding: 2px 4px 2px 2px;
+    line-height: 0;
+    color: #FFFFFF;
+}
+
+#spMainContainer .spTopicPostSection .spUserSectionMobile img {
+    float: none;
+    margin: 0px 0;
+}

@@ -1,0 +1,16 @@
+--- Policy Docs Plugin Options ---
+
+[registration-policy]
+<strong>Registration/Site Policy</strong><br />
+Optionally display site and registration policy text before the registation form appears. This can include an optional
+check box to enforce acceptance before registration is allowed.<br /><br />
+The Registration Policy can be entered in the text area provided. Alternatively, it can be created in a text document stored
+in your Forum Policies folder location. Simply enter the document's file name. The file must be a plain text file. HTML formatting can be used.
+[end]
+
+[privacy-policy]
+<strong>Privacy Policy</strong><br />
+The Privacy Policy can be entered in the text area provided. Alternatively, it can be created in a text document stored
+in your Forum Policies folder location. Simply enter the document's file name. The file must be a plain text file. HTML formatting
+can be used.
+[end]

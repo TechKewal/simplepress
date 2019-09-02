@@ -1,0 +1,5 @@
+@media screen and (max-width: 2000px) {
+    #spMainContainer .spTopicPostSection .spPostUserCubePoints {
+		display: none;
+	}
+}

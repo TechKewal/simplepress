@@ -1,0 +1,22 @@
+@media screen and (max-width: 2000px) {
+	#spMainContainer .spPageLinksBlogSearchViewBottom {
+		padding: 10px 0px 10px 7px;
+		margin: 5px 0 15px 0;
+	}
+
+	#spMainContainer .spPageLinksBlogSearchViewBottom .spPageLinksBottom {
+		width: 100%;
+		text-align: center;
+	}
+
+	#spMainContainer ul#spSearchTabs .spButton {
+
+		min-height: 32px;
+		font-weight: bold;
+		font-size: 80%;
+	}
+
+	#spMainContainer ul#spSearchTabs {
+		margin: 10px 0;
+	}
+}

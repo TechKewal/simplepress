@@ -1,0 +1,48 @@
+--- PM Plugin Options ---
+
+[private-messaging]
+<strong>Email Notifications</strong><br />
+If you are allowing the use of Private Messaging you may enable sending of notification to be sent to members when a message
+arrives in their inbox. This is a global setting.  If enabled, users may choose to enable or disable emails for themselves in their profile.<br /><br />
+<strong>Maximum Inbox Size</strong><br />
+Maximum Inbox size is based on the number of messages stored, regardless of their individual size. If you set this option to zero no limitation is imposed on the size of members inboxes.
+However, you may also set a maximum limit. In reality the maximum limit imposed is spread over both a members
+Inbox and Sentbox. When the limit is reached (adding both boxes together), the member will still be allowed to receive Private Messages
+but will no longer be allowed to send any until they have removed some old messages to below their maximum limit.<br /><br />
+<strong>Threads per Page</strong><br />
+Control how many message threads are shown per page in your inbox.<br /><br />
+<strong>File Uploads in PMs</strong><br />
+If you are using the file uploader plugin for Simple Press, you can elect whether or not to allow file uploads in PMs.  If you allow file uploads, the file upload permissions
+from the file uploader plugin will govern who can use what kind of file uploads.  However, since no forum is involved with PMs, if a user can upload a file upload type in ANY forum,
+they will be able to use that type of file uploads in PMs too.
+[end]
+
+[pm-addressing]
+<strong>Private Messaging Addressing Options</strong><br />
+In this admin panel, you can set some options for how users can address PMs.<br /><br />
+You can limit the number of PM recipients a user may send a PM to. If you dont want to limit, enter 0.<br /><br />
+You can also allow or disallow the use of the CC (carbon copy) and BCC (blind carbon copy) selectors for PM addressees.<br /><br />
+You can also optionally only allow sending of PMs from one member to another member via the SEND PM link in a post.  If this option is selected, users will not be able to assign addresses from within the compose PM panel.  Users will not be able to PM membes from their buddy list either.  The PM system becomes a person to person communication system using the SEND PM link in posts.<br /><br />
+You can also optionally only allow sending of PMs from one member to another member that is in the same usergroup(s) as the sender.
+[end]
+
+[pm-access]
+<strong>Prior to PM access being granted</strong><br />
+If preferred, set the number of forum posts a user must have approved and published prior to being granted access to send Private Messages. By using a value of 0 (zero - the default), no restriction is imposed.
+[end]
+
+[pm-removal]
+<strong>Private Messags Auto Removal</strong><br />
+In this admin panel, you can set it up such that PMs in user's inbox and outbox will automatically be removed after a period of time.  When you enable the auto removal option, the period of time is specified in days in the input box. A warning message will be displayed to users in their inbox so they are aware of the auto removal.
+[end]
+
+[pm-stats]
+<strong>View/Manage User PM Stats</strong><br />
+This admin panel is used to display and manage users PM stats.  All of the users PM information will be displayed.  You can see PM permissions, total PM count, inbox count, unread PM count, and sentbox count.  In addition, you can manage the users PMs and either delete their inbox PMs, sentbox PMs or all PMs with the Manage PM icons. Only users that have PMs in their inbox or sentbox will be shown.<br /><br />
+Note:  Removing all PMs for a user may result in invalid data being displayed for other users until the page is refreshed.
+[end]
+
+[pm-adversaries]
+<strong>Adversaries</strong><br />
+Enabling the Hide Posts from Adversaries option will cause posts from a user's adveraries to not be display.  They will be collapsed when viewing.  There will be button to expand should the user wish to view the post from their adversary.
+[end]

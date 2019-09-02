@@ -1,0 +1,34 @@
+@media screen and (max-width: 2000px) {
+	#spMainContainer .spTopicViewStatus {
+		font-size: 100%;
+		margin: -10px 0 10px 0;
+	}
+
+	#spMainContainer .spForumTopicContainer .spForumTopicSection .spTopicIndexStatus {
+		margin: 0;
+	}
+
+	#spMainContainer .spStatusColumnSection .spStatusIcon {
+		display: flex;
+		display: -webkit-flex;
+	}
+
+	#spMainContainer .spStatusColumnSection .spStatusIcon .spIconNoAction {
+		width: auto;
+		height: auto;
+	}
+
+	#spMainContainer .spTopicIndexStatus {
+		margin: 3px 3px 0 4px;
+	}
+
+	#spMainContainer .spTopicIndexStatus .spButton {
+		font-weight: bold;
+		font-size: 100%;
+	}
+
+	#spMainContainer .spTopicIndexStatus .spButton:hover {
+		font-weight: bold;
+		font-size: 100%;
+	}
+}

@@ -1,0 +1,19 @@
+#spMainContainer #spAnnounceMessage,
+#spAnnounceMessage {
+    margin: 10px 0;
+    padding: 5px 10px;
+	color: #1B275C;
+	background: #c9dbea;
+	border: 1px solid #6B77aC;
+	font-family: inherit;
+	font-weight: normal;
+	font-size: 1em;
+    border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#spMainContainer #spAnnounceMessage p,
+#spAnnounceMessage p {
+    padding: 5px 0;
+    margin: 0;
+}

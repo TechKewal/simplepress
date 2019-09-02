@@ -1,0 +1,167 @@
+#spMainContainer .ShareThisTag,
+#spMainContainer .ShareThisForum,
+#spMainContainer .ShareThisTopic {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#spMainContainer .ShareThisTopicIndex {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 5px;
+}
+
+#spMainContainer .stButton {
+    color: #000000;
+    cursor: pointer;
+    display: flex;
+	justify-content: space-around;
+
+    font-size: 8px;
+    line-height: 16px;
+    margin: 2px;
+    text-decoration: none;
+    z-index: 1;
+    position: relative;
+}
+
+#spMainContainer .st_plusone_button {
+	padding: 3px 0 0 0;
+}
+
+#spMainContainer .stButton .stFb,
+#spMainContainer .stButton .stTwbutton,
+#spMainContainer .stButton .stMainServices {
+    display: inline-block;
+    font-family: Verdana,Helvetica,sans-serif;
+    font-size: 8px;
+    height: 16px;
+    line-height: 16px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    color: <?php echo($stockColor2); ?>;-space: nowrap;
+    position: relative;
+}
+
+#spMainContainer .stButton .stArrow {
+    display: inline-block;
+    height: 14px;
+    line-height: 16px;
+    margin-left: -1px;
+    padding-left: 3px;
+}
+
+#spMainContainer .st_twitter_button .stButton_gradient,
+#spMainContainer .st_twitter_button .stButton_gradient:hover,
+#spMainContainer .st_twitter_vcount .stButton_gradient,
+#spMainContainer .st_twitter_vcount .stButton_gradient:hover,
+#spMainContainer .st_twitter_hcount .stButton_gradient,
+#spMainContainer .st_twitter_hcount .stButton_gradient:hover {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCE3F3;
+    filter: none;
+}
+
+#spMainContainer .stButton .stHBubble {
+    display: none;
+    margin-left: 3px;
+    margin-right: 3px;
+    position: relative;
+    z-index: -1;
+}
+
+#spMainContainer .stButton .stBubble {
+    background: url("../images/sp_ShareThisBubbleArrowBelow.png") no-repeat scroll 10px 40px transparent;
+    color: #4D4D4D;
+    display: none;
+    height: 44px;
+    line-height: 16px;
+    margin: 5px 0 2px;
+    overflow: hidden;
+    width: 60px;
+}
+
+#spMainContainer .stButton .st-twitter-counter,
+#spMainContainer .stButton .st-facebook-counter,
+#spMainContainer .stButton .st-email-counter,
+#spMainContainer .stButton .st-linkedin-counter {
+    width: 60px;
+}
+
+#spMainContainer .stButton .st-sharethis-counter2 {
+    width: 63px;
+}
+
+#spMainContainer .stButton .stButton_gradient {
+    background: -moz-linear-gradient(center top , #D5D5D5 0px, #EFEFEF 48%, #FFFFFF 94%) repeat scroll 0 0 transparent;
+    border: 1px solid #BFBFBF;
+    border-radius: 4px 4px 4px 4px;
+    display: inline-block;
+    font-family: serif;
+    height: 16px;
+    padding: 2px;
+}
+
+#spMainContainer .stButton .stBubble_hcount {
+    font-family: Verdana,Helvetica,sans-serif;
+    font-size: 11px;
+    height: 16px;
+    line-height: 16px;
+    padding-left: 2px;
+    padding-right: 2px;
+    color: <?php echo($stockColor2); ?>;-space: nowrap;
+}
+
+#spMainContainer .stButton .stBubble_count {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCE3F3;
+    border-radius: 4px 4px 4px 4px;
+    color: <?php echo($contentFontColor); ?>;
+    font-family: Verdana,Helvetica,sans-serif;
+    font-size: 14px;
+    height: 14px;
+    margin-top: 5px;
+    padding-top: 8px;
+    padding-bottom: 12px;
+    position: relative;
+    text-align: center;
+    width: 58px;
+    z-index: -1;
+}
+
+#spMainContainer .stButton .chicklets {
+    background-repeat: no-repeat;
+    display: inline-block;
+    font-family: Verdana,Helvetica,sans-serif;
+    font-size: 11px;
+    height: 16px;
+    line-height: 16px;
+    padding-left: 20px;
+    padding-right: 3px;
+    white-space: nowrap;
+}
+
+#spMainContainer .st_fblike .fb_iframe_widget iframe {
+    position: absolute;
+    top: 2px;
+}
+
+#spMainContainer .st_fblike_large .fb_iframe_widget iframe {
+    position: absolute;
+    top: -3px;
+}
+
+#spMainContainer .fb_iframe_widget span {
+    display: inline-block;
+    position: relative;
+    text-align: justify;
+    vertical-align: text-bottom;
+    width: 450px !important;
+    margin-right: -375px;
+}
+
+#spMainContainer .stButton img,
+#spMainContainer .st-facebook-counter img {
+    display:none;
+}

@@ -1,0 +1,19 @@
+---
+Cubepoints Plugin Options ---
+
+[cubepoints]
+<strong>Cubepoints Options</strong><br /><br />
+This plugin requires the WP Cubepoints plugin (http://wordpress.org/extend/plugins/cubepoints) to work.  The Simple Press Cubepoints plugin extends the WP plugin
+to include forum activities in the awarding of points.<br /><br />
+The standard options for gaining Cubepoints include creating a new topic and adding a post.  In this admin panel, you can set the amounts of points for these
+activities.  If you don't want to award points for the activity, leave it blank or 0.  Additionally, you can choose if points should be deducted should the post
+or topic be deleted.<br /><br />
+You can also choose to enable logging of the forum events that generate Cubepoints.  These logs will appear on the standard WP Cubepoints
+admin log panel.<br /><br />
+If you have the Simple Press Post Rating plugin active on your site, you can choose to award points for rating a post and for having authored a post that gets a
+rating.<br /><br />
+If you have the Simple Press Polls plugin active on your site, you can choose to award points for creating a poll, voting in a poll, and for having created a poll
+that has received a vote.<br /><br />
+If you want to cap the amount of points a user can receive in a single day, enter the max points.  For no cap, leave the value at 0.  Please note, logging must be
+enabled for capping to work.
+[end]

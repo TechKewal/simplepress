@@ -1,0 +1,100 @@
+#spMainContainer a.spTopicIndexStatus.spButton img {
+	margin: 0px;
+	padding: 0px 0px 0px 4px;
+}
+
+#spMainContainer .spTopicIndexStatus.spButton {
+	padding: 0;
+	margin: 0;
+}
+
+#spMainContainer .spTopicIndexStatus {
+	font-size: 80%;
+}
+
+#spMainContainer .spTopicIndexStatus .spButton{
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	color: <?php echo($linkFontColor); ?>;
+	opacity: 0.7;
+}
+
+#spMainContainer .spTopicIndexStatus .spButton:hover{
+	color: <?php echo($linkFontColorHover); ?>;
+}
+
+#spMainContainer .spTopicIndexStatus .spIconNoAction{
+	margin: 3px 0 0px 4px;
+	padding: 0;
+}
+
+#spMainContainer .spTopicViewStatus {
+	padding: 0;
+	font-size: 80%;
+	margin: 0;
+	display: flex;
+}
+
+#spMainContainer .statusHolder {
+	padding: 10px;
+}
+
+#spMainContainer .statusHolder .spTopicViewStatus {
+	margin: 0;
+}
+
+#spMainContainer .spTopicViewStatus img {
+	background: transparent;
+}
+
+#spMainContainer .spTopicViewStatus span {
+	font-size: 100%;
+	color: <?php echo($contentFontColor); ?>;
+	margin: 0;
+}
+
+#spMainContainer .spTopicViewStatus .spButton {
+	margin: 0;
+	padding: 0;
+}
+
+#spMainContainer .spTopicViewStatus a {
+	display: inline-table;
+	padding: 0;
+	margin-left: 0;
+	color: <?php echo($linkFontColor); ?>;
+	font-size: 100%;
+}
+
+#spMainContainer .spTopicViewStatus a:hover {
+	color: <?php echo($linkFontColorHover); ?>;
+}
+
+#spMainContainer .spLabel.spSelect.spTopicStatusLabel {
+    float: left;
+    padding-left: 25px;
+	font-size: 100%;
+	color: <?php echo($linkFontColor); ?>;
+}
+
+#spMainContainer #spTopicStatusSelect {
+	font-size: 100%;
+	border: <?php echo ($solidBorder); ?>;
+	color: <?php echo ($contentFontColor); ?>;
+	height: 20px;
+	width: auto;
+	line-height: 1.2em;
+	vertical-align: middle;
+	margin: 0 0 0 5px;
+	float: left;
+}
+
+#spMainContainer #spTopicStatusSelect:hover {
+	background: none;
+}
+
+#spMainContainer #spTopicStatusSelect option {
+	background: white;
+	color: <?php echo ($contentFontColor); ?>;
+}

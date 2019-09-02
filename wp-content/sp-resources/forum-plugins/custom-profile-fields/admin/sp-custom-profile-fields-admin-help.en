@@ -1,0 +1,18 @@
+---
+Custom Profile Fields Plugin Options ---
+
+[custom-fields]
+<strong>Custom Profile Fields</strong><br /><br />
+If you would like to add additional fields in the Simple:Press profile, you can do so here.  You create the custom field by enetering a name
+for the custom field and a custom field type.  The custom field types currently allowed are a checkbox, an input box, a textarea, a select box,
+a radio group or a multi-select list.<br />
+The select values field is only valid for a type of select, radio or list and is ignored otherwise.<br />
+You can also choose the profile form you want the custom field to show up on. Note, this is only the location when a user is editing their profile.<br />
+After saving the custom field, the form will reload and you will be able to enter another custom field.<br /><br />
+If you are using a radio, select or list type, you need to enter the possible values in the 'values' column. This needs to be a comma separated list.<br /><br />
+Please note, that on this panel, you are only creating the custom field.  After creating the custom field, you will need to decide where you want it to display
+when a profile is viewed by another user.<br />
+You will need to use one of the special template tag functions provided with the plugin in you SP theme where you want it to display. See the Simple:Press Online Documentation for
+details of the plugn and it's available tags.<br /><br />
+It is worth noting that any custom profile fields defined here will only be available in the forum profile and not in the WordPress profile (unless another plugin can use our template tag).
+[end]

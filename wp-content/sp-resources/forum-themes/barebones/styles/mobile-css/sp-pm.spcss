@@ -1,0 +1,236 @@
+	[id^="spColMessage1"] { width: auto; }
+	[id^="spColMessage2"] { width: 90%; }
+
+@media screen and (max-width: 800px) {
+	#spMainContainer #spPmHeader .spActionsBar {
+		margin: 0;
+	}
+
+	#spMainContainer #spPmBody .spPmThreadSection .spColumnSection {
+		margin: 5px;
+		padding: 5px;
+	}
+
+	#spMainContainer #spPmBody .spPmThreadSection .spColThread1,
+	#spMainContainer #spPmBody .spPmThreadSection .spColThread3 {
+		border: none;
+	}
+
+	#spMainContainer #spPmBody .spPmThreadSection .spColThread2 {
+		padding: 0 0 5px 10px;
+		margin-left: 0;
+	}
+
+	#spMainContainer .spPmThreadSection a:link {
+		font-size: 100%;
+	}
+
+	#spMainContainer #spPmContainer .spInRowLabel {
+		margin: 2px 0 0 0;
+		font-size: 80%;
+	}
+
+	#spMainContainer .spPmThreadSection {
+		margin: 10px 0 0 0;
+	}
+
+	#spMainContainer #spPmContainer .spLabelBordered {
+		width: auto;
+		margin-top: 5px;
+	}
+
+	#spMainContainer #spPmBody .spPmMessageSection .spColMessage2 {
+		margin: 0 0 15px -15px;
+	}
+
+	#spMainContainer .spPmMessageSection .pmMessageActions .spButton {
+		margin: 0 2px;
+		font-size: 100%;
+	}
+
+	#spMainContainer .spPmMessageSection.spTopicPostSection {
+		display: block;
+		margin: 15px 0 30px 0;
+	}
+
+	#spMainContainer #spPmContainer .spPmThreadHeader {
+		display: inline-block;
+		width: 100%;
+		box-sizing: border-box;
+		padding: 10px;
+		height: auto;
+	}
+
+	#spMainContainer #spPmContainer .spPmThreadHeader .spColumnSection.spRight {
+		padding: 0;
+	}
+
+	#spMainContainer .spPmMessageSection .spPostContentSection a:link {
+		font-size: 100%;
+	}
+
+	#spMainContainer #spPmBody .spPmThreadSection .spColThread2 {
+		width: 55%;
+		max-width: none;
+	}
+
+
+	#spMainContainer #spPmBody .spPmThreadSection .spColThread2 .spRowName {
+		margin-left: -15px;
+		background: <?php echo($indexRowEvenBackGround); ?>;
+		padding: 0 0 5px 0;
+	}
+
+	#spMainContainer #spPmContainer .spTopicViewSection {
+		display: block;
+		padding: 0;
+	}
+
+	#spMainContainer #PmInboxMessages {
+		padding: 10px;
+		margin: 0;
+	}
+
+	#spMainContainer #spPmContainer .spPmThreadHeader .spPmDelete a {
+		display: block;
+	}
+
+	#spMainContainer .spPmMessageSection .pmMessageActions {
+		display: inline-block;
+		width: 100%;
+	}
+
+	#spMainContainer .spPMDelete a:link {
+		font-size: 80%;
+		margin: 0 10px 10px 0;
+	}
+
+	#spMainContainer #spPmContainer .spAvatar {
+		margin: auto 5px auto auto;
+		min-height: 50px;
+		min-width: 50px;
+	}
+}
+
+/*---------------------------------
+	PM Media Rules
+----------------------------------*/
+
+@media screen and (max-width: 640px)  {
+	[id^="spColThread1"] { width: 12%; }
+	[id^="spColThread2"] { width: 77%; max-width: 75%; }
+	[id^="spColThread3"] { width: 11%; }
+
+	[id^="spColMessage1"] { width: 12%; }
+	[id^="spColMessage2"] { width: 86%; }
+}
+
+@media screen and (max-width: 600px)  {
+	[id^="spColThread1"] { width: 14%; }
+	[id^="spColThread2"] { width: 75%; max-width: 73%; }
+	[id^="spColThread3"] { width: 11%; }
+
+	[id^="spColMessage1"] { width: 12%; }
+	[id^="spColMessage2"] { width: 86%; }
+}
+
+@media screen and (max-width: 480px)  {
+	[id^="spColThread1"] { width: 17%; }
+	[id^="spColThread2"] { width: 72%; max-width: 70%; }
+	[id^="spColThread3"] { width: 11%; }
+
+	[id^="spColMessage1"] { width: 16%; }
+	[id^="spColMessage2"] { width: 84%; }
+
+	#spMainContainer #spPmQuickLinksThreads {
+		width: <?php echo($quickLinksSelectMobileWidth); ?>;
+	}
+	#spMainContainer #spPmQuickLinksThreads .dd .ddChild {
+		width:	<?php echo($quickLinksListMobileWidth); ?>;
+	}
+}
+
+@media screen and (max-width: 1000px)  {
+	[id^="spColThread1"] { width: 20%; min-width: 50px; }
+	[id^="spColThread2"] { width: 50%; max-width: 50%; }
+	[id^="spColThread3"] { width: 13%; }
+
+	[id^="spColMessage1"] { width: 20%; }
+	[id^="spColMessage2"] { width: 80%; }
+
+	#spMainContainer .spPmHeaderMessages .spHeaderName  {
+		margin: 12px 0 0 0;
+	}
+
+	#spMainContainer .spPmThreadSection .spColumnSection {
+		display: inline;
+	}
+
+	#spMainContainer .spPmThreadSection a {
+		display: inline;
+		width: auto;
+	}
+
+	#spMainContainer #spPostForm .spPmCompose {
+		width: 95%;
+		padding: 5px;
+	}
+
+	#spMainContainer #spPostForm .spLabelSmall {
+		font-size: 90%;
+	}
+
+	#spMainContainer #spPostForm select#pmbudlist {
+		padding: 5px;
+		margin: 0;
+	}
+
+	#spMainContainer #spPmContainer .spPmThreadHeader .spColumnSection.spLeft {
+		padding: 0;
+	}
+
+	#spMainContainer .spForumTopicContainer .spForumTopicSection {
+		display: inline-block;
+	}
+
+	#spMainContainer #spPmContainer .spTopicPostSection .spPostSection {
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width: 319px)  {
+
+	[id^="spColThread1"] { width: 22%; }
+	[id^="spColThread2"] { width: 63%; max-width: 61%; }
+	[id^="spColThread3"] { width: 15%; }
+
+	[id^="spColMessage1"] { width: 23%; }
+	[id^="spColMessage2"] { width: 77%; }
+
+	[id^="spColHeader1"] { width: 60%; max-width: 58%; }
+	[id^="spColHeader2"] { width: 38%; }
+
+
+	#spMainContainer #spPmQuickLinksThreads {
+		width: <?php echo($quickLinksSelectMobileWidthSmall); ?>;
+	}
+	#spMainContainer #spPmQuickLinksThreads .dd .ddChild {
+		width:	<?php echo($quickLinksListMobileWidthSmall); ?>;
+	}
+}
+
+@media screen and (max-width: 750px)  {
+	#spMainContainer .spPm1Col {
+		width: 98%;
+	}
+
+	#spMainContainer .spPm2Col {
+		width: 98%;
+	}
+
+	#spMainContainer .spPm3Col {
+		width: 98%;
+		float: left;
+		text-align: center;
+	}
+}

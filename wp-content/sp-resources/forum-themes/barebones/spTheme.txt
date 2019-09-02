@@ -1,0 +1,9 @@
+Simple:Press Theme Title: Barebones
+Version: 2.0
+Theme URI: https://simple-press.com
+Description: A cross-device/responsive based theme with a clean layout, a colour customisation tool and the use of glyphs to boost overall performance
+Author: Ike Staines, Andy Staines & Steve Klasen
+Author URI: https://simple-press.com
+Stylesheet: barebones.php
+Screenshot: spTheme.png
+Simple:Press Versions: 6.0 and above

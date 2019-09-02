@@ -1,0 +1,11 @@
+#spMainContainer #spCatList fieldset {
+	background: transparent;
+	color: <?php echo($contentFontColor); ?>;
+	margin: 10px;
+	padding: 10px;
+}
+
+#spMainContainer #spCatList fieldset label {
+	background: transparent;
+	color: <?php echo($contentFontColor); ?>;
+}

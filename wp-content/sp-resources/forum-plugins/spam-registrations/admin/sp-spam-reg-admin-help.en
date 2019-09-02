@@ -1,0 +1,10 @@
+--- Remove Spam Registration Plugin Options ---
+
+[remove-spam-registrations]
+<strong>Remove Spam Registrations</strong><br /><br />
+Once your site is opened for user registrations you will undoubtedly receive bogus registrants. Using the Math Spam tool will help
+enormously keep this to a low number but it will still happen. This tool can help you keep such bogus registrants under control. <br /><br />
+You can narrow down your search for spam users by tweaking the number of days to go back looking for spam registrations.
+Additionally, if you have a large number of spam registrations, you can set the max number to process at one time.  Use this is you are receiving
+server errors about memory being exhausted or cpu time being exhausted.
+[end]

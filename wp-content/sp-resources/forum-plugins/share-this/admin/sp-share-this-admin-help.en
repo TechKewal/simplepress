@@ -1,0 +1,56 @@
+---
+Featured Topics and Posts Plugin Help ---
+
+[share-this-options]
+<strong>Share This Options</strong><br /><br />
+We recommend you head over to <a href="http://sharethis.com/createaccount">http://sharethis.com/createaccount</a> and get a publisher ID.  With this publisher ID specific to you and your site, you
+will have access to site specific sharing stats and information.  If you don't have a publisher ID, you can still use Share This, but you won't get any sharing data
+and you will be using a generic public key and could run into API limits.  Getting a Share This account is simple and free.<br /><br />
+When sharing a URL with your social network, you can choose to use the full URL to the forum/topic/post you are sharing or you can choose to have the Share This
+service create a shortened URL.<br /><br />
+If you are using the Share This popup widget, users will have access to a whole list of additional social networks that they can share with beyond those directly listed in the admin panel below.
+These are available via the 'More' link in the popup widget.  If you do not want the minor services or More link available to users, deselect the minor
+services option.<br /><br />
+If you are using the Share This popup widget, by default it will come up when a user hovers over the Share This icon.  If you would rather the popup appear on a click of
+the Share This icon, they deselect the show on hover option.<br /><br />
+When a user shares a forum/topic/post using the Share This plugin, you have two options.  You can either use the default Share This multi-post widget in which all sharing is
+done locally in the popup or you can choose to have the widget redirect the user to the social network to perform the sharing.<br /><br />
+If you are using the small icons for the social network icons/buttons, you have the option of including a text label or not.  By default, the text label will be shown,
+but you can disable the text icon by deselecting the show text labels option.
+[end]
+
+[share-this-buttons]
+<strong>Share This Buttons</strong><br /><br />
+In this admin section, you can choose which social network icons/buttons you want to display.  You can also set the order of the icons/buttons to display.  If you do not want
+to show an icon, click on the open/close icon and disable the icon.  Enabled icons will be shown in blue and disabled will be in red.  Be sure to select the update button after making
+any changes.<br /><br />
+The Share This service has many, many social networks available. In this plugin we have selected a few of the most common networks for direct insertion of icons/buttons.  If you are using
+the Share This button/icon, all of the other networks will be displayed in the popup widget, under the More link.<br /><br />
+While we may not have specific buttons/icons available in the admin list here, you can add any of the network buttons/icons directly through the use of a simple filter.
+In your spFunctions.php of the theme you are using, add something similar to:
+
+<code>
+add_filter('sph_share_this_chicklets', 'my_share', 10, 6);<br />
+function my_share($out, $options, $style, $url, $title, $summary) {<br />
+    $out.= "&lt;span class='st_allvoices$style' $url $title $summary displayText='Allvoices'&gt;&lt;/span&gt;";<br />
+    return $out;<br />
+}
+</code>
+
+This example would add a button/icon to the Allvoices social network. If you wanted to add multiple buttons, just use the one filter and add a second $out line like the first
+with the updated information.  Share This has a <a href="http://sharethis.com/publishers/services-directory#sthash.qZZbh557.dpbs">list of the available services</a>.
+[end]
+
+[share-this-style]
+<strong>Share This Style</strong><br /><br />
+In this admin section, you can set the style of buttons/links that you want to display for users to share Forums/Topics/Posts.  Share This offers 5 styles of buttons/icons.
+Just choose the style you like the best.  Please note, that if you select the small icon display, you can optionally display a text label with them.  That option is controlled in the
+Share This Options section above.
+[end]
+
+[share-this-theme]
+<strong>Share This Theme</strong><br /><br />
+In this admin section, if you are displaying the Share This popup widget, you can set up the appearance of the widget.  Share This offers 8 predefined themes to select from.
+Just pick the one you like the best.  Through the use of our filter 'sph_share_this_script' and the <a href="http://support.sharethis.com/customer/portal/articles/446639-colors-and-themes">Share This API</a>
+you can customize the appearance even further.
+[end]

@@ -1,0 +1,8 @@
+--- Search Plugin Popup Help ---
+
+[search]
+<strong>Adding Search of the blog posts and pages to the forum search</strong><br /><br />
+The three labels used in the blog search - the label for the search form checkbox and the two search result tabs - will form a
+part of any translation file made available but they can also be further customised here so that may text chosen will fit
+in best with your website.
+[end]

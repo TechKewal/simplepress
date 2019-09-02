@@ -1,0 +1,524 @@
+@font-face {
+  font-family: 'Afiado';
+  src:  url('fonts/Afiado.eot?xqsltj');
+  src:  url('fonts/Afiado.eot?xqsltj#iefix') format('embedded-opentype'),
+    url('fonts/Afiado.ttf?xqsltj') format('truetype'),
+    url('fonts/Afiado.woff?xqsltj') format('woff'),
+    url('fonts/Afiado.svg?xqsltj#Afiado') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="afia-"], [class*=" afia-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Afiado' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.afia-accommodate:before {
+  content: "\e900";
+}
+.afia-add:before {
+  content: "\e901";
+}
+.afia-adjust:before {
+  content: "\e902";
+}
+.afia-alarm:before {
+  content: "\e903";
+}
+.afia-alert:before {
+  content: "\e904";
+}
+.afia-anchor:before {
+  content: "\e905";
+}
+.afia-arrest:before {
+  content: "\e906";
+}
+.afia-ascend:before {
+  content: "\e907";
+}
+.afia-ask:before {
+  content: "\e908";
+}
+.afia-attract:before {
+  content: "\e909";
+}
+.afia-bake:before {
+  content: "\e90a";
+}
+.afia-barbecue:before {
+  content: "\e90b";
+}
+.afia-believe:before {
+  content: "\e90c";
+}
+.afia-bite:before {
+  content: "\e90d";
+}
+.afia-blaze:before {
+  content: "\e90e";
+}
+.afia-bloom:before {
+  content: "\e90f";
+}
+.afia-blow:before {
+  content: "\e910";
+}
+.afia-bookmark:before {
+  content: "\e911";
+}
+.afia-broadcast:before {
+  content: "\e912";
+}
+.afia-build:before {
+  content: "\e913";
+}
+.afia-caffeinate:before {
+  content: "\e914";
+}
+.afia-calculate:before {
+  content: "\e915";
+}
+.afia-call:before {
+  content: "\e916";
+}
+.afia-camp:before {
+  content: "\e917";
+}
+.afia-capture:before {
+  content: "\e918";
+}
+.afia-celebrate:before {
+  content: "\e919";
+}
+.afia-charge:before {
+  content: "\e91a";
+}
+.afia-chop:before {
+  content: "\e91b";
+}
+.afia-clamber:before {
+  content: "\e91c";
+}
+.afia-climb:before {
+  content: "\e91d";
+}
+.afia-close:before {
+  content: "\e91e";
+}
+.afia-code:before {
+  content: "\e91f";
+}
+.afia-collect:before {
+  content: "\e920";
+}
+.afia-condemn:before {
+  content: "\e921";
+}
+.afia-connect:before {
+  content: "\e922";
+}
+.afia-cook:before {
+  content: "\e923";
+}
+.afia-copy:before {
+  content: "\e924";
+}
+.afia-create:before {
+  content: "\e925";
+}
+.afia-crop:before {
+  content: "\e926";
+}
+.afia-cry:before {
+  content: "\e927";
+}
+.afia-cut:before {
+  content: "\e928";
+}
+.afia-dazzle:before {
+  content: "\e929";
+}
+.afia-decorate:before {
+  content: "\e92a";
+}
+.afia-defend:before {
+  content: "\e92b";
+}
+.afia-develop:before {
+  content: "\e92c";
+}
+.afia-die:before {
+  content: "\e92d";
+}
+.afia-dig:before {
+  content: "\e92e";
+}
+.afia-divide:before {
+  content: "\e92f";
+}
+.afia-download:before {
+  content: "\e930";
+}
+.afia-dream:before {
+  content: "\e931";
+}
+.afia-drill:before {
+  content: "\e932";
+}
+.afia-drink:before {
+  content: "\e933";
+}
+.afia-drive:before {
+  content: "\e934";
+}
+.afia-drown:before {
+  content: "\e935";
+}
+.afia-eat:before {
+  content: "\e936";
+}
+.afia-enlarge:before {
+  content: "\e937";
+}
+.afia-enter:before {
+  content: "\e938";
+}
+.afia-equal:before {
+  content: "\e939";
+}
+.afia-explode:before {
+  content: "\e93a";
+}
+.afia-explore:before {
+  content: "\e93b";
+}
+.afia-fight:before {
+  content: "\e93c";
+}
+.afia-film:before {
+  content: "\e93d";
+}
+.afia-find:before {
+  content: "\e93e";
+}
+.afia-finish:before {
+  content: "\e93f";
+}
+.afia-fit:before {
+  content: "\e940";
+}
+.afia-flag:before {
+  content: "\e941";
+}
+.afia-forbid:before {
+  content: "\e942";
+}
+.afia-forward:before {
+  content: "\e943";
+}
+.afia-gamble:before {
+  content: "\e944";
+}
+.afia-game:before {
+  content: "\e945";
+}
+.afia-give:before {
+  content: "\e946";
+}
+.afia-go:before {
+  content: "\e947";
+}
+.afia-groom:before {
+  content: "\e948";
+}
+.afia-grow:before {
+  content: "\e949";
+}
+.afia-hack:before {
+  content: "\e94a";
+}
+.afia-hammer:before {
+  content: "\e94b";
+}
+.afia-hang:before {
+  content: "\e94c";
+}
+.afia-harvest:before {
+  content: "\e94d";
+}
+.afia-home:before {
+  content: "\e94e";
+}
+.afia-hurt:before {
+  content: "\e94f";
+}
+.afia-impregnate:before {
+  content: "\e950";
+}
+.afia-join:before {
+  content: "\e951";
+}
+.afia-keep:before {
+  content: "\e952";
+}
+.afia-kill:before {
+  content: "\e953";
+}
+.afia-kiss:before {
+  content: "\e954";
+}
+.afia-label:before {
+  content: "\e955";
+}
+.afia-launch:before {
+  content: "\e956";
+}
+.afia-lift:before {
+  content: "\e957";
+}
+.afia-link:before {
+  content: "\e958";
+}
+.afia-listen:before {
+  content: "\e959";
+}
+.afia-load:before {
+  content: "\e95a";
+}
+.afia-locate:before {
+  content: "\e95b";
+}
+.afia-lock:before {
+  content: "\e95c";
+}
+.afia-love:before {
+  content: "\e95d";
+}
+.afia-marry:before {
+  content: "\e95e";
+}
+.afia-merge:before {
+  content: "\e95f";
+}
+.afia-narrow:before {
+  content: "\e960";
+}
+.afia-navigate:before {
+  content: "\e961";
+}
+.afia-open:before {
+  content: "\e962";
+}
+.afia-pause:before {
+  content: "\e963";
+}
+.afia-pay:before {
+  content: "\e964";
+}
+.afia-perform:before {
+  content: "\e965";
+}
+.afia-photograph:before {
+  content: "\e966";
+}
+.afia-pin:before {
+  content: "\e967";
+}
+.afia-ping:before {
+  content: "\e968";
+}
+.afia-plug:before {
+  content: "\e969";
+}
+.afia-point:before {
+  content: "\e96a";
+}
+.afia-power:before {
+  content: "\e96b";
+}
+.afia-prank:before {
+  content: "\e96c";
+}
+.afia-press:before {
+  content: "\e96d";
+}
+.afia-primp:before {
+  content: "\e96e";
+}
+.afia-print:before {
+  content: "\e96f";
+}
+.afia-produce:before {
+  content: "\e970";
+}
+.afia-protect:before {
+  content: "\e971";
+}
+.afia-push:before {
+  content: "\e972";
+}
+.afia-race:before {
+  content: "\e973";
+}
+.afia-rain:before {
+  content: "\e974";
+}
+.afia-record:before {
+  content: "\e975";
+}
+.afia-redo:before {
+  content: "\e976";
+}
+.afia-reflect:before {
+  content: "\e977";
+}
+.afia-reply:before {
+  content: "\e978";
+}
+.afia-report:before {
+  content: "\e979";
+}
+.afia-resize:before {
+  content: "\e97a";
+}
+.afia-rewind:before {
+  content: "\e97b";
+}
+.afia-rule:before {
+  content: "\e97c";
+}
+.afia-save:before {
+  content: "\e97d";
+}
+.afia-saw:before {
+  content: "\e97e";
+}
+.afia-scare:before {
+  content: "\e97f";
+}
+.afia-schedule:before {
+  content: "\e980";
+}
+.afia-search:before {
+  content: "\e981";
+}
+.afia-send:before {
+  content: "\e982";
+}
+.afia-shine:before {
+  content: "\e983";
+}
+.afia-sit:before {
+  content: "\e984";
+}
+.afia-sleep:before {
+  content: "\e985";
+}
+.afia-smell:before {
+  content: "\e986";
+}
+.afia-smoke:before {
+  content: "\e987";
+}
+.afia-solve:before {
+  content: "\e988";
+}
+.afia-sound:before {
+  content: "\e989";
+}
+.afia-spin:before {
+  content: "\e98a";
+}
+.afia-spook:before {
+  content: "\e98b";
+}
+.afia-stack:before {
+  content: "\e98c";
+}
+.afia-stamp:before {
+  content: "\e98d";
+}
+.afia-steam:before {
+  content: "\e98e";
+}
+.afia-stop:before {
+  content: "\e98f";
+}
+.afia-store:before {
+  content: "\e990";
+}
+.afia-strike:before {
+  content: "\e991";
+}
+.afia-subtract:before {
+  content: "\e992";
+}
+.afia-swim:before {
+  content: "\e993";
+}
+.afia-tag:before {
+  content: "\e994";
+}
+.afia-target:before {
+  content: "\e995";
+}
+.afia-time:before {
+  content: "\e996";
+}
+.afia-tower:before {
+  content: "\e997";
+}
+.afia-travel:before {
+  content: "\e998";
+}
+.afia-type:before {
+  content: "\e999";
+}
+.afia-undo:before {
+  content: "\e99a";
+}
+.afia-unlock:before {
+  content: "\e99b";
+}
+.afia-upload:before {
+  content: "\e99c";
+}
+.afia-urbanize:before {
+  content: "\e99d";
+}
+.afia-use:before {
+  content: "\e99e";
+}
+.afia-wait:before {
+  content: "\e99f";
+}
+.afia-watch:before {
+  content: "\e9a0";
+}
+.afia-wear:before {
+  content: "\e9a1";
+}
+.afia-weld:before {
+  content: "\e9a2";
+}
+.afia-win:before {
+  content: "\e9a3";
+}
+.afia-wonder:before {
+  content: "\e9a4";
+}
+.afia-write:before {
+  content: "\e9a5";
+}

@@ -1,0 +1,14 @@
+/* admin tables */
+table#sp-poll-log-table thead tr .header {
+    background: url('images/sort.gif') no-repeat center left;
+    background-color: inherit;
+    padding-left: 25px;
+}
+
+table#sp-poll-log-table thead tr .headerSortDown {
+    background: url('images/desc.gif') no-repeat center left;
+}
+
+table#sp-poll-log-table thead tr .headerSortUp {
+    background: url('images/asc.gif') no-repeat center left;
+}

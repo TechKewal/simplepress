@@ -1,0 +1,9 @@
+@media screen and (max-width: 2000px) {
+	#spMainContainer .ShareThisTag,
+	#spMainContainer .ShareThisForum,
+	#spMainContainer .ShareThisTopic {
+		display: block;
+		padding: 5px 0 0 0;
+	}
+
+}
